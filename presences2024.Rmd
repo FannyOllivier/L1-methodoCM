@@ -1,0 +1,52 @@
+---
+title: "PresencePenseeCritique2024"
+output: html_document
+date: "2024-05-06"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Chargement des données 
+```{r}
+setwd("C:/Users/fanny/OneDrive/Documents/Cours/PenseeCritique/Presences_2024")
+d1<- read.csv2("export1_2024_r.csv")
+d2<- read.csv2("export2_2024_r.csv")
+d4<- read.csv2("export4_2024_r.csv") # RMQ : pas de d3 car absente cours 3
+d5<- read.csv2("export5_2024_r.csv")
+```
+
+Faire le tableau agrégé
+```{r}
+d.complet <- merge(d1, d2, by = "NumEtudiant")
+d.complet <- merge(d.complet, d4, by = "NumEtudiant")
+d.complet <- merge(d.complet, d5, by = "NumEtudiant")
+head(d.complet)
+
+colnames(d.complet)
+d.complet<- d.complet[,c("NumEtudiant", "Nom.Usuel.x",       "Prénom.x","Validé.x"  )]
+
+write.csv2(d.complet, file="presence2024.csv")
+```
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
