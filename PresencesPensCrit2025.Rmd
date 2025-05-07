@@ -6,30 +6,46 @@ date: "2025-04-29"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
 ```
 
+Chargement des données
+```{r}
+ 
+setwd("C:/Users/fanny/OneDrive/Documents/Cours/PenseeCritique/Presences2025")
+d1<- read.csv2("export1.csv")
+d2<- read.csv2("export2.csv")
+d3<- read.csv2("export3.csv")
+d4<- read.csv2("export4.csv") 
+d5<- read.csv2("export5.csv")
 
-```{r}
-Chargement des données 
-```{r}
-setwd("C:/Users/fanny/OneDrive/Documents/Cours/PenseeCritique/Presences_2024")
-d1<- read.csv2("export1_2024_r.csv")
-d2<- read.csv2("export2_2024_r.csv")
-d4<- read.csv2("export4_2024_r.csv") # RMQ : pas de d3 car absente cours 3
-d5<- read.csv2("export5_2024_r.csv")
+summary(d1)
+
+d1$X<-factor(d1$X)
+d2$X<-factor(d2$X)
+d3$X<-factor(d3$X)
+d4$X<-factor(d4$X)
+d5$X<-factor(d5$X)
+
+
+
 ```
 
 Faire le tableau agrégé
 ```{r}
-d.complet <- merge(d1, d2, by = "NumEtudiant")
-d.complet <- merge(d.complet, d4, by = "NumEtudiant")
-d.complet <- merge(d.complet, d5, by = "NumEtudiant")
+d.complet <- merge(d1, d2, by = "X")
+d.complet <- merge(d.complet, d3, by = "X")
+d.complet <- merge(d.complet, d4, by = "X")
+d.complet <- merge(d.complet, d5, by = "X")
 head(d.complet)
+d.complet$Nom<-d.complet$X
 
-colnames(d.complet)
-d.complet<- d.complet[,c("NumEtudiant", "Nom.Usuel.x",       "Prénom.x","Validé.x"  )]
+names(d.complet)[1] <- "Nom"
+names(d.complet)[5]<-"NumEtudiant"
 
-write.csv2(d.complet, file="presence2024.csv")
+d<- select(d.complet,Nom, NumEtudiant  )
+
+write.csv2(d, file="presence2025FUA.csv")
 ```
 
 
