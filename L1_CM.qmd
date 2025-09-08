@@ -1,0 +1,42 @@
+---
+title: "L1_CM"
+format: revealjs
+editor: visual
+---
+
+# Mener une étude expérimentale
+L1 - CM 2/2
+
+## Objectifs du cours
+
+- Comprendre comment se mène une étude expérimentale en psychologie
+- En identifier les enjeux méthodologiques et éthiques 
+
+## À la fin de ce cours, je dois être capable
+- de comprendre comment on construit une question de recherche
+  - revue de littérature
+  - insertion de la question de recherche dans la littérature existante
+- comment on opérationalise la question de recherche
+  - identifier VD et VI
+  - comment on construit un plan expérimental
+  - faire des choix méthodologiques en fonction de l'objectif de recherche poursuivi
+- de présenter des résultats
+- de discuter des résultats
+  - les confronter à la littérature existante
+  - les envisager de façon critique 
+- comprendre les aspects éthiques de la recherche scientifique et les respecter
+
+## Plan 
+
+1/ Introduction 
+
+2/ Méthodologie
+
+3/ Résultats
+
+4/ Discussion 
+
+# Introduction - Construire une question de recherche
+
+
+
