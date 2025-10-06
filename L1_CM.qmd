@@ -1,42 +1,209 @@
 ---
-title: "L1_CM"
-format: revealjs
+title: "L1 CM - Mener une étude expérimentale, enjeux méthodologiques et éthiques"
+format: 
+  revealjs: 
+    slide-number: 'c'  
+    number-sections: false
+    incremental: true
+    
 editor: visual
 ---
 
 # Mener une étude expérimentale
+
 L1 - CM 2/2
 
 ## Objectifs du cours
 
-- Comprendre comment se mène une étude expérimentale en psychologie
-- En identifier les enjeux méthodologiques et éthiques 
+-   Comprendre comment se mène une étude expérimentale en psychologie
+-   En identifier les enjeux méthodologiques et éthiques
+- Comprendre et produire une méthodologie expérimentale
 
-## À la fin de ce cours, je dois être capable
-- de comprendre comment on construit une question de recherche
-  - revue de littérature
-  - insertion de la question de recherche dans la littérature existante
-- comment on opérationalise la question de recherche
-  - identifier VD et VI
-  - comment on construit un plan expérimental
-  - faire des choix méthodologiques en fonction de l'objectif de recherche poursuivi
-- de présenter des résultats
-- de discuter des résultats
-  - les confronter à la littérature existante
-  - les envisager de façon critique 
-- comprendre les aspects éthiques de la recherche scientifique et les respecter
+## À la fin de ce cours, je dois être capable {.scrollable}
 
-## Plan 
+**de maîtriser la démarche expérimentale pour mener une expérimentation éthique**
 
-1/ Introduction 
+C'est-à-dire :
+
+-   de comprendre comment on construit une question de recherche
+    -   revue de littérature
+    -   insertion de la question de recherche dans la littérature existante
+    -   présenter un raisonnement
+
+**=\> Introduction**
+
+-   de comprendre comment on opérationalise la question de recherche
+    -   identifier VD et VI
+    -   comment on construit un plan expérimental
+    -   faire des choix méthodologiques en fonction de l'objectif de recherche poursuivi
+
+**=\> Méthodologie**
+
+-   de présenter des résultats
+
+**=\> Résultats**
+
+-   de discuter des résultats
+    -   les confronter à la littérature existante
+    -   les envisager de façon critique
+
+**=\> Discussion**
+
+-   de comprendre les aspects éthiques de la recherche scientifique et les respecter
+
+::: notes
+Donner des exemples, pour chaque catégorie
+:::
+
+## Plan
+
+0/ Démarche expérimentale : méthode scientifique
+
+1/ Introduction
 
 2/ Méthodologie
 
 3/ Résultats
 
-4/ Discussion 
+4/ Discussion
 
-# Introduction - Construire une question de recherche
+# 0. Démarche expérimentale
+
+Méthode scientifique
+
+## 0.1 Cycle de la recherche
+
+![](L1_CM_files/images/cycleRech.png){.absolute top="150"}
+
+::: notes
+processus récursif, donner des exemples
+:::
+
+## 0.2 Construire une recherche dans une démarche expérimentale
+
+-   La recherche s'appuie sur l'existant : réplication, réfutation, extension
+-   Éthique de la recherche : hypothèses avant la récolte de données
+   - HARKing : Hypothesis After Results are Known
+  
+:::{.notes}
+Présenter l'hypothèse dans l'article comme si elle avait été faite a priori alors qu'elle a été construite a posteriori
+:::
+
+## 0.3 Problème des hypothèses a posteriori
+
+-   Résultats trouvés par hasard : on ne **confirme** pas
+-   Risque de faux positif 
+
+:::{.notes} 
+peut-être que ce résultat est lié au contexte, dépend de quelque chose qu'on aurait dû contrôler si on le cherchait a priori mais que l'on n'a pas fait parce que ce n'était pas ce que l'on cherchait
+:::
+
+## 0.4 Exemple
+
+Imaginons que l'on cherche à mieux comprendre les noyades.
+
+Notre étude fait partie d'un projet plus vaste sur les comportements estivaux.
+
+Un jeu de données est récupéré et aggloméré.
+
+Si on n'a pas d'hypothèses a priori et que l'on rentre toutes les données pour voir ce qui en sort ...
+
+::: notes
+exemple on peut penser à plusieurs études, sur le rythme des vacanciers, leur attitude face aux risques de la canicule, les attitudes parentales sur la prise d'autonomie des enfants ... Un grand jeu de données est collecté. Il servira à toute l'équipe du projet
+:::
+
+## 0.5 Des données qui suivent le même motif ...
+
+::: notes
+En regardant ce graphique, est-ce qu'on peut prédire le nombre de noyades en fonction du nombre de glaces vendues ? Et l'inverse ? il y aura forcément toujours des corrélations qui apparaîtront sur un gros jeu de données, surtout si l'échantillon est grand
+:::
+
+![](L1_CM_files/images/glaces_mois_noyades.jpg)
+
+## 
+
+![](L1_CM_files/images/homme-glace-mer.png)
+
+------------------------------------------------------------------------
+
+## 0.6 Un autre exemple
+
+[Corrélation entre la distance Terre-Neptune et la surface de la forêt Amazonienne au Brésil](https://www.tylervigen.com/spurious/correlation/4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon)
+
+:::{layout-ncol=2}
+
+![](L1_CM_files\images\4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon.png)
+
+![](L1_CM_files\images\4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon_scatterplot.png)
+:::
+
+::: footer
+Source : site <https://www.tylervigen.com/spurious-correlations>
+:::
+
+## Qu'en dit-l'IA ?
+
+Quand on lui demande d'expliquer ces résultats : 
+
+`L'attraction gravitationnelle de Neptune a perturbé l'inclinaison de l'axe terrestre, entraînant des conditions météorologiques irrégulières en Amazonie qui ont finalement contribué à la déforestation. Comme le dit le dicton, ce n'est pas seulement une forêt tropicale, c'est un casse-tête cosmique, perturbé par Neptune, qui renverse les arbres !`
+
+::: footer
+Source : site <https://www.tylervigen.com/spurious-correlations>
+:::
+
+## 0.5 Comment faire si on trouve un résultat par hasard ?
+
+::: notes
+Est-ce qu'on ne dit rien ? On l'oublie ? Nooon Transparence dans la recherche
+:::
+- On regarde les données et on réfléchit 
+-   Résultat **exploratoire** et présenté comme tel
+-   Prévoir une expérimentation pour le **confirmer** (ou non)
+
+## 0.6 Autres aspects éthiques
+
+- manipulation de données (invention, modification, vol)
+- p-hacking
+
+:::{.notes}
+P-hacking : changement de l'analyse stat en fonction de ce qu'elle produit comme résultats : changement de méthode, transformation des variables, choix de variables, ajout de participants
+:::
+
+## 0.7 Comment faire confiance à un article ?
+
+- Utiliser les bases de données d'articles scientifiques
+  - validés par des experts : peer-reviewing
+- Possibilité d'aller voir s'il y a des commentaires
+  - [Pubpeer](https://pubpeer.com/)
+- s'informer sur le sujet 
+  - [site de veille et blog - retraction watch](https://retractionwatch.com/) 
+  
+:::{.notes}
+Remontrer comment on accède aux bases de données scientifiques via l'UA. Attention aux références dans les dossiers, pas de références non vérifiées.
+:::
 
 
+# 1. Introduction
+
+Construire une question de recherche, la présenter à travers un raisonnement et l'insérer dans un cadre théorique
+
+## 1.1 Introduction qu'y trouve-t-on ?
+
+Introduction = cadre théorique de l'étude
+
+Structure : Raisonnement, argumentation
+
+Angle choisi par l'auteur
+
+::: notes
+L'introduction fait plusieurs pages, elle sert à démontrer le raisonnement qui sous-tend la question de recherche
+:::
+
+## 1.2 Comment l'écrit-on ? 
+
+À partir d'une étude de la littérature actuelle
+
+- Recherche de ce qui a déjà été fait sur le sujet
+- Rattachement des études à un cadre théorique, parfois plusieurs --> choix argumenté
+  
 
