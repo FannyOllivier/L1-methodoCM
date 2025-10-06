@@ -205,5 +205,17 @@ L'introduction fait plusieurs pages, elle sert à démontrer le raisonnement qui
 
 - Recherche de ce qui a déjà été fait sur le sujet
 - Rattachement des études à un cadre théorique, parfois plusieurs --> choix argumenté
+
+## 1.3 Concrètement
+On a besoin de trouver : 
+
+- Modèles théoriques
+- Recherches antérieures : quelles méthodologies ? Quels résultats ? Réplications ? Consensus ou débats ?
+
+On utilise ce matériel pour construire notre raisonnement --> écriture de l'introduction
+
+- Organiser les idées d'une accroche assez générale à la question précise que notre étude porte (entonnoir)
+- Mettre en lien les idées 
+
   
 
