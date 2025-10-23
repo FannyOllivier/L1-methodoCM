@@ -1,0 +1,86 @@
+---
+title: "SimulData_20251023"
+format: html
+editor: visual
+---
+
+## Création un tableau de données simulées à partir des données transmises
+
+Données transmises :
+
+Zoé: avant visionnage: 0.252 s / après :0.289s
+
+Teddy avant: 0,238 s/ après : 0.323s
+
+leila: avant :0.232s/ après :0.278 s
+
+```{r setup, include=FALSE}
+
+library(dplyr)
+library(ggplot2)
+library(ggpubr)
+library(tidyr)
+library(rstatix)
+
+```
+
+```{r}
+d_trans<-data.frame(
+  rang=c(1:3),
+  controle=c(0.252,0.238,0.232),
+  tiktok=c(0.289,0.323,0.278)
+)
+
+#Moyenne/sd
+summary(d_trans[c(2,3)])
+
+sapply(d_trans, sd)
+
+#génération d'un échantillon suivant une distribution log-normale car temps bornés à 0 avec mean/sd des données transmises comme caractéristiques
+
+## échantillon de 30 individus pour controle
+m <- 0.2407 # la moyenne
+s <- 0.01026 ; # l'ecart type
+sl <- sqrt(log(1+ s^2/m^2)) ;
+ml <- log(m) - 0.5 * sl^2 ;
+controle <- rlnorm(30,meanlog=ml, sdlog=sl)  # tirage au sort
+hist(controle)  # trace l'histogramme des valeurs pour voir la distribution
+
+#pour tiktok
+m <- 0.2967 # la moyenne
+s <- 0.02345 ; # l'ecart type
+sl <- sqrt(log(1+ s^2/m^2)) ;
+ml <- log(m) - 0.5 * sl^2 ;
+tiktok <- rlnorm(30,meanlog=ml, sdlog=sl)  # tirage au sort
+hist(tiktok)
+
+#d :data.frame avec les 30 participants
+d<- data.frame(
+  rang=c(1:30),
+  controle,tiktok)
+
+#format long
+d_long<-gather(d, key="condition", value="Temps", -rang)
+
+```
+
+## Analyse sur données simulées
+
+```{r test, echo=FALSE}
+t.test(d$controle,d$tiktok, paired=TRUE)
+dif <- with(d, 
+        controle - tiktok)
+shapiro.test(dif)
+
+# taille d'effet
+d_long %>% cohens_d(Temps ~ condition, paired = TRUE)
+```
+
+## Visualisation 
+
+```{r}
+ggboxplot(d_long, x = "condition", y = "Temps", 
+          color = "condition", palette = c("#00AFBB", "#E7B800"),
+          order = c("controle", "tiktok"),
+          ylab = "Temps", xlab = "Condition")
+```
