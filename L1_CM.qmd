@@ -2,6 +2,8 @@
 title: "L1 CM 2/2 - Mener une étude expérimentale, enjeux méthodologiques et éthiques"
 format: 
   revealjs: 
+    chalkboard: true
+    multiplex: true
     slide-number: 'c'  
     number-sections: false
     incremental: true
