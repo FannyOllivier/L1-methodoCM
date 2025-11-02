@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "L1_CM.html#objectifs-du-cours",
+    "href": "L1_CM.html#objectifs-du-cours",
+    "title": "CM L1",
+    "section": "Objectifs du cours",
+    "text": "Objectifs du cours\n\nComprendre comment se mène une étude expérimentale en psychologie\nEn identifier les enjeux méthodologiques et éthiques\nComprendre et produire une méthodologie expérimentale"
+  },
+  {
+    "objectID": "L1_CM.html#comment-les-atteindre",
+    "href": "L1_CM.html#comment-les-atteindre",
+    "title": "CM L1",
+    "section": "Comment les atteindre ?",
+    "text": "Comment les atteindre ?\nSuivre une étude expérimentale en cours : journal d’une étude en psychologie cognitive\n\nMULTIDIGIT \nSéquentialité du traitement des nombres à deux chiffres : effet d’amorçage sur l’identification de la position des chiffres et l’activation de la magnitude"
+  },
+  {
+    "objectID": "L1_CM.html#à-la-fin-de-ce-cours-je-dois-être-capable",
+    "href": "L1_CM.html#à-la-fin-de-ce-cours-je-dois-être-capable",
+    "title": "CM L1",
+    "section": "À la fin de ce cours, je dois être capable",
+    "text": "À la fin de ce cours, je dois être capable\nde maîtriser la démarche expérimentale pour mener une expérimentation éthique\nC’est-à-dire :\n\nde comprendre comment on construit une question de recherche\n\nrevue de littérature\ninsertion de la question de recherche dans la littérature existante\nprésenter un raisonnement\n\n\n=&gt; Introduction\n\nde comprendre comment on opérationalise la question de recherche\n\nidentifier VD et VI\ncomment on construit un plan expérimental\nfaire des choix méthodologiques en fonction de l’objectif de recherche poursuivi\n\n\n=&gt; Méthodologie\n\nde présenter des résultats\n\n=&gt; Résultats\n\nde discuter des résultats\n\nles confronter à la littérature existante\nles envisager de façon critique\n\n\n=&gt; Discussion\n\nde comprendre les aspects éthiques de la recherche scientifique et les respecter\n\n\nDonner des exemples, pour chaque catégorie"
+  },
+  {
+    "objectID": "L1_CM.html#plan",
+    "href": "L1_CM.html#plan",
+    "title": "CM L1",
+    "section": "Plan",
+    "text": "Plan\n0/ Démarche expérimentale : méthode scientifique\n1/ Introduction\n2/ Méthodologie\n3/ Résultats\n4/ Discussion"
+  },
+  {
+    "objectID": "L1_CM.html#cycle-de-la-recherche",
+    "href": "L1_CM.html#cycle-de-la-recherche",
+    "title": "CM L1",
+    "section": "0.1 Cycle de la recherche",
+    "text": "0.1 Cycle de la recherche\n\n\nprocessus récursif, donner des exemples"
+  },
+  {
+    "objectID": "L1_CM.html#construire-une-recherche-dans-une-démarche-expérimentale",
+    "href": "L1_CM.html#construire-une-recherche-dans-une-démarche-expérimentale",
+    "title": "CM L1",
+    "section": "0.2 Construire une recherche dans une démarche expérimentale",
+    "text": "0.2 Construire une recherche dans une démarche expérimentale\n\nLa recherche s’appuie sur l’existant : réplication, réfutation, extension\nÉthique de la recherche : hypothèses avant la récolte de données\nHARKing : Hypothesis After Results are Known\n\n\nPrésenter l’hypothèse dans l’article comme si elle avait été faite a priori alors qu’elle a été construite a posteriori"
+  },
+  {
+    "objectID": "L1_CM.html#problème-des-hypothèses-a-posteriori",
+    "href": "L1_CM.html#problème-des-hypothèses-a-posteriori",
+    "title": "CM L1",
+    "section": "0.3 Problème des hypothèses a posteriori",
+    "text": "0.3 Problème des hypothèses a posteriori\n\nRésultats trouvés par hasard : on ne confirme pas\nRisque de faux positif\n\n\npeut-être que ce résultat est lié au contexte, dépend de quelque chose qu’on aurait dû contrôler si on le cherchait a priori mais que l’on n’a pas fait parce que ce n’était pas ce que l’on cherchait"
+  },
+  {
+    "objectID": "L1_CM.html#exemple",
+    "href": "L1_CM.html#exemple",
+    "title": "CM L1",
+    "section": "0.4 Exemple",
+    "text": "0.4 Exemple\nImaginons que l’on cherche à mieux comprendre les noyades.\nNotre étude fait partie d’un projet plus vaste sur les comportements estivaux.\nUn jeu de données est récupéré et aggloméré.\nSi on n’a pas d’hypothèses a priori et que l’on rentre toutes les données pour voir ce qui en sort …\n\nexemple on peut penser à plusieurs études, sur le rythme des vacanciers, leur attitude face aux risques de la canicule, les attitudes parentales sur la prise d’autonomie des enfants … Un grand jeu de données est collecté. Il servira à toute l’équipe du projet"
+  },
+  {
+    "objectID": "L1_CM.html#des-données-qui-suivent-le-même-motif",
+    "href": "L1_CM.html#des-données-qui-suivent-le-même-motif",
+    "title": "CM L1",
+    "section": "0.5 Des données qui suivent le même motif …",
+    "text": "0.5 Des données qui suivent le même motif …\n\nEn regardant ce graphique, est-ce qu’on peut prédire le nombre de noyades en fonction du nombre de glaces vendues ? Et l’inverse ? il y aura forcément toujours des corrélations qui apparaîtront sur un gros jeu de données, surtout si l’échantillon est grand"
+  },
+  {
+    "objectID": "L1_CM.html#un-autre-exemple",
+    "href": "L1_CM.html#un-autre-exemple",
+    "title": "CM L1",
+    "section": "0.6 Un autre exemple",
+    "text": "0.6 Un autre exemple\nCorrélation entre la distance Terre-Neptune et la surface de la forêt Amazonienne au Brésil\n\n\n\n\n\n\n\n\n\n\n\nSource : site https://www.tylervigen.com/spurious-correlations"
+  },
+  {
+    "objectID": "L1_CM.html#quen-dit-lia",
+    "href": "L1_CM.html#quen-dit-lia",
+    "title": "CM L1",
+    "section": "Qu’en dit-l’IA ?",
+    "text": "Qu’en dit-l’IA ?\nQuand on lui demande d’expliquer ces résultats :\nL'attraction gravitationnelle de Neptune a perturbé l'inclinaison de l'axe terrestre, entraînant des conditions météorologiques irrégulières en Amazonie qui ont finalement contribué à la déforestation. Comme le dit le dicton, ce n'est pas seulement une forêt tropicale, c'est un casse-tête cosmique, perturbé par Neptune, qui renverse les arbres !\n\nSource : site https://www.tylervigen.com/spurious-correlations"
+  },
+  {
+    "objectID": "L1_CM.html#comment-faire-si-on-trouve-un-résultat-par-hasard",
+    "href": "L1_CM.html#comment-faire-si-on-trouve-un-résultat-par-hasard",
+    "title": "CM L1",
+    "section": "0.5 Comment faire si on trouve un résultat par hasard ?",
+    "text": "0.5 Comment faire si on trouve un résultat par hasard ?\n\nEst-ce qu’on ne dit rien ? On l’oublie ? Nooon Transparence dans la recherche\n\n\nOn regarde les données et on réfléchit\nRésultat exploratoire et présenté comme tel\nPrévoir une expérimentation pour le confirmer (ou non)"
+  },
+  {
+    "objectID": "L1_CM.html#autres-aspects-éthiques",
+    "href": "L1_CM.html#autres-aspects-éthiques",
+    "title": "CM L1",
+    "section": "0.6 Autres aspects éthiques",
+    "text": "0.6 Autres aspects éthiques\n\nmanipulation de données (invention, modification, vol)\np-hacking\n\n\nP-hacking : changement de l’analyse stat en fonction de ce qu’elle produit comme résultats : changement de méthode, transformation des variables, choix de variables, ajout de participants"
+  },
+  {
+    "objectID": "L1_CM.html#comment-faire-confiance-à-un-article",
+    "href": "L1_CM.html#comment-faire-confiance-à-un-article",
+    "title": "CM L1",
+    "section": "0.7 Comment faire confiance à un article ?",
+    "text": "0.7 Comment faire confiance à un article ?\n\nUtiliser les bases de données d’articles scientifiques\n\nvalidés par des experts : peer-reviewing\n\nPossibilité d’aller voir s’il y a des commentaires\n\nPubpeer\n\ns’informer sur le sujet\n\nsite de veille et blog - retraction watch\n\n\n\nRemontrer comment on accède aux bases de données scientifiques via l’UA. Attention aux références dans les dossiers, pas de références non vérifiées."
+  },
+  {
+    "objectID": "L1_CM.html#introduction-quy-trouve-t-on",
+    "href": "L1_CM.html#introduction-quy-trouve-t-on",
+    "title": "CM L1",
+    "section": "1.1 Introduction qu’y trouve-t-on ?",
+    "text": "1.1 Introduction qu’y trouve-t-on ?\nIntroduction = cadre théorique de l’étude\nStructure : Raisonnement, argumentation\nAngle choisi par l’auteur\n\nL’introduction fait plusieurs pages, elle sert à démontrer le raisonnement qui sous-tend la question de recherche"
+  },
+  {
+    "objectID": "L1_CM.html#comment-lécrit-on",
+    "href": "L1_CM.html#comment-lécrit-on",
+    "title": "CM L1",
+    "section": "1.2 Comment l’écrit-on ?",
+    "text": "1.2 Comment l’écrit-on ?\nÀ partir d’une étude de la littérature actuelle\n\nRecherche de ce qui a déjà été fait sur le sujet\nRattachement des études à un cadre théorique, parfois plusieurs –&gt; choix argumenté"
+  },
+  {
+    "objectID": "L1_CM.html#plus-concrètement",
+    "href": "L1_CM.html#plus-concrètement",
+    "title": "CM L1",
+    "section": "1.3 Plus concrètement",
+    "text": "1.3 Plus concrètement\nOn a besoin de trouver :\n\nModèles théoriques\nRecherches antérieures : quelles méthodologies ? Quels résultats ? Réplications ? Consensus ou débats ?\n\nOn utilise ce matériel pour construire notre raisonnement –&gt; écriture de l’introduction\n\nOrganiser les idées d’une accroche assez générale à la question précise que notre étude porte (entonnoir)\nMettre en lien les idées \\(\\neq\\) catalogue"
+  },
+  {
+    "objectID": "L1_CM.html#dans-notre-exemple-de-recherche",
+    "href": "L1_CM.html#dans-notre-exemple-de-recherche",
+    "title": "CM L1",
+    "section": "1.4 Dans notre exemple de recherche",
+    "text": "1.4 Dans notre exemple de recherche\nPrésentation du projet\nChamp de la cognition numérique\nCollaboration avec Pauline Quémart, spécialiste du langage\n\nQuestion de départ : comment reconnaît-on les nombres ? Quels mécanismes cognitifs sont à l’oeuvre ?"
+  },
+  {
+    "objectID": "L1_CM.html#modèle-de-traitement-du-nombre-à-deux-chiffres",
+    "href": "L1_CM.html#modèle-de-traitement-du-nombre-à-deux-chiffres",
+    "title": "CM L1",
+    "section": "Modèle de traitement du nombre à deux chiffres",
+    "text": "Modèle de traitement du nombre à deux chiffres\nNuerk et al. (2015)\n\n3 niveaux de traitement de la position des chiffres chez l’adulte\n\nidentification de la position : dizaines vs unités\nactivation de la valeur de la position : 50 pour le 5 de 52\ncalcul de la valeur de position : uniquement lors des calculs. Implique des modifications ou des mises à jour de la valeur et/ou de la position (ex : retenue)\n\n\n\ntrois niveaux de traitement de la position des chiffres chez l’adulte. L’identification de la position permet d’identifier correctement la position d’un chiffre au sein d’une suite de chiffres (e.g. dizaines vs unités dans les nombres à deux chiffres) sans que la magnitude de ces chiffres soit automatiquement activée (Ratincks et al., 2005 , mais voir Gazzellini & Laudanna, 2011). Cette identification de la position est mise en évidence dans les épreuves de transcodage. Ensuite, l’activation de la valeur de la position consiste à activer la valeur de chaque position (e.g., 1, 10, 100, …) pour chaque chiffre selon sa position dans le nombre (e.g., 50 pour le 5 de 52). Ce traitement est mis en évidence avec des épreuves qui nécessitent l’activation de l’information sur la valeur de position, telles que la comparaison de grandeurs numériques (e.g. « quel nombre est le plus grand ? »). Enfin, certaines tâches nécessitent en plus des deux traitements précédents un calcul de la valeur de position, impliquant des modifications ou des mises à jour de la valeur et/ou de la position. Par exemple, pour exécuter correctement une retenue dans une addition, le chiffre des dizaines issu de la somme des unités doit être ajouté à la somme des chiffres des dizaines afin de résoudre correctement l’opération."
+  },
+  {
+    "objectID": "L1_CM.html#problématique",
+    "href": "L1_CM.html#problématique",
+    "title": "CM L1",
+    "section": "Problématique",
+    "text": "Problématique\n\nRecherche dans le cadre le modèle théorique du traitement du nombre à deux chiffres de Nuerk et al. (2015)\nOn sait que l’activation de la magnitude des nombres est automatique dans les tâches numériques\nParallèle avec la lecture : l’activation des mots est automatique pour les lecteurs, même quand elle n’est pas nécessaire dans une tâche\nQu’en est-il pour la magnitude des nombres à 2 chiffres quand la tâche n’a pas de caractère mathématique ? S’active-t-elle automatiquement ?\nS’il y a une activation automatique, s’agit-il de la magnitude du nombre ? Du nombre de dizaines ? D’unités ?\nLe traitement se fait-il totalement ou en partie seulement de façon automatique ?\nLe nombre est-il traité de façon holistique ou par décomposition ?"
+  },
+  {
+    "objectID": "L1_CM.html#implications-concrètes",
+    "href": "L1_CM.html#implications-concrètes",
+    "title": "CM L1",
+    "section": "Implications concrètes",
+    "text": "Implications concrètes\n\nLa magnitude des nombres à 2 chiffres s’active-t-elle automatiquement quand la tâche n’a pas de caractère mathématique ?\n-&gt; Choix d’une tâche de reconnaissance de nombre sans caractère mathématique"
+  },
+  {
+    "objectID": "L1_CM.html#implications-concrètes-1",
+    "href": "L1_CM.html#implications-concrètes-1",
+    "title": "CM L1",
+    "section": "Implications concrètes",
+    "text": "Implications concrètes\n\nS’il y a une activation automatique, s’agit-il de la magnitude du nombre ? Du nombre de dizaines ? D’unités ?\n\nfaire varier les dizaines, les unités dans le choix des stimuli et des conditions dans lesquelles\n\nactiver le nombre entier avantage/désavantage la résolution\nactiver le chiffre des dizaines avantage/désavantage la résolution\nactiver le chiffre des unités avantage/désavantage la résolution"
+  },
+  {
+    "objectID": "L1_CM.html#implications-concrètes-2",
+    "href": "L1_CM.html#implications-concrètes-2",
+    "title": "CM L1",
+    "section": "Implications concrètes",
+    "text": "Implications concrètes\nLe traitement se fait-il totalement ou en partie seulement de façon automatique ?\nLe nombre est-il traité de façon holistique ou par décomposition ?\nDécours temporel"
+  }
+]
