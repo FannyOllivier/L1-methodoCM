@@ -76,7 +76,7 @@ shapiro.test(dif)
 d_long %>% cohens_d(Temps ~ condition, paired = TRUE)
 ```
 
-## Visualisation 
+## Visualisation
 
 ```{r}
 ggboxplot(d_long, x = "condition", y = "Temps", 
