@@ -1,0 +1,11 @@
+project:                                                                  
+  type: website                                                           
+  output-dir: docsL1                                                        
+                                                                          
+website:                                                                  
+  title: "CM L1"                                        
+  site-url: "https://fannyollivier.github.io/cours"
+                                                                          
+format:                                                                   
+  html:                                                                   
+    theme: default
