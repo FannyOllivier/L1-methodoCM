@@ -12,7 +12,7 @@ format:
 editor: visual
 ---
 
-# Mener une étude expérimentale essai 
+# Mener une étude expérimentale  
 
 L1 - CM 2/2
 
