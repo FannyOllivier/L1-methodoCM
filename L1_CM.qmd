@@ -1,5 +1,5 @@
 ---
-title: "L1 CM - Mener une étude expérimentale, enjeux méthodologiques et éthiques"
+title: "L1 CM 2/2 - Mener une étude expérimentale, enjeux méthodologiques et éthiques"
 format: 
   revealjs: 
     slide-number: 'c'  
@@ -23,9 +23,9 @@ L1 - CM 2/2
 
 Suivre une étude expérimentale en cours : journal d'une étude en psychologie cognitive
 
+<center>
 
-
-<center>**MULTIDIGIT** \center
+**MULTIDIGIT** \center
 
 *Séquentialité du traitement des nombres à deux chiffres : effet d’amorçage sur l’identification de la position des chiffres et l’activation de la magnitude*
 
@@ -233,18 +233,110 @@ On utilise ce matériel pour construire notre raisonnement --\> écriture de l'i
 
 ### Présentation du projet
 
-Champ de la cognition numérique Collaboration avec Pauline Quémart, spécialiste du langage
+Champ de la cognition numérique
 
-Question de départ : comment reconnaît-on les nombres ? Quels mécanismes cognitifs sont à l'oeuvre ?
+Collaboration avec Pauline Quémart, spécialiste du langage
+
+-   Question de départ : comment reconnaît-on les nombres ? Quels mécanismes cognitifs sont à l'oeuvre ?
 
 ------------------------------------------------------------------------
 
 ### Précision de la question
 
-Quels nombres ? - Appui sur la littérature pour faire notre choix - nombres à deux chiffres
+*Comment reconnaît-on **les nombres** ? Quels mécanismes cognitifs sont à l'oeuvre ?*
+
+**Quels nombres ?**
+
+-   Appui sur la littérature pour faire notre choix
+-   Beaucoup d'études sur les chiffres
+-   Nombres à plusieurs chiffres : spécificité de la position des chiffres dans le nombre
 
 ::: notes
-Beaucoup d'études sur les chiffres, accord dans la littérature sur un mécanisme particulier et spatial pour les chiffres, mais pas de consensus sur les nombres plus grands. Spécificité, importance de la position des chiffres dans le nombre.Existence de modèles
+Beaucoup d'études sur les chiffres, accord dans la littérature sur un mécanisme particulier et spatial pour les chiffres, mais pas de consensus sur les nombres plus grands. Spécificité, importance de la position des chiffres dans le nombre. Chiffres : activation automatique de la magnitude - effet SNARC. Ligne numérique spatiale.Différence enfants/adultes surla LNM. Différences culturelles. Existence de modèles
 :::
 
-Identification ?
+------------------------------------------------------------------------
+
+### Mécanismes
+
+*Comment **reconnaît**-on les nombres ? Quels **mécanismes cognitifs** sont à l'oeuvre ?*
+
+-   Accord dans la littérature sur un mécanisme particulier et spatial de traitement des chiffres et des nombres à 2 chiffres
+    -   Ligne numérique mentale
+    -   Effet SNARC : réponses + rapides à gauche pour les petits nombres, + rapides à droites pour les grands nombres
+    -   Activation automatique et systématique de la magnitude dans les tâches numériques (ex : comparaison, parité)
+
+------------------------------------------------------------------------
+
+-   Mais ...
+
+    -   Activation de la magnitude n'est pas automatique pour les nombres à deux chiffres --\> dépend de la tâche
+    -   Pas de consensus sur le traitement du nombre à deux chiffres : holistique ou décomposé (dizaine/unité)
+
+::: notes
+Par souci de clarté du diapo, beaucoup de sources n'y figurent pas, mais lorsqu'on écrit l'introduction on doit sourcer tous les éléments qui y figurent. Dans l'intro d'un article scientifique, on ne donne pas son avis mais on fait dialoguer les résultats de la recherche pour montrer les accords, les points de tension et les manques afin de démontrer l'intérêt de notre recherche et de l'angle choisi
+:::
+
+## Modèle de traitement du nombre à deux chiffres
+
+Nuerk et al. (2015)
+
+-   3 niveaux de traitement de la position des chiffres chez l’adulte
+
+    -   **identification de la position** : dizaines vs unités
+    -   **activation de la valeur de la position** : 50 pour le 5 de 52
+    -   **calcul de la valeur de position** : uniquement lors des calculs. Implique des modifications ou des mises à jour de la valeur et/ou de la position (ex : retenue)
+
+::: notes
+trois niveaux de traitement de la position des chiffres chez l’adulte. L'identification de la position permet d’identifier correctement la position d’un chiffre au sein d’une suite de chiffres (e.g. dizaines vs unités dans les nombres à deux chiffres) sans que la magnitude de ces chiffres soit automatiquement activée (Ratincks et al., 2005 , mais voir Gazzellini & Laudanna, 2011). Cette identification de la position est mise en évidence dans les épreuves de transcodage. Ensuite, l’activation de la valeur de la position consiste à activer la valeur de chaque position (e.g., 1, 10, 100, …) pour chaque chiffre selon sa position dans le nombre (e.g., 50 pour le 5 de 52). Ce traitement est mis en évidence avec des épreuves qui nécessitent l’activation de l’information sur la valeur de position, telles que la comparaison de grandeurs numériques (e.g. « quel nombre est le plus grand ? »). Enfin, certaines tâches nécessitent en plus des deux traitements précédents un calcul de la valeur de position, impliquant des modifications ou des mises à jour de la valeur et/ou de la position. Par exemple, pour exécuter correctement une retenue dans une addition, le chiffre des dizaines issu de la somme des unités doit être ajouté à la somme des chiffres des dizaines afin de résoudre correctement l’opération.
+:::
+
+## Problématique {.scrollable}
+
+-   Recherche dans le cadre le modèle théorique du traitement du nombre à deux chiffres de Nuerk et al. (2015)
+-   On sait que l'activation de la magnitude des nombres est automatique dans les tâches numériques
+-   Parallèle avec la lecture : l'activation des mots est automatique pour les lecteurs, même quand elle n'est pas nécessaire dans une tâche
+-   Qu'en est-il pour la magnitude des nombres à 2 chiffres quand la tâche n'a pas de caractère mathématique ? S'active-t-elle automatiquement ?
+-   S'il y a une activation automatique, s'agit-il de la magnitude du nombre ? Du nombre de dizaines ? D'unités ?
+-   Le traitement se fait-il totalement ou en partie seulement de façon automatique ?
+-   Le nombre est-il traité de façon holistique ou par décomposition ?
+
+## Implications concrètes
+
+::: {.fragment .fade-in-then-out}
+La magnitude des nombres à 2 chiffres s'active-t-elle automatiquement quand la tâche n'a pas de caractère mathématique ?
+
+[-\> Choix d'une tâche de reconnaissance de nombre sans caractère mathématique]{style="color:blue;"}
+:::
+
+## Implications concrètes
+
+:::: {.fragment .fade-in-then-out}
+::: nonincremental
+S'il y a une activation automatique, s'agit-il de la magnitude du nombre ? Du nombre de dizaines ? D'unités ?
+
+
+-   [faire varier les dizaines, les unités dans le choix des stimuli et des conditions dans lesquelles]{style="color:blue;"}
+
+    -    [activer le nombre entier avantage/désavantage la résolution]{style="color:blue;"}
+
+    - [activer le chiffre des dizaines avantage/désavantage la résolution]{style="color:blue;"}
+
+    -  [activer le chiffre des unités avantage/désavantage la résolution]{style="color:blue;"}
+
+:::
+::::
+
+## Implications concrètes
+
+
+
+Le traitement se fait-il totalement ou en partie seulement de façon automatique ?
+
+Le nombre est-il traité de façon holistique ou par décomposition ?
+
+[Décours temporel]{style="color:blue;"} 
+
+
+
+
