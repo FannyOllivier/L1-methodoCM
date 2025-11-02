@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="L1_CM_files/libs/clipboard/clipboard.min.js"></script>
+<script src="L1_CM_files/libs/quarto-html/tabby.min.js"></script>
+<script src="L1_CM_files/libs/quarto-html/popper.min.js"></script>
+<script src="L1_CM_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="L1_CM_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="L1_CM_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="L1_CM_files/libs/quarto-html/quarto-syntax-highlighting-2e0b4708489a94d7cf3aaa82802539fe.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.5">
+
+  <title>L1 CM 2/2 - Mener une étude expérimentale, enjeux méthodologiques et éthiques</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="L1_CM_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="L1_CM_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="L1_CM_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link href="L1_CM_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="L1_CM_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="L1_CM_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="L1_CM_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="L1_CM_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="L1_CM_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">L1 CM 2/2 - Mener une étude expérimentale, enjeux méthodologiques et éthiques</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section>
+<section id="mener-une-étude-expérimentale" class="title-slide slide level1 center">
+<h1>Mener une étude expérimentale</h1>
+<p>L1 - CM 2/2</p>
+</section>
+<section id="objectifs-du-cours" class="slide level2">
+<h2>Objectifs du cours</h2>
+<ul>
+<li class="fragment">Comprendre comment se mène une étude expérimentale en psychologie</li>
+<li class="fragment">En identifier les enjeux méthodologiques et éthiques</li>
+<li class="fragment">Comprendre et produire une méthodologie expérimentale</li>
+</ul>
+</section>
+<section id="comment-les-atteindre" class="slide level2">
+<h2>Comment les atteindre ?</h2>
+<p>Suivre une étude expérimentale en cours : journal d’une étude en psychologie cognitive</p>
+<center>
+<p><strong>MULTIDIGIT</strong> </p>
+<p><em>Séquentialité du traitement des nombres à deux chiffres : effet d’amorçage sur l’identification de la position des chiffres et l’activation de la magnitude</em></p>
+</center></section>
+<section id="à-la-fin-de-ce-cours-je-dois-être-capable" class="slide level2 scrollable">
+<h2>À la fin de ce cours, je dois être capable</h2>
+<p><strong>de maîtriser la démarche expérimentale pour mener une expérimentation éthique</strong></p>
+<p>C’est-à-dire :</p>
+<ul>
+<li class="fragment">de comprendre comment on construit une question de recherche
+<ul>
+<li class="fragment">revue de littérature</li>
+<li class="fragment">insertion de la question de recherche dans la littérature existante</li>
+<li class="fragment">présenter un raisonnement</li>
+</ul></li>
+</ul>
+<p><strong>=&gt; Introduction</strong></p>
+<ul>
+<li class="fragment">de comprendre comment on opérationalise la question de recherche
+<ul>
+<li class="fragment">identifier VD et VI</li>
+<li class="fragment">comment on construit un plan expérimental</li>
+<li class="fragment">faire des choix méthodologiques en fonction de l’objectif de recherche poursuivi</li>
+</ul></li>
+</ul>
+<p><strong>=&gt; Méthodologie</strong></p>
+<ul>
+<li class="fragment">de présenter des résultats</li>
+</ul>
+<p><strong>=&gt; Résultats</strong></p>
+<ul>
+<li class="fragment">de discuter des résultats
+<ul>
+<li class="fragment">les confronter à la littérature existante</li>
+<li class="fragment">les envisager de façon critique</li>
+</ul></li>
+</ul>
+<p><strong>=&gt; Discussion</strong></p>
+<ul>
+<li class="fragment">de comprendre les aspects éthiques de la recherche scientifique et les respecter</li>
+</ul>
+<aside class="notes">
+<p>Donner des exemples, pour chaque catégorie</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="plan" class="slide level2">
+<h2>Plan</h2>
+<p>0/ Démarche expérimentale : méthode scientifique</p>
+<p>1/ Introduction</p>
+<p>2/ Méthodologie</p>
+<p>3/ Résultats</p>
+<p>4/ Discussion</p>
+</section></section>
+<section>
+<section id="démarche-expérimentale" class="title-slide slide level1 center">
+<h1>0. Démarche expérimentale</h1>
+<p>Méthode scientifique</p>
+</section>
+<section id="cycle-de-la-recherche" class="slide level2">
+<h2>0.1 Cycle de la recherche</h2>
+<p><img data-src="L1_CM_files/images/cycleRech.png" class="absolute" style="top: 150px; "></p>
+<aside class="notes">
+<p>processus récursif, donner des exemples</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="construire-une-recherche-dans-une-démarche-expérimentale" class="slide level2">
+<h2>0.2 Construire une recherche dans une démarche expérimentale</h2>
+<ul>
+<li class="fragment">La recherche s’appuie sur l’existant : réplication, réfutation, extension</li>
+<li class="fragment">Éthique de la recherche : hypothèses avant la récolte de données</li>
+<li class="fragment">HARKing : Hypothesis After Results are Known</li>
+</ul>
+<aside class="notes">
+<p>Présenter l’hypothèse dans l’article comme si elle avait été faite a priori alors qu’elle a été construite a posteriori</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="problème-des-hypothèses-a-posteriori" class="slide level2">
+<h2>0.3 Problème des hypothèses a posteriori</h2>
+<ul>
+<li class="fragment">Résultats trouvés par hasard : on ne <strong>confirme</strong> pas</li>
+<li class="fragment">Risque de faux positif</li>
+</ul>
+<aside class="notes">
+<p>peut-être que ce résultat est lié au contexte, dépend de quelque chose qu’on aurait dû contrôler si on le cherchait a priori mais que l’on n’a pas fait parce que ce n’était pas ce que l’on cherchait</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="exemple" class="slide level2">
+<h2>0.4 Exemple</h2>
+<p>Imaginons que l’on cherche à mieux comprendre les noyades.</p>
+<p>Notre étude fait partie d’un projet plus vaste sur les comportements estivaux.</p>
+<p>Un jeu de données est récupéré et aggloméré.</p>
+<p>Si on n’a pas d’hypothèses a priori et que l’on rentre toutes les données pour voir ce qui en sort …</p>
+<aside class="notes">
+<p>exemple on peut penser à plusieurs études, sur le rythme des vacanciers, leur attitude face aux risques de la canicule, les attitudes parentales sur la prise d’autonomie des enfants … Un grand jeu de données est collecté. Il servira à toute l’équipe du projet</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="des-données-qui-suivent-le-même-motif" class="slide level2">
+<h2>0.5 Des données qui suivent le même motif …</h2>
+<aside class="notes">
+<p>En regardant ce graphique, est-ce qu’on peut prédire le nombre de noyades en fonction du nombre de glaces vendues ? Et l’inverse ? il y aura forcément toujours des corrélations qui apparaîtront sur un gros jeu de données, surtout si l’échantillon est grand</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+<img data-src="L1_CM_files/images/glaces_mois_noyades.jpg" class="r-stretch"></section>
+<section id="section" class="slide level2">
+<h2></h2>
+
+<img data-src="L1_CM_files/images/homme-glace-mer.png" class="r-stretch"></section>
+<section id="un-autre-exemple" class="slide level2">
+<h2>0.6 Un autre exemple</h2>
+<p><a href="https://www.tylervigen.com/spurious/correlation/4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon">Corrélation entre la distance Terre-Neptune et la surface de la forêt Amazonienne au Brésil</a></p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="L1_CM_files\images\4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="L1_CM_files\images\4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon_scatterplot.png"></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Source : site <a href="https://www.tylervigen.com/spurious-correlations" class="uri">https://www.tylervigen.com/spurious-correlations</a></p>
+</div>
+</section>
+<section id="quen-dit-lia" class="slide level2">
+<h2>Qu’en dit-l’IA ?</h2>
+<p>Quand on lui demande d’expliquer ces résultats :</p>
+<p><code>L'attraction gravitationnelle de Neptune a perturbé l'inclinaison de l'axe terrestre, entraînant des conditions météorologiques irrégulières en Amazonie qui ont finalement contribué à la déforestation. Comme le dit le dicton, ce n'est pas seulement une forêt tropicale, c'est un casse-tête cosmique, perturbé par Neptune, qui renverse les arbres !</code></p>
+<div class="footer">
+<p>Source : site <a href="https://www.tylervigen.com/spurious-correlations" class="uri">https://www.tylervigen.com/spurious-correlations</a></p>
+</div>
+</section>
+<section id="comment-faire-si-on-trouve-un-résultat-par-hasard" class="slide level2">
+<h2>0.5 Comment faire si on trouve un résultat par hasard ?</h2>
+<aside class="notes">
+<p>Est-ce qu’on ne dit rien ? On l’oublie ? Nooon Transparence dans la recherche</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<ul>
+<li class="fragment">On regarde les données et on réfléchit</li>
+<li class="fragment">Résultat <strong>exploratoire</strong> et présenté comme tel</li>
+<li class="fragment">Prévoir une expérimentation pour le <strong>confirmer</strong> (ou non)</li>
+</ul>
+</section>
+<section id="autres-aspects-éthiques" class="slide level2">
+<h2>0.6 Autres aspects éthiques</h2>
+<ul>
+<li class="fragment">manipulation de données (invention, modification, vol)</li>
+<li class="fragment">p-hacking</li>
+</ul>
+<aside class="notes">
+<p>P-hacking : changement de l’analyse stat en fonction de ce qu’elle produit comme résultats : changement de méthode, transformation des variables, choix de variables, ajout de participants</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="comment-faire-confiance-à-un-article" class="slide level2">
+<h2>0.7 Comment faire confiance à un article ?</h2>
+<ul>
+<li class="fragment">Utiliser les bases de données d’articles scientifiques
+<ul>
+<li class="fragment">validés par des experts : peer-reviewing</li>
+</ul></li>
+<li class="fragment">Possibilité d’aller voir s’il y a des commentaires
+<ul>
+<li class="fragment"><a href="https://pubpeer.com/">Pubpeer</a></li>
+</ul></li>
+<li class="fragment">s’informer sur le sujet
+<ul>
+<li class="fragment"><a href="https://retractionwatch.com/">site de veille et blog - retraction watch</a></li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Remontrer comment on accède aux bases de données scientifiques via l’UA. Attention aux références dans les dossiers, pas de références non vérifiées.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="introduction" class="title-slide slide level1 center">
+<h1>1. Introduction</h1>
+<p>Construire une question de recherche, la présenter à travers un raisonnement et l’insérer dans un cadre théorique</p>
+</section>
+<section id="introduction-quy-trouve-t-on" class="slide level2">
+<h2>1.1 Introduction qu’y trouve-t-on ?</h2>
+<p>Introduction = cadre théorique de l’étude</p>
+<p>Structure : Raisonnement, argumentation</p>
+<p>Angle choisi par l’auteur</p>
+<aside class="notes">
+<p>L’introduction fait plusieurs pages, elle sert à démontrer le raisonnement qui sous-tend la question de recherche</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="comment-lécrit-on" class="slide level2">
+<h2>1.2 Comment l’écrit-on ?</h2>
+<p>À partir d’une étude de la littérature actuelle</p>
+<ul>
+<li class="fragment">Recherche de ce qui a déjà été fait sur le sujet</li>
+<li class="fragment">Rattachement des études à un cadre théorique, parfois plusieurs –&gt; choix argumenté</li>
+</ul>
+</section>
+<section id="plus-concrètement" class="slide level2">
+<h2>1.3 Plus concrètement</h2>
+<p>On a besoin de trouver :</p>
+<ul>
+<li class="fragment">Modèles théoriques</li>
+<li class="fragment">Recherches antérieures : quelles méthodologies ? Quels résultats ? Réplications ? Consensus ou débats ?</li>
+</ul>
+<p>On utilise ce matériel pour construire notre raisonnement –&gt; écriture de l’introduction</p>
+<ul>
+<li class="fragment">Organiser les idées d’une accroche assez générale à la question précise que notre étude porte (entonnoir)</li>
+<li class="fragment">Mettre en lien les idées <span class="math inline">\(\neq\)</span> catalogue <!--# pour ajouter du LateX en ligne $ $, en dessous $$ $$. Attention, ce n'est pas le / mais le \ --></li>
+</ul>
+</section>
+<section id="dans-notre-exemple-de-recherche" class="slide level2">
+<h2>1.4 Dans notre exemple de recherche</h2>
+<h3 id="présentation-du-projet">Présentation du projet</h3>
+<p>Champ de la cognition numérique</p>
+<p>Collaboration avec Pauline Quémart, spécialiste du langage</p>
+<ul>
+<li class="fragment">Question de départ : comment reconnaît-on les nombres ? Quels mécanismes cognitifs sont à l’oeuvre ?</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="précision-de-la-question">Précision de la question</h3>
+<p><em>Comment reconnaît-on <strong>les nombres</strong> ? Quels mécanismes cognitifs sont à l’oeuvre ?</em></p>
+<p><strong>Quels nombres ?</strong></p>
+<ul>
+<li class="fragment">Appui sur la littérature pour faire notre choix</li>
+<li class="fragment">Beaucoup d’études sur les chiffres</li>
+<li class="fragment">Nombres à plusieurs chiffres : spécificité de la position des chiffres dans le nombre</li>
+</ul>
+<aside class="notes">
+<p>Beaucoup d’études sur les chiffres, accord dans la littérature sur un mécanisme particulier et spatial pour les chiffres, mais pas de consensus sur les nombres plus grands. Spécificité, importance de la position des chiffres dans le nombre. Chiffres : activation automatique de la magnitude - effet SNARC. Ligne numérique spatiale.Différence enfants/adultes surla LNM. Différences culturelles. Existence de modèles</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<h3 id="mécanismes">Mécanismes</h3>
+<p><em>Comment <strong>reconnaît</strong>-on les nombres ? Quels <strong>mécanismes cognitifs</strong> sont à l’oeuvre ?</em></p>
+<ul>
+<li class="fragment">Accord dans la littérature sur un mécanisme particulier et spatial de traitement des chiffres et des nombres à 2 chiffres
+<ul>
+<li class="fragment">Ligne numérique mentale</li>
+<li class="fragment">Effet SNARC : réponses + rapides à gauche pour les petits nombres, + rapides à droites pour les grands nombres</li>
+<li class="fragment">Activation automatique et systématique de la magnitude dans les tâches numériques (ex : comparaison, parité)</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p>Mais …</p>
+<ul>
+<li class="fragment">Activation de la magnitude n’est pas automatique pour les nombres à deux chiffres –&gt; dépend de la tâche</li>
+<li class="fragment">Pas de consensus sur le traitement du nombre à deux chiffres : holistique ou décomposé (dizaine/unité)</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Par souci de clarté du diapo, beaucoup de sources n’y figurent pas, mais lorsqu’on écrit l’introduction on doit sourcer tous les éléments qui y figurent. Dans l’intro d’un article scientifique, on ne donne pas son avis mais on fait dialoguer les résultats de la recherche pour montrer les accords, les points de tension et les manques afin de démontrer l’intérêt de notre recherche et de l’angle choisi</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="modèle-de-traitement-du-nombre-à-deux-chiffres" class="slide level2">
+<h2>Modèle de traitement du nombre à deux chiffres</h2>
+<p>Nuerk et al.&nbsp;(2015)</p>
+<ul>
+<li class="fragment"><p>3 niveaux de traitement de la position des chiffres chez l’adulte</p>
+<ul>
+<li class="fragment"><strong>identification de la position</strong> : dizaines vs unités</li>
+<li class="fragment"><strong>activation de la valeur de la position</strong> : 50 pour le 5 de 52</li>
+<li class="fragment"><strong>calcul de la valeur de position</strong> : uniquement lors des calculs. Implique des modifications ou des mises à jour de la valeur et/ou de la position (ex : retenue)</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>trois niveaux de traitement de la position des chiffres chez l’adulte. L’identification de la position permet d’identifier correctement la position d’un chiffre au sein d’une suite de chiffres (e.g.&nbsp;dizaines vs unités dans les nombres à deux chiffres) sans que la magnitude de ces chiffres soit automatiquement activée (Ratincks et al., 2005 , mais voir Gazzellini &amp; Laudanna, 2011). Cette identification de la position est mise en évidence dans les épreuves de transcodage. Ensuite, l’activation de la valeur de la position consiste à activer la valeur de chaque position (e.g., 1, 10, 100, …) pour chaque chiffre selon sa position dans le nombre (e.g., 50 pour le 5 de 52). Ce traitement est mis en évidence avec des épreuves qui nécessitent l’activation de l’information sur la valeur de position, telles que la comparaison de grandeurs numériques (e.g.&nbsp;« quel nombre est le plus grand ? »). Enfin, certaines tâches nécessitent en plus des deux traitements précédents un calcul de la valeur de position, impliquant des modifications ou des mises à jour de la valeur et/ou de la position. Par exemple, pour exécuter correctement une retenue dans une addition, le chiffre des dizaines issu de la somme des unités doit être ajouté à la somme des chiffres des dizaines afin de résoudre correctement l’opération.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="problématique" class="slide level2 scrollable">
+<h2>Problématique</h2>
+<ul>
+<li class="fragment">Recherche dans le cadre le modèle théorique du traitement du nombre à deux chiffres de Nuerk et al.&nbsp;(2015)</li>
+<li class="fragment">On sait que l’activation de la magnitude des nombres est automatique dans les tâches numériques</li>
+<li class="fragment">Parallèle avec la lecture : l’activation des mots est automatique pour les lecteurs, même quand elle n’est pas nécessaire dans une tâche</li>
+<li class="fragment">Qu’en est-il pour la magnitude des nombres à 2 chiffres quand la tâche n’a pas de caractère mathématique ? S’active-t-elle automatiquement ?</li>
+<li class="fragment">S’il y a une activation automatique, s’agit-il de la magnitude du nombre ? Du nombre de dizaines ? D’unités ?</li>
+<li class="fragment">Le traitement se fait-il totalement ou en partie seulement de façon automatique ?</li>
+<li class="fragment">Le nombre est-il traité de façon holistique ou par décomposition ?</li>
+</ul>
+</section>
+<section id="implications-concrètes" class="slide level2">
+<h2>Implications concrètes</h2>
+<div class="fragment fade-in-then-out">
+<p>La magnitude des nombres à 2 chiffres s’active-t-elle automatiquement quand la tâche n’a pas de caractère mathématique ?</p>
+<p><span style="color:blue;">-&gt; Choix d’une tâche de reconnaissance de nombre sans caractère mathématique</span></p>
+</div>
+</section>
+<section id="implications-concrètes-1" class="slide level2">
+<h2>Implications concrètes</h2>
+<div class="fragment fade-in-then-out">
+<p>S’il y a une activation automatique, s’agit-il de la magnitude du nombre ? Du nombre de dizaines ? D’unités ?</p>
+<ul>
+<li><p><span style="color:blue;">faire varier les dizaines, les unités dans le choix des stimuli et des conditions dans lesquelles</span></p>
+<ul>
+<li><p><span style="color:blue;">activer le nombre entier avantage/désavantage la résolution</span></p></li>
+<li><p><span style="color:blue;">activer le chiffre des dizaines avantage/désavantage la résolution</span></p></li>
+<li><p><span style="color:blue;">activer le chiffre des unités avantage/désavantage la résolution</span></p></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="implications-concrètes-2" class="slide level2">
+<h2>Implications concrètes</h2>
+<p>Le traitement se fait-il totalement ou en partie seulement de façon automatique ?</p>
+<p>Le nombre est-il traité de façon holistique ou par décomposition ?</p>
+<p><span style="color:blue;">Décours temporel</span></p>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="L1_CM_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="L1_CM_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/multiplex/multiplex.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="L1_CM_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="L1_CM_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'multiplex': {"secret":"455cf53f2b2cb3845788a52024e0bf24","id":"703a59439f753f6089f9de854117bfd98394f9236d1062c58e8a629bdb9804ba","url":"https://multiplex.up.railway.app/"},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
