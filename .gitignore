@@ -3,7 +3,7 @@
 .RData
 .Ruserdata
 
+*.csv
 /.quarto/
 **/*.quarto_ipynb
 
-*.csv
