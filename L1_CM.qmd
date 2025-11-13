@@ -12,7 +12,7 @@ format:
 editor: visual
 ---
 
-# Mener une étude expérimentale  
+# Mener une étude expérimentale
 
 L1 - CM 2/2
 
@@ -210,7 +210,7 @@ Structure : Raisonnement, argumentation
 Angle choisi par l'auteur
 
 ::: notes
-L'introduction fait plusieurs pages, elle sert à démontrer le raisonnement qui sous-tend la question de recherche
+L'introduction fait plusieurs pages, elle sert à démontrer le raisonnement qui sous-tend la question de recherche. Une question similaire peut être traitée sous des angles différents.
 :::
 
 ## 1.2 Comment l'écrit-on ?
@@ -277,10 +277,12 @@ Beaucoup d'études sur les chiffres, accord dans la littérature sur un mécanis
     -   Pas de consensus sur le traitement du nombre à deux chiffres : holistique ou décomposé (dizaine/unité)
 
 ::: notes
-Par souci de clarté du diapo, beaucoup de sources n'y figurent pas, mais lorsqu'on écrit l'introduction on doit sourcer tous les éléments qui y figurent. Dans l'intro d'un article scientifique, on ne donne pas son avis mais on fait dialoguer les résultats de la recherche pour montrer les accords, les points de tension et les manques afin de démontrer l'intérêt de notre recherche et de l'angle choisi
+Par souci de clarté du diapo, beaucoup de sources n'y figurent pas, mais lorsqu'on écrit l'introduction on doit sourcer tous les éléments qui y figurent. Dans l'intro d'un article scientifique, on ne donne pas son avis mais on fait dialoguer les résultats de la recherche pour montrer les accords, les points de tension et les manques afin de démontrer l'intérêt de notre recherche et de l'angle choisi. Définir "magnitude"
 :::
 
-## Modèle de traitement du nombre à deux chiffres
+------------------------------------------------------------------------
+
+### Un modèle de traitement du nombre à deux chiffres
 
 Nuerk et al. (2015)
 
@@ -294,7 +296,9 @@ Nuerk et al. (2015)
 trois niveaux de traitement de la position des chiffres chez l’adulte. L'identification de la position permet d’identifier correctement la position d’un chiffre au sein d’une suite de chiffres (e.g. dizaines vs unités dans les nombres à deux chiffres) sans que la magnitude de ces chiffres soit automatiquement activée (Ratincks et al., 2005 , mais voir Gazzellini & Laudanna, 2011). Cette identification de la position est mise en évidence dans les épreuves de transcodage. Ensuite, l’activation de la valeur de la position consiste à activer la valeur de chaque position (e.g., 1, 10, 100, …) pour chaque chiffre selon sa position dans le nombre (e.g., 50 pour le 5 de 52). Ce traitement est mis en évidence avec des épreuves qui nécessitent l’activation de l’information sur la valeur de position, telles que la comparaison de grandeurs numériques (e.g. « quel nombre est le plus grand ? »). Enfin, certaines tâches nécessitent en plus des deux traitements précédents un calcul de la valeur de position, impliquant des modifications ou des mises à jour de la valeur et/ou de la position. Par exemple, pour exécuter correctement une retenue dans une addition, le chiffre des dizaines issu de la somme des unités doit être ajouté à la somme des chiffres des dizaines afin de résoudre correctement l’opération.
 :::
 
-## Problématique {.scrollable}
+------------------------------------------------------------------------
+
+### Problématique {.scrollable}
 
 -   Recherche dans le cadre le modèle théorique du traitement du nombre à deux chiffres de Nuerk et al. (2015)
 -   On sait que l'activation de la magnitude des nombres est automatique dans les tâches numériques
@@ -304,7 +308,9 @@ trois niveaux de traitement de la position des chiffres chez l’adulte. L'ident
 -   Le traitement se fait-il totalement ou en partie seulement de façon automatique ?
 -   Le nombre est-il traité de façon holistique ou par décomposition ?
 
-## Implications concrètes
+------------------------------------------------------------------------
+
+### Implications concrètes
 
 ::: {.fragment .fade-in-then-out}
 La magnitude des nombres à 2 chiffres s'active-t-elle automatiquement quand la tâche n'a pas de caractère mathématique ?
@@ -312,34 +318,314 @@ La magnitude des nombres à 2 chiffres s'active-t-elle automatiquement quand la 
 [-\> Choix d'une tâche de reconnaissance de nombre sans caractère mathématique]{style="color:blue;"}
 :::
 
-## Implications concrètes
+------------------------------------------------------------------------
+
+### Implications concrètes
 
 :::: {.fragment .fade-in-then-out}
 ::: nonincremental
 S'il y a une activation automatique, s'agit-il de la magnitude du nombre ? Du nombre de dizaines ? D'unités ?
 
-
 -   [faire varier les dizaines, les unités dans le choix des stimuli et des conditions dans lesquelles]{style="color:blue;"}
 
-    -    [activer le nombre entier avantage/désavantage la résolution]{style="color:blue;"}
+    -   [activer le nombre entier avantage/désavantage la résolution]{style="color:blue;"}
 
-    - [activer le chiffre des dizaines avantage/désavantage la résolution]{style="color:blue;"}
+    -   [activer le chiffre des dizaines avantage/désavantage la résolution]{style="color:blue;"}
 
-    -  [activer le chiffre des unités avantage/désavantage la résolution]{style="color:blue;"}
-
+    -   [activer le chiffre des unités avantage/désavantage la résolution]{style="color:blue;"}
 :::
 ::::
 
-## Implications concrètes
+------------------------------------------------------------------------
 
-
+### Implications concrètes
 
 Le traitement se fait-il totalement ou en partie seulement de façon automatique ?
 
 Le nombre est-il traité de façon holistique ou par décomposition ?
 
-[Décours temporel]{style="color:blue;"} 
+[Décours temporel]{style="color:blue;"}
+
+# 2. Méthodologie 1 : exemple de l'activation automatique de la lecture
+
+## 2.1 Retour sur l'activation automatique du sens du mot
+
+On veut savoir dans notre expérience sur les nombres si on peut faire un parallèle entre :
+
+-   le sens des mots qui s'active automatiquement même si la tâche ne le requiert pas
+-   la magnitude des nombres à deux chiffres, dont on ne sait pas si elle s'active quand elle n'est pas utile à la tâche
+
+::: fragment
+Mais comment peut-on montrer **expérimentalement** que le sens du mot s'active automatiquement ?
+:::
+
+::: notes
+Demander aux étudiants de réfléchir à des dispositifs qui pourraient montrer que le sens du mot s'active
+:::
+
+## 2.2 Chercher à montrer des interférences
+
+-   Si le sens du mot s'active, alors la lecture du mot s'est activée
+-   Si la lecture du mot s'est activée, on ne le sait pas forcément, on peut ne pas en avoir conscience
+-   Il faut donc trouver un moyen de mettre en évidence la lecture, sans poser la question au participant
+-   Possibilité : **l'interférence** !
+
+------------------------------------------------------------------------
+
+-   Si on donne une tâche dans laquelle la lecture du mot peut avantager ou désavantager le participant, alors on doit pouvoir montrer qu'elle s'est activée
+-   *Construire une tâche expérimentale ou en trouver une qui pourrait fonctionner*
+
+## 2.3 Tâche de stroop
+
+- La tâche de stroop permet de mettre en évidence des interférences. 
+
+- Si on est dans une situation de recherche, on écrit les hypothèses avant de recueillir les données. 
+
+- Dans cette situation pédagogique, vous allez faire le test comme si vous étiez des participants à une étude (= sans connaissance approfondie du test). 
+
+- Puis vous allez vous mettre dans le rôle de chercheurs qui connaissent et ont choisi ce test pour répondre à la question de la mise en évidence d'une activation automatique du sens du mot. 
+
+
+## 2.1.1 Jeu de rôle : expérimentation 
+
+Par deux : 
+
+- 1 expérimentateur/rice : 
+
+    - donne la consigne et fait faire l'exemple 
+    - pour chaque partie du test : note le nombre d'erreurs et le temps en secondes + centièmes de seconde 
+    
+- 1 sujet : suit les consignes de l'expérimentateur/rice
+
+Consigne : donner le nom de la couleur de l'encre utilisée le plus rapidement et justement possible
+
+
+----------------------------------------------------------------------------
+
+![](L1_CM_files/images/stroop1a.png)
+
+---------------------------------------------------------------------
+
+![](L1_CM_files/images/stroop1b.png)
+
+--------------------------------------------------------------------
+
+![](L1_CM_files/images/stroop2a.png)
+
+-------------------------------------------------------------------
+
+![](L1_CM_files/images/stroop2b.png)
+
+------------------------------------------------------------
+
+![](L1_CM_files/images/stroop3a.png)
+
+----------------------------------------------------------------
+
+![](L1_CM_files/images/stroop3b.png)
+
+## 2.4 Que s'attend-on à voir ? Hypothèses
+
+
+Si la lecture s'active automatiquement, alors ...
+
+- hypothèse(s) générale(s) ? 
+
+- hypothèse(s) opérationnelle(s) ?
+
+:::notes
+hyp générale : on s'attend à une interférence du sens du mot dans une tâche pour laquelle le sens du mot n'est pas utile.  reconnaissance de la couleur de l'encre
+hyp opérationnelle : 
+- la tâche 1 est plus rapide et précise que la tâche 2, elle même plus rapide et précise que la tâche 3 
+:::
+
+## 2.5 Quels résultats devrait-on voir ? 
+
+Donner une expression mathématique 
+
+Dessiner un graphique 
+
+:::notes
+moyenne du temps condition 1Couleurs < moyenne du temps condition 2mots < moyenne du temps condition 3Interférence
+Idem pour précision ... si on a suffisamment de variabilité !
+:::
+
+## 2.6 Entrer les résultats dans le tableau 
+
+Écrivez vos résultats ou ceux de votre binôme dans le tableau commun : 
+
+- une ligne par personne (respectez votre numéro de ligne)
+- remplissez bien toutes les colonnes sans erreur de frappe
+
+:::notes
+Pour le numéro de ligne, faire compter chacun son tour
+:::
+
+## 2.7 Analyse des résultats concernant le temps
+
+```{r}
+#| echo: false
+#| label: preparation
+library(ggplot2)
+library(tidyverse)
+library(ggpubr)
+library(rstatix)
+library(dplyr)
+
+```
+
+```{r}
+#| echo: false
+#| include: false 
+#| label: donnees
+
+d<-read.csv2(file="resultStroop.csv")
+summary(d)
+
+d_long<-subset(d [,c(1,2,4,6)])
+
+d_long<-  d_long %>%
+  gather(key = "condition", value = "temps", tps1, tps2, tps3) %>%
+  convert_as_factor(Rang, condition)
+
+
+```
+```{r}
+#| echo: true
+#| label: results
+
+d_long%>%
+  group_by(condition)%>%
+  get_summary_stats(temps, type="mean_sd")
+
+```
+
+------------------------------------------------------------------------
+
+```{r}
+#| echo: true
+#| label: anova
+
+res.aov <- anova_test(data = d_long, dv = temps, wid = Rang, within = condition)
+get_anova_table(res.aov)
+
+# comparaisons par paires
+pwc <- d_long %>%
+  pairwise_t_test(
+    temps ~ condition, paired = TRUE,
+    p.adjust.method = "bonferroni"
+    )
+pwc
+
+```
+----------------------------------------------------------------------------
+
+```{r}
+#| echo: false
+#| label: visualisation
+
+# Visualisation : Boxplots avec p-values
+
+bxp <- ggboxplot(d_long, x = "condition", y = "temps", add = "point")
+
+
+pwc <- pwc %>% add_xy_position(x = "condition")
+bxp + 
+  stat_pvalue_manual(pwc) +
+  labs(
+    subtitle = get_test_label(res.aov, detailed = TRUE),
+    caption = get_pwc_label(pwc)
+  )
+```
+
+---------------------------------------------------------------------------
+
+## 2.8 Aurait-on des résultats semblables avec le nombre d'erreurs ?
+
+Pensez-vous que les résultats seraient les mêmes ? 
+
+Quel serait le risque avec cette variable par rapport à la variable temps ? 
+
+## 2.9 Analyse des résultats concernant les erreurs
+
+
+```{r}
+#| echo: false
+#| include: false
+
+d_long2<-subset(d [,c(1,3,5,7)])
+
+d_long2<-  d_long2 %>%
+  gather(key = "condition", value = "erreurs", erreurs1, erreurs2, erreurs3) %>%
+  convert_as_factor(Rang, condition)
+
+```
+
+```{r}
+#| echo: true
+#| label: results2
+
+d_long2%>%
+  group_by(condition)%>%
+  get_summary_stats(erreurs, type="mean_sd")
+
+```
+
+------------------------------------------------------------------------
+
+```{r}
+#| echo: true
+#| label: anova2
+
+res.aov2 <- anova_test(data = d_long2, dv = erreurs, wid = Rang, within = condition)
+get_anova_table(res.aov2)
+
+# comparaisons par paires
+pwc2 <- d_long2 %>%
+  pairwise_t_test(
+    erreurs ~ condition, paired = TRUE,
+    p.adjust.method = "bonferroni"
+    )
+pwc2
+
+```
+
+----------------------------------------------------------------------
+
+```{r}
+#| echo: false
+#| label: visualisation2
+
+# Visualisation : Boxplots avec p-values
+
+bxp2 <- ggboxplot(d_long2, x = "condition", y = "erreurs", add = "point")
+
+
+pwc2 <- pwc2 %>% add_xy_position(x = "condition")
+bxp2 + 
+  stat_pvalue_manual(pwc2) +
+  labs(
+    subtitle = get_test_label(res.aov2, detailed = TRUE),
+    caption = get_pwc_label(pwc2)
+  )
+```
+
+-------------------------------------------------------------------------
+
+# 3. Méthodologie 2 : les variables 
+
+<!-- ## Variables : définitions -->
+
+<!-- Une **variable dépendante** (VD) :  -->
+
+
+<!-- - est une donnée que l'on récolte/mesure auprès du participant -->
+<!-- - dépend d'une autre variable : on fait l'hypothèse que cette variable dépend d'une autre variable, qu'une autre variable a une influence sur elle -->
 
 
 
+<!-- ## 2.5 Quelles variables ?  -->
 
+<!-- Variable dépendante : mesure prise auprès du participant  -->
+
+<!-- Variable indépendante : ici, condition qui varie  -->

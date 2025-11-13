@@ -27,6 +27,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -425,7 +491,7 @@
 <p>Structure : Raisonnement, argumentation</p>
 <p>Angle choisi par l’auteur</p>
 <aside class="notes">
-<p>L’introduction fait plusieurs pages, elle sert à démontrer le raisonnement qui sous-tend la question de recherche</p>
+<p>L’introduction fait plusieurs pages, elle sert à démontrer le raisonnement qui sous-tend la question de recherche. Une question similaire peut être traitée sous des angles différents.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -515,7 +581,7 @@
 </ul></li>
 </ul>
 <aside class="notes">
-<p>Par souci de clarté du diapo, beaucoup de sources n’y figurent pas, mais lorsqu’on écrit l’introduction on doit sourcer tous les éléments qui y figurent. Dans l’intro d’un article scientifique, on ne donne pas son avis mais on fait dialoguer les résultats de la recherche pour montrer les accords, les points de tension et les manques afin de démontrer l’intérêt de notre recherche et de l’angle choisi</p>
+<p>Par souci de clarté du diapo, beaucoup de sources n’y figurent pas, mais lorsqu’on écrit l’introduction on doit sourcer tous les éléments qui y figurent. Dans l’intro d’un article scientifique, on ne donne pas son avis mais on fait dialoguer les résultats de la recherche pour montrer les accords, les points de tension et les manques afin de démontrer l’intérêt de notre recherche et de l’angle choisi. Définir “magnitude”</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -528,8 +594,9 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="modèle-de-traitement-du-nombre-à-deux-chiffres" class="slide level2">
-<h2>Modèle de traitement du nombre à deux chiffres</h2>
+<section class="slide level2">
+
+<h3 id="un-modèle-de-traitement-du-nombre-à-deux-chiffres">Un modèle de traitement du nombre à deux chiffres</h3>
 <p>Nuerk et al.&nbsp;(2015)</p>
 <ul>
 <li class="fragment"><p>3 niveaux de traitement de la position des chiffres chez l’adulte</p>
@@ -553,8 +620,9 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="problématique" class="slide level2 scrollable">
-<h2>Problématique</h2>
+<section class="slide level2">
+
+<h3 class="scrollable" id="problématique">Problématique</h3>
 <ul>
 <li class="fragment">Recherche dans le cadre le modèle théorique du traitement du nombre à deux chiffres de Nuerk et al.&nbsp;(2015)</li>
 <li class="fragment">On sait que l’activation de la magnitude des nombres est automatique dans les tâches numériques</li>
@@ -565,15 +633,17 @@
 <li class="fragment">Le nombre est-il traité de façon holistique ou par décomposition ?</li>
 </ul>
 </section>
-<section id="implications-concrètes" class="slide level2">
-<h2>Implications concrètes</h2>
+<section class="slide level2">
+
+<h3 id="implications-concrètes">Implications concrètes</h3>
 <div class="fragment fade-in-then-out">
 <p>La magnitude des nombres à 2 chiffres s’active-t-elle automatiquement quand la tâche n’a pas de caractère mathématique ?</p>
 <p><span style="color:blue;">-&gt; Choix d’une tâche de reconnaissance de nombre sans caractère mathématique</span></p>
 </div>
 </section>
-<section id="implications-concrètes-1" class="slide level2">
-<h2>Implications concrètes</h2>
+<section class="slide level2">
+
+<h3 id="implications-concrètes-1">Implications concrètes</h3>
 <div class="fragment fade-in-then-out">
 <p>S’il y a une activation automatique, s’agit-il de la magnitude du nombre ? Du nombre de dizaines ? D’unités ?</p>
 <ul>
@@ -586,14 +656,280 @@
 </ul>
 </div>
 </section>
-<section id="implications-concrètes-2" class="slide level2">
-<h2>Implications concrètes</h2>
+<section class="slide level2">
+
+<h3 id="implications-concrètes-2">Implications concrètes</h3>
 <p>Le traitement se fait-il totalement ou en partie seulement de façon automatique ?</p>
 <p>Le nombre est-il traité de façon holistique ou par décomposition ?</p>
 <p><span style="color:blue;">Décours temporel</span></p>
+</section></section>
+<section>
+<section id="méthodologie-1-exemple-de-lactivation-automatique-de-la-lecture" class="title-slide slide level1 center">
+<h1>2. Méthodologie 1 : exemple de l’activation automatique de la lecture</h1>
 
+</section>
+<section id="retour-sur-lactivation-automatique-du-sens-du-mot" class="slide level2">
+<h2>2.1 Retour sur l’activation automatique du sens du mot</h2>
+<p>On veut savoir dans notre expérience sur les nombres si on peut faire un parallèle entre :</p>
+<ul>
+<li class="fragment">le sens des mots qui s’active automatiquement même si la tâche ne le requiert pas</li>
+<li class="fragment">la magnitude des nombres à deux chiffres, dont on ne sait pas si elle s’active quand elle n’est pas utile à la tâche</li>
+</ul>
+<div class="fragment">
+<p>Mais comment peut-on montrer <strong>expérimentalement</strong> que le sens du mot s’active automatiquement ?</p>
+</div>
+<aside class="notes">
+<p>Demander aux étudiants de réfléchir à des dispositifs qui pourraient montrer que le sens du mot s’active</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="chercher-à-montrer-des-interférences" class="slide level2">
+<h2>2.2 Chercher à montrer des interférences</h2>
+<ul>
+<li class="fragment">Si le sens du mot s’active, alors la lecture du mot s’est activée</li>
+<li class="fragment">Si la lecture du mot s’est activée, on ne le sait pas forcément, on peut ne pas en avoir conscience</li>
+<li class="fragment">Il faut donc trouver un moyen de mettre en évidence la lecture, sans poser la question au participant</li>
+<li class="fragment">Possibilité : <strong>l’interférence</strong> !</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment">Si on donne une tâche dans laquelle la lecture du mot peut avantager ou désavantager le participant, alors on doit pouvoir montrer qu’elle s’est activée</li>
+<li class="fragment"><em>Construire une tâche expérimentale ou en trouver une qui pourrait fonctionner</em></li>
+</ul>
+</section>
+<section id="tâche-de-stroop" class="slide level2">
+<h2>2.3 Tâche de stroop</h2>
+<ul>
+<li class="fragment"><p>La tâche de stroop permet de mettre en évidence des interférences.</p></li>
+<li class="fragment"><p>Si on est dans une situation de recherche, on écrit les hypothèses avant de recueillir les données.</p></li>
+<li class="fragment"><p>Dans cette situation pédagogique, vous allez faire le test comme si vous étiez des participants à une étude (= sans connaissance approfondie du test).</p></li>
+<li class="fragment"><p>Puis vous allez vous mettre dans le rôle de chercheurs qui connaissent et ont choisi ce test pour répondre à la question de la mise en évidence d’une activation automatique du sens du mot.</p></li>
+</ul>
+</section>
+<section id="jeu-de-rôle-expérimentation" class="slide level2">
+<h2>2.1.1 Jeu de rôle : expérimentation</h2>
+<p>Par deux :</p>
+<ul>
+<li class="fragment"><p>1 expérimentateur/rice :</p>
+<ul>
+<li class="fragment">donne la consigne et fait faire l’exemple</li>
+<li class="fragment">pour chaque partie du test : note le nombre d’erreurs et le temps en secondes + centièmes de seconde</li>
+</ul></li>
+<li class="fragment"><p>1 sujet : suit les consignes de l’expérimentateur/rice</p></li>
+</ul>
+<p>Consigne : donner le nom de la couleur de l’encre utilisée le plus rapidement et justement possible</p>
+</section>
+<section class="slide level2">
+
+
+<img data-src="L1_CM_files/images/stroop1a.png" class="r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="L1_CM_files/images/stroop1b.png" class="r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="L1_CM_files/images/stroop2a.png" class="r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="L1_CM_files/images/stroop2b.png" class="r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="L1_CM_files/images/stroop3a.png" class="r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="L1_CM_files/images/stroop3b.png" class="r-stretch"></section>
+<section id="que-sattend-on-à-voir-hypothèses" class="slide level2">
+<h2>2.4 Que s’attend-on à voir ? Hypothèses</h2>
+<p>Si la lecture s’active automatiquement, alors …</p>
+<ul>
+<li class="fragment"><p>hypothèse(s) générale(s) ?</p></li>
+<li class="fragment"><p>hypothèse(s) opérationnelle(s) ?</p></li>
+</ul>
+<aside class="notes">
+<p>hyp générale : on s’attend à une interférence du sens du mot dans une tâche pour laquelle le sens du mot n’est pas utile. reconnaissance de la couleur de l’encre hyp opérationnelle : - la tâche 1 est plus rapide et précise que la tâche 2, elle même plus rapide et précise que la tâche 3</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="quels-résultats-devrait-on-voir" class="slide level2">
+<h2>2.5 Quels résultats devrait-on voir ?</h2>
+<p>Donner une expression mathématique</p>
+<p>Dessiner un graphique</p>
+<aside class="notes">
+<p>moyenne du temps condition 1Couleurs &lt; moyenne du temps condition 2mots &lt; moyenne du temps condition 3Interférence Idem pour précision … si on a suffisamment de variabilité !</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="entrer-les-résultats-dans-le-tableau" class="slide level2">
+<h2>2.6 Entrer les résultats dans le tableau</h2>
+<p>Écrivez vos résultats ou ceux de votre binôme dans le tableau commun :</p>
+<ul>
+<li class="fragment">une ligne par personne (respectez votre numéro de ligne)</li>
+<li class="fragment">remplissez bien toutes les colonnes sans erreur de frappe</li>
+</ul>
+<aside class="notes">
+<p>Pour le numéro de ligne, faire compter chacun son tour</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="analyse-des-résultats-concernant-le-temps" class="slide level2">
+<h2>2.7 Analyse des résultats concernant le temps</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>d_long<span class="sc">%&gt;%</span></span>
+<span id="cb1-2"><a></a>  <span class="fu">group_by</span>(condition)<span class="sc">%&gt;%</span></span>
+<span id="cb1-3"><a></a>  <span class="fu">get_summary_stats</span>(temps, <span class="at">type=</span><span class="st">"mean_sd"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 5
+  condition variable     n  mean    sd
+  &lt;fct&gt;     &lt;fct&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1 tps1      temps        8  5.63 0.759
+2 tps2      temps        8  8.68 0.571
+3 tps3      temps        8 12.8  1.12 </code></pre>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>res.aov <span class="ot">&lt;-</span> <span class="fu">anova_test</span>(<span class="at">data =</span> d_long, <span class="at">dv =</span> temps, <span class="at">wid =</span> Rang, <span class="at">within =</span> condition)</span>
+<span id="cb3-2"><a></a><span class="fu">get_anova_table</span>(res.aov)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>ANOVA Table (type III tests)
+
+     Effect  DFn DFd       F        p p&lt;.05   ges
+1 condition 1.09 7.6 108.059 7.85e-06     * 0.933</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="co"># comparaisons par paires</span></span>
+<span id="cb5-2"><a></a>pwc <span class="ot">&lt;-</span> d_long <span class="sc">%&gt;%</span></span>
+<span id="cb5-3"><a></a>  <span class="fu">pairwise_t_test</span>(</span>
+<span id="cb5-4"><a></a>    temps <span class="sc">~</span> condition, <span class="at">paired =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb5-5"><a></a>    <span class="at">p.adjust.method =</span> <span class="st">"bonferroni"</span></span>
+<span id="cb5-6"><a></a>    )</span>
+<span id="cb5-7"><a></a>pwc</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 10
+  .y.   group1 group2    n1    n2 statistic    df         p   p.adj p.adj.signif
+* &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;  &lt;int&gt; &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;       
+1 temps tps1   tps2       8     8    -21.2      7   1.32e-7 3.96e-7 ****        
+2 temps tps1   tps3       8     8    -11.9      7   6.78e-6 2.03e-5 ****        
+3 temps tps2   tps3       8     8     -7.15     7   1.85e-4 5.55e-4 ***         </code></pre>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="L1_CM_files/figure-revealjs/visualisation-1.png" width="960" class="r-stretch"></section>
+<section id="aurait-on-des-résultats-semblables-avec-le-nombre-derreurs" class="slide level2">
+<h2>2.8 Aurait-on des résultats semblables avec le nombre d’erreurs ?</h2>
+<p>Pensez-vous que les résultats seraient les mêmes ?</p>
+<p>Quel serait le risque avec cette variable par rapport à la variable temps ?</p>
+</section>
+<section id="analyse-des-résultats-concernant-les-erreurs" class="slide level2">
+<h2>2.9 Analyse des résultats concernant les erreurs</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>d_long2<span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a></a>  <span class="fu">group_by</span>(condition)<span class="sc">%&gt;%</span></span>
+<span id="cb7-3"><a></a>  <span class="fu">get_summary_stats</span>(erreurs, <span class="at">type=</span><span class="st">"mean_sd"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 5
+  condition variable     n  mean    sd
+  &lt;fct&gt;     &lt;fct&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1 erreurs1  erreurs      8  1.62 0.744
+2 erreurs2  erreurs      8  2.25 0.707
+3 erreurs3  erreurs      8  3.88 0.835</code></pre>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>res.aov2 <span class="ot">&lt;-</span> <span class="fu">anova_test</span>(<span class="at">data =</span> d_long2, <span class="at">dv =</span> erreurs, <span class="at">wid =</span> Rang, <span class="at">within =</span> condition)</span>
+<span id="cb9-2"><a></a><span class="fu">get_anova_table</span>(res.aov2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>ANOVA Table (type III tests)
+
+     Effect DFn DFd     F        p p&lt;.05   ges
+1 condition   2  14 17.95 0.000137     * 0.638</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="co"># comparaisons par paires</span></span>
+<span id="cb11-2"><a></a>pwc2 <span class="ot">&lt;-</span> d_long2 <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a></a>  <span class="fu">pairwise_t_test</span>(</span>
+<span id="cb11-4"><a></a>    erreurs <span class="sc">~</span> condition, <span class="at">paired =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb11-5"><a></a>    <span class="at">p.adjust.method =</span> <span class="st">"bonferroni"</span></span>
+<span id="cb11-6"><a></a>    )</span>
+<span id="cb11-7"><a></a>pwc2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 10
+  .y.     group1   group2    n1    n2 statistic    df       p p.adj p.adj.signif
+* &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;  &lt;int&gt; &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;       
+1 erreurs erreurs1 erreu…     8     8     -1.67     7 1.4 e-1 0.42  ns          
+2 erreurs erreurs1 erreu…     8     8     -5.46     7 9.43e-4 0.003 **          
+3 erreurs erreurs2 erreu…     8     8     -4.33     7 3   e-3 0.01  *           </code></pre>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="L1_CM_files/figure-revealjs/visualisation2-1.png" width="960" class="r-stretch"></section>
+<section class="slide level2">
 
 </section></section>
+<section id="méthodologie-2-les-variables" class="title-slide slide level1 center">
+<h1>3. Méthodologie 2 : les variables</h1>
+<!-- ## Variables : définitions -->
+<!-- Une **variable dépendante** (VD) :  -->
+<!-- - est une donnée que l'on récolte/mesure auprès du participant -->
+<!-- - dépend d'une autre variable : on fait l'hypothèse que cette variable dépend d'une autre variable, qu'une autre variable a une influence sur elle -->
+<!-- ## 2.5 Quelles variables ?  -->
+<!-- Variable dépendante : mesure prise auprès du participant  -->
+<!-- Variable indépendante : ici, condition qui varie  -->
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -814,6 +1150,82 @@
         ]
       });
     </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
