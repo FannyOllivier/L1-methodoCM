@@ -88,7 +88,7 @@ Méthode scientifique
 
 ## 0.1 Cycle de la recherche
 
-![](L1_CM_files/images/cycleRech.png){.absolute top="150"}
+![](images/cycleRech.png){.absolute top="150"}
 
 ::: notes
 processus récursif, donner des exemples
@@ -137,7 +137,7 @@ En regardant ce graphique, est-ce qu'on peut prédire le nombre de noyades en fo
 
 ## 
 
-![](L1_CM_files/images/homme-glace-mer.png)
+![](images/homme-glace-mer.png)
 
 ------------------------------------------------------------------------
 
@@ -146,9 +146,9 @@ En regardant ce graphique, est-ce qu'on peut prédire le nombre de noyades en fo
 [Corrélation entre la distance Terre-Neptune et la surface de la forêt Amazonienne au Brésil](https://www.tylervigen.com/spurious/correlation/4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon)
 
 ::: {layout-ncol="2"}
-![](L1_CM_files\images\4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon.png)
+![](images\4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon.png)
 
-![](L1_CM_files\images\4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon_scatterplot.png)
+![](images\4242_the-distance-between-neptune-and-earth_correlates-with_remaining-forest-cover-in-the-brazilian-amazon_scatterplot.png)
 :::
 
 ::: footer
@@ -402,27 +402,27 @@ Consigne : donner le nom de la couleur de l'encre utilisée le plus rapidement e
 
 ----------------------------------------------------------------------------
 
-![](L1_CM_files/images/stroop1a.png)
+![](images/stroop1a.png)
 
 ---------------------------------------------------------------------
 
-![](L1_CM_files/images/stroop1b.png)
+![](images/stroop1b.png)
 
 --------------------------------------------------------------------
 
-![](L1_CM_files/images/stroop2a.png)
+![](images/stroop2a.png)
 
 -------------------------------------------------------------------
 
-![](L1_CM_files/images/stroop2b.png)
+![](images/stroop2b.png)
 
 ------------------------------------------------------------
 
-![](L1_CM_files/images/stroop3a.png)
+![](images/stroop3a.png)
 
 ----------------------------------------------------------------
 
-![](L1_CM_files/images/stroop3b.png)
+![](images/stroop3b.png)
 
 ## 2.4 Que s'attend-on à voir ? Hypothèses
 
