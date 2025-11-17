@@ -445,7 +445,7 @@ Donner une expression mathématique
 
 Dessiner un graphique 
 
-:::notes
+::: notes
 moyenne du temps condition 1Couleurs < moyenne du temps condition 2mots < moyenne du temps condition 3Interférence
 Idem pour précision ... si on a suffisamment de variabilité !
 :::
@@ -457,7 +457,7 @@ Idem pour précision ... si on a suffisamment de variabilité !
 - une ligne par personne (respectez votre numéro de ligne)
 - remplissez bien toutes les colonnes sans erreur de frappe
 
-:::notes
+::: notes
 Pour le numéro de ligne, faire compter chacun son tour
 :::
 
@@ -619,20 +619,81 @@ bxp2 +
 
 -------------------------------------------------------------------------
 
-# 3. Méthodologie 2 : les variables 
+# 3. Méthodologie 2 : les hypothèses  {visibility="hidden"}
 
-<!-- ## Variables : définitions -->
+## 3.1 Définition  {visibility="hidden"}
 
-<!-- Une **variable dépendante** (VD) :  -->
+L'hypothèse est la réponse anticipée et provisoire à la question de recherche. 
+
+Elle s'écrit sous la forme déclarative. 
+
+Elle s'élabore en 3 étapes : 
+
+- Hypothèse théorique ou générale
+- Hypothèse opérationnelle
+- Hypothèse statistique 
+
+## 3.2 Hypothèse générale  {visibility="hidden"}
+
+Elle se situe au niveau des **mécanismes**. 
+
+Elle n'est donc pas directement vérifiable. 
+
+Elle définit les effets de conditions d'expérimentation sur les comportements des participants. 
+
+## 3.2.1 Exemple {visibility="hidden"}
+
+*Dans l'exemple, quelle pourrait être l'hypothèse générale ?*  
+
+a) La lecture des mots s'active chez les adultes, même quand le sens du mot n'intervient pas dans la tâche 
+
+b) Lire crée une interférence avec la décision sur la couleur
+
+c) Les participants vont choisir la bonne couleur pour au moins 80% d'entre eux
+
+::: notes
+Réponse a
+:::
+
+## 3.2.2 Autres exemples {visibility="hidden"}
+
+Quelle pourrait être l'hypothèse générale d'une étude sur : 
+
+- l'effet de la consommation d'alcool sur la conduite 
+- la prise de note manuelle vs. sur ordinateur 
+- la reconnaissance des émotions et l'anxiété mathématique 
+
+
+## 3.3 Hypothèse opérationnelle  {visibility="hidden"}
+
+
+
+
+
+
+
+<!-- # 4. Méthodologie 3 : les variables -->
+
+
+<!-- ## 4.1 Variables : définitions -->
+
+<!-- Une **variable dépendante** (VD) : -->
 
 
 <!-- - est une donnée que l'on récolte/mesure auprès du participant -->
-<!-- - dépend d'une autre variable : on fait l'hypothèse que cette variable dépend d'une autre variable, qu'une autre variable a une influence sur elle -->
+<!-- - dépend d'une autre variable -->
+
+<!-- On fait l'hypothèse que cette variable (VD) dépend d'une ou plusieurs autres variables, les variables indépendantes (VI).  -->
+
+<!-- Autre formulation : on fait l'hypothèse qu'une ou plusieurs variables indépendantes ont un effet sur la variable dépendante. -->
+
+<!-- ---------------------------------------------------------------- -->
+
+<!-- Une **variable indépendante** (VI)  -->
 
 
+<!-- ## 2.5 Quelles variables ? -->
 
-<!-- ## 2.5 Quelles variables ?  -->
+<!-- Variable dépendante : mesure prise auprès du participant -->
 
-<!-- Variable dépendante : mesure prise auprès du participant  -->
-
-<!-- Variable indépendante : ici, condition qui varie  -->
+<!-- Variable indépendante : ici, condition qui varie -->

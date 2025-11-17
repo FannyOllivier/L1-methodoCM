@@ -250,5 +250,40 @@
     "title": "CM L1",
     "section": "2.9 Analyse des résultats concernant les erreurs",
     "text": "2.9 Analyse des résultats concernant les erreurs\n\nd_long2%&gt;%\n  group_by(condition)%&gt;%\n  get_summary_stats(erreurs, type=\"mean_sd\")\n\n# A tibble: 3 × 5\n  condition variable     n  mean    sd\n  &lt;fct&gt;     &lt;fct&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n1 erreurs1  erreurs    101 0.198 0.469\n2 erreurs2  erreurs    101 0.337 0.637\n3 erreurs3  erreurs    101 0.822 1.16"
+  },
+  {
+    "objectID": "L1_CM.html#définition",
+    "href": "L1_CM.html#définition",
+    "title": "CM L1",
+    "section": "3.1 Définition",
+    "text": "3.1 Définition\nL’hypothèse est la réponse anticipée et provisoire à la question de recherche.\nElle s’écrit sous la forme déclarative.\nElle s’élabore en 3 étapes :\n\nHypothèse théorique ou générale\nHypothèse opérationnelle\nHypothèse statistique"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-générale",
+    "href": "L1_CM.html#hypothèse-générale",
+    "title": "CM L1",
+    "section": "3.2 Hypothèse générale",
+    "text": "3.2 Hypothèse générale\nElle se situe au niveau des mécanismes.\nElle n’est donc pas directement vérifiable.\nElle définit les effets de conditions d’expérimentation sur les comportements des participants."
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-opérationnelle",
+    "href": "L1_CM.html#hypothèse-opérationnelle",
+    "title": "CM L1",
+    "section": "3.3 Hypothèse opérationnelle",
+    "text": "3.3 Hypothèse opérationnelle"
+  },
+  {
+    "objectID": "L1_CM.html#variables-définitions",
+    "href": "L1_CM.html#variables-définitions",
+    "title": "CM L1",
+    "section": "4.1 Variables : définitions",
+    "text": "4.1 Variables : définitions\nUne variable dépendante (VD) :\n\nest une donnée que l’on récolte/mesure auprès du participant\ndépend d’une autre variable\n\nOn fait l’hypothèse que cette variable (VD) dépend d’une ou plusieurs autres variables, les variables indépendantes (VI).\nAutre formulation : on fait l’hypothèse qu’une ou plusieurs variables indépendantes ont un effet sur la variable dépendante."
+  },
+  {
+    "objectID": "L1_CM.html#quelles-variables",
+    "href": "L1_CM.html#quelles-variables",
+    "title": "CM L1",
+    "section": "2.5 Quelles variables ?",
+    "text": "2.5 Quelles variables ?\nVariable dépendante : mesure prise auprès du participant\nVariable indépendante : ici, condition qui varie"
   }
 ]
