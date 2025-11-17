@@ -298,7 +298,7 @@ trois niveaux de traitement de la position des chiffres chez l’adulte. L'ident
 
 ------------------------------------------------------------------------
 
-### Problématique {.scrollable}
+## Problématique {.scrollable}
 
 -   Recherche dans le cadre le modèle théorique du traitement du nombre à deux chiffres de Nuerk et al. (2015)
 -   On sait que l'activation de la magnitude des nombres est automatique dans les tâches numériques
