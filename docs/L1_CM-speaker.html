@@ -620,9 +620,8 @@
           display:block!important;
       }</style></aside>
 </section>
-<section class="slide level2">
-
-<h3 class="scrollable" id="problématique">Problématique</h3>
+<section id="problématique" class="slide level2 scrollable">
+<h2>Problématique</h2>
 <ul>
 <li class="fragment">Recherche dans le cadre le modèle théorique du traitement du nombre à deux chiffres de Nuerk et al.&nbsp;(2015)</li>
 <li class="fragment">On sait que l’activation de la magnitude des nombres est automatique dans les tâches numériques</li>
@@ -824,9 +823,9 @@
 <pre><code># A tibble: 3 × 5
   condition variable     n  mean    sd
   &lt;fct&gt;     &lt;fct&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
-1 tps1      temps        8  5.63 0.759
-2 tps2      temps        8  8.68 0.571
-3 tps3      temps        8 12.8  1.12 </code></pre>
+1 tps1      temps      106  11.9  2.22
+2 tps2      temps      106  13.7  2.75
+3 tps3      temps      106  20.1  6.28</code></pre>
 </div>
 </div>
 </section>
@@ -838,8 +837,8 @@
 <div class="cell-output cell-output-stdout">
 <pre><code>ANOVA Table (type III tests)
 
-     Effect  DFn DFd       F        p p&lt;.05   ges
-1 condition 1.09 7.6 108.059 7.85e-06     * 0.933</code></pre>
+     Effect  DFn   DFd       F        p p&lt;.05  ges
+1 condition 1.16 121.4 185.681 1.97e-28     * 0.42</code></pre>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="co"># comparaisons par paires</span></span>
 <span id="cb5-2"><a></a>pwc <span class="ot">&lt;-</span> d_long <span class="sc">%&gt;%</span></span>
@@ -850,11 +849,11 @@
 <span id="cb5-7"><a></a>pwc</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 10
-  .y.   group1 group2    n1    n2 statistic    df         p   p.adj p.adj.signif
-* &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;  &lt;int&gt; &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;       
-1 temps tps1   tps2       8     8    -21.2      7   1.32e-7 3.96e-7 ****        
-2 temps tps1   tps3       8     8    -11.9      7   6.78e-6 2.03e-5 ****        
-3 temps tps2   tps3       8     8     -7.15     7   1.85e-4 5.55e-4 ***         </code></pre>
+  .y.   group1 group2    n1    n2 statistic    df        p    p.adj p.adj.signif
+* &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;  &lt;int&gt; &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;       
+1 temps tps1   tps2     106   106     -9.65   105 3.82e-16 1.15e-15 ****        
+2 temps tps1   tps3     106   106    -14.6    105 5.18e-27 1.55e-26 ****        
+3 temps tps2   tps3     106   106    -12.8    105 3.64e-23 1.09e-22 ****        </code></pre>
 </div>
 </div>
 </section>
@@ -877,9 +876,9 @@
 <pre><code># A tibble: 3 × 5
   condition variable     n  mean    sd
   &lt;fct&gt;     &lt;fct&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
-1 erreurs1  erreurs      8  1.62 0.744
-2 erreurs2  erreurs      8  2.25 0.707
-3 erreurs3  erreurs      8  3.88 0.835</code></pre>
+1 erreurs1  erreurs    101 0.198 0.469
+2 erreurs2  erreurs    101 0.337 0.637
+3 erreurs3  erreurs    101 0.822 1.16 </code></pre>
 </div>
 </div>
 </section>
@@ -891,8 +890,8 @@
 <div class="cell-output cell-output-stdout">
 <pre><code>ANOVA Table (type III tests)
 
-     Effect DFn DFd     F        p p&lt;.05   ges
-1 condition   2  14 17.95 0.000137     * 0.638</code></pre>
+     Effect  DFn   DFd      F        p p&lt;.05   ges
+1 condition 1.44 144.1 22.973 1.27e-07     * 0.099</code></pre>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="co"># comparaisons par paires</span></span>
 <span id="cb11-2"><a></a>pwc2 <span class="ot">&lt;-</span> d_long2 <span class="sc">%&gt;%</span></span>
@@ -903,11 +902,11 @@
 <span id="cb11-7"><a></a>pwc2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 10
-  .y.     group1   group2    n1    n2 statistic    df       p p.adj p.adj.signif
-* &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;  &lt;int&gt; &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;       
-1 erreurs erreurs1 erreu…     8     8     -1.67     7 1.4 e-1 0.42  ns          
-2 erreurs erreurs1 erreu…     8     8     -5.46     7 9.43e-4 0.003 **          
-3 erreurs erreurs2 erreu…     8     8     -4.33     7 3   e-3 0.01  *           </code></pre>
+  .y.     group1 group2    n1    n2 statistic    df       p   p.adj p.adj.signif
+* &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;  &lt;int&gt; &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;       
+1 erreurs erreu… erreu…   101   101     -2.15   100 3.4 e-2 1.02e-1 ns          
+2 erreurs erreu… erreu…   101   101     -5.23   100 9.36e-7 2.81e-6 ****        
+3 erreurs erreu… erreu…   101   101     -4.94   100 3.08e-6 9.24e-6 ****        </code></pre>
 </div>
 </div>
 </section>
@@ -918,15 +917,10 @@
 <section class="slide level2">
 
 </section></section>
-<section id="méthodologie-2-les-variables" class="title-slide slide level1 center">
-<h1>3. Méthodologie 2 : les variables</h1>
-<!-- ## Variables : définitions -->
-<!-- Une **variable dépendante** (VD) :  -->
-<!-- - est une donnée que l'on récolte/mesure auprès du participant -->
-<!-- - dépend d'une autre variable : on fait l'hypothèse que cette variable dépend d'une autre variable, qu'une autre variable a une influence sur elle -->
-<!-- ## 2.5 Quelles variables ?  -->
-<!-- Variable dépendante : mesure prise auprès du participant  -->
-<!-- Variable indépendante : ici, condition qui varie  -->
+<section>
+
+
+
 
 
 </section>
