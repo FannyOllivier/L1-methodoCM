@@ -137,7 +137,7 @@
     "href": "L1_CM.html#problématique",
     "title": "CM L1",
     "section": "Problématique",
-    "text": "Problématique\n\nRecherche dans le cadre le modèle théorique du traitement du nombre à deux chiffres de Nuerk et al. (2015)\nOn sait que l’activation de la magnitude des nombres est automatique dans les tâches numériques\nParallèle avec la lecture : l’activation des mots est automatique pour les lecteurs, même quand elle n’est pas nécessaire dans une tâche\nQu’en est-il pour la magnitude des nombres à 2 chiffres quand la tâche n’a pas de caractère mathématique ? S’active-t-elle automatiquement ?\nS’il y a une activation automatique, s’agit-il de la magnitude du nombre ? Du nombre de dizaines ? D’unités ?\nLe traitement se fait-il totalement ou en partie seulement de façon automatique ?\nLe nombre est-il traité de façon holistique ou par décomposition ?"
+    "text": "Problématique\n\nRecherche dans le cadre du modèle théorique du traitement du nombre à deux chiffres de Nuerk et al. (2015)\nOn sait que l’activation de la magnitude des nombres est automatique dans les tâches numériques\nParallèle avec la lecture : l’activation des mots est automatique pour les lecteurs, même quand elle n’est pas nécessaire dans une tâche\nQu’en est-il pour la magnitude des nombres à 2 chiffres quand la tâche n’a pas de caractère mathématique ? S’active-t-elle automatiquement ?\nS’il y a une activation automatique, s’agit-il de la magnitude du nombre ? Du nombre de dizaines ? D’unités ?\nLe traitement se fait-il totalement ou en partie seulement de façon automatique ?\nLe nombre est-il traité de façon holistique ou par décomposition ?"
   },
   {
     "objectID": "L1_CM.html#implications-concrètes",
@@ -256,21 +256,21 @@
     "href": "L1_CM.html#définition",
     "title": "CM L1",
     "section": "3.1 Définition",
-    "text": "3.1 Définition\nL’hypothèse est la réponse anticipée et provisoire à la question de recherche.\nElle s’écrit sous la forme déclarative.\nElle s’élabore en 3 étapes :\n\nHypothèse théorique ou générale\nHypothèse opérationnelle\nHypothèse statistique"
+    "text": "3.1 Définition\nL’hypothèse est la réponse anticipée et provisoire à la question de recherche.\nElle s’écrit sous la forme déclarative.\nElle s’élabore en 3 étapes :\n\nHypothèse théorique ou générale\nHypothèse opérationnelle\nHypothèse statistique\n\nIl peut y avoir plusieurs hypothèses."
   },
   {
     "objectID": "L1_CM.html#hypothèse-générale",
     "href": "L1_CM.html#hypothèse-générale",
     "title": "CM L1",
-    "section": "3.2 Hypothèse générale",
-    "text": "3.2 Hypothèse générale\nElle se situe au niveau des mécanismes.\nElle n’est donc pas directement vérifiable.\nElle définit les effets de conditions d’expérimentation sur les comportements des participants."
+    "section": "3.3 Hypothèse générale",
+    "text": "3.3 Hypothèse générale\nElle se situe au niveau des mécanismes.\nElle n’est donc pas directement vérifiable.\nElle définit les effets de conditions d’expérimentation sur les comportements des participants.\n\nc’est la vérification des hypothèses opérationnelles qui donnera des éléments en faveur de l’hypothèse générale. À valider avec prudence."
   },
   {
     "objectID": "L1_CM.html#hypothèse-opérationnelle",
     "href": "L1_CM.html#hypothèse-opérationnelle",
     "title": "CM L1",
-    "section": "3.3 Hypothèse opérationnelle",
-    "text": "3.3 Hypothèse opérationnelle"
+    "section": "3.4 Hypothèse opérationnelle",
+    "text": "3.4 Hypothèse opérationnelle\n\nPermet l’opérationnalisation de l’hypothèse générale\nTraduction de l’hypothèse générale dans un cadre concret\nPrédit concrètement l’effet du facteur manipulé dans l’expérience sur les indicateurs de comportements que l’on prend en compte"
   },
   {
     "objectID": "L1_CM.html#variables-définitions",
@@ -285,5 +285,264 @@
     "title": "CM L1",
     "section": "2.5 Quelles variables ?",
     "text": "2.5 Quelles variables ?\nVariable dépendante : mesure prise auprès du participant\nVariable indépendante : ici, condition qui varie"
+  },
+  {
+    "objectID": "L1_CM.html#exemple-1",
+    "href": "L1_CM.html#exemple-1",
+    "title": "CM L1",
+    "section": "3.2.1 Exemple",
+    "text": "3.2.1 Exemple\nDans l’exemple du test fait ensemble (Stroop), quelle pourrait être l’hypothèse générale ?\n\nLa lecture des mots s’active chez les adultes, même quand le sens du mot n’intervient pas dans la tâche\nLire crée une interférence avec la décision sur la couleur\nLes participants vont choisir la bonne couleur pour au moins 80% d’entre eux\n\n\nRéponse a"
+  },
+  {
+    "objectID": "L1_CM.html#autres-exemples",
+    "href": "L1_CM.html#autres-exemples",
+    "title": "CM L1",
+    "section": "3.3.2 Autres exemples",
+    "text": "3.3.2 Autres exemples\nQuelle pourrait être l’hypothèse générale d’une étude sur :\n\nl’effet de la consommation d’alcool sur la conduite\nla prise de note manuelle vs. sur ordinateur\nla reconnaissance des émotions et l’anxiété mathématique"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-générale-exemple",
+    "href": "L1_CM.html#hypothèse-générale-exemple",
+    "title": "CM L1",
+    "section": "3.3.1 Hypothèse générale : exemple",
+    "text": "3.3.1 Hypothèse générale : exemple\nDans l’exemple du test fait ensemble (Stroop), quelle pourrait être l’hypothèse générale ?\n\nLa lecture des mots s’active chez les adultes, même quand le sens du mot n’intervient pas dans la tâche\nLire crée une interférence avec la décision sur la couleur\nLes participants vont choisir la bonne couleur pour au moins 80% d’entre eux\n\n\nRéponse a"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-opérationnelle-1",
+    "href": "L1_CM.html#hypothèse-opérationnelle-1",
+    "title": "CM L1",
+    "section": "3.4. Hypothèse opérationnelle",
+    "text": "3.4. Hypothèse opérationnelle\nSa validation apporte des éléments qui vont dans le sens de la validation de l’hypothèse générale.\nOn peut sans problème être affirmatif sur l’hypothèse opérationnelle (validée ou non) alors que l’on reste nuancé sur la validation de l’hypothèse générale."
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-opérationnelle-exemples",
+    "href": "L1_CM.html#hypothèse-opérationnelle-exemples",
+    "title": "CM L1",
+    "section": "3.4.1 Hypothèse opérationnelle : exemples",
+    "text": "3.4.1 Hypothèse opérationnelle : exemples\nQuelle(s) hypothèse(s) opérationnelle(s) possibles sur le test de Stroop que l’on a fait en classe ?\n\nLe temps de réponse dans la condition interférence sera plus long que le temps de réponse dans la condition mots, lui même plus long que le temps de réponse dans la condition couleur\nLa plus forte interférence aura lieu dans la condition dans laquelle la couleur du mot est en conflit avec le sens du mot\nLe nombre d’erreurs dans la condition interférence sera plus élevé que le nombre d’erreurs dans la condition mots, lui même plus élevé que le nombre d’erreurs dans la condition couleur\nIl y aura moins d’interférence dans la condition couleur que dans la condition mots et moins d’interférence dans la condition mots que dans la condition noms de couleurs"
+  },
+  {
+    "objectID": "L1_CM.html#sens-des-hypothèses",
+    "href": "L1_CM.html#sens-des-hypothèses",
+    "title": "CM L1",
+    "section": "3.2 Sens des hypothèses",
+    "text": "3.2 Sens des hypothèses\nIl ne s’agit pas de notre avis.\nLe sens de l’hypothèse se construit à partir de la littérature ou de notre raisonnement (basé sur la littérature existante).\nSi on n’a pas suffisamment de matière pour construire un raisonnement ?\n\nUtilisation de termes de l’ordre du changement, de la différence, sans indiquer de sens"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-opérationnelle-exemples-1",
+    "href": "L1_CM.html#hypothèse-opérationnelle-exemples-1",
+    "title": "CM L1",
+    "section": "3.4.1 Hypothèse opérationnelle : exemples",
+    "text": "3.4.1 Hypothèse opérationnelle : exemples\nLes exemples d’études sur lesquelles nous allons travailler en exercices seront repris tout au long du cours et chaque nouvel exercice s’appuiera sur ce que nous aurons travaillé précédemment alors pensez à garder vos écrits sur les exercices tout le temps du cours"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-statistique",
+    "href": "L1_CM.html#hypothèse-statistique",
+    "title": "CM L1",
+    "section": "3.5 Hypothèse statistique",
+    "text": "3.5 Hypothèse statistique\nDécrit le modèle mathématique permettant de généraliser à une certaine population le résultat obtenu sur un échantillon représentatif\nOn doit pouvoir se représenter le résultat attendu\n\nQuels statistiques connaissez-vous ? Moyenne, comparaison de proportions, étendue des données …"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèss-statistiques-exemples",
+    "href": "L1_CM.html#hypothèss-statistiques-exemples",
+    "title": "CM L1",
+    "section": "3.5.1 Hypothèss statistiques : exemples",
+    "text": "3.5.1 Hypothèss statistiques : exemples\nQuelle(s) hypothèse(s) statistique(s) possibles sur le test de Stroop que l’on a fait en classe ?\n\nLa moyenne des temps de réponse dans la condition interférence sera plus élevée que la moyenne des temps de réponse dans les autres conditions\nLa moyenne des temps de réponse dans la condition interférence sera significativement plus élevée que la moyenne des temps de réponse dans les autres conditions\nLe pourcentage de bonnes réponses sera significativement moins élevé dans la condition interférence que dans les autres conditions\nLe nombre d’erreurs moyen sera significativement plus élevé dans la condition interférence que dans les autres conditions"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèses-statistiques-exemples",
+    "href": "L1_CM.html#hypothèses-statistiques-exemples",
+    "title": "CM L1",
+    "section": "3.5.1 Hypothèses statistiques : exemples",
+    "text": "3.5.1 Hypothèses statistiques : exemples\nQuelle(s) hypothèse(s) statistique(s) possibles sur le test de Stroop que l’on a fait en classe ?\n\nLa moyenne des temps de réponse dans la condition interférence sera plus élevée que la moyenne des temps de réponse dans les autres conditions\nLa moyenne des temps de réponse dans la condition interférence sera significativement plus élevée que la moyenne des temps de réponse dans les autres conditions\nLe pourcentage de bonnes réponses sera significativement moins élevé dans la condition interférence que dans les autres conditions\nLe nombre d’erreurs moyen sera significativement plus élevé dans la condition interférence que dans les autres conditions"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèses-statistiques-exemples-et-représentations-graphiques",
+    "href": "L1_CM.html#hypothèses-statistiques-exemples-et-représentations-graphiques",
+    "title": "CM L1",
+    "section": "3.5.2 Hypothèses statistiques : exemples et représentations graphiques",
+    "text": "3.5.2 Hypothèses statistiques : exemples et représentations graphiques\nTraduisez l’hypothèse statistique en graphique pour les études sur :\n\nl’effet de la consommation d’alcool sur la conduite\nla prise de note manuelle vs. sur ordinateur\nla reconnaissance des émotions et l’anxiété mathématique\n\nQuels résultats pourrions-nous attendre ?\n\ngarder ces graphes pour les reprendre quand on parlera des variables"
+  },
+  {
+    "objectID": "L1_CM.html#méthodologie-3-les-variables",
+    "href": "L1_CM.html#méthodologie-3-les-variables",
+    "title": "CM L1",
+    "section": "4. Méthodologie 3 : les variables",
+    "text": "4. Méthodologie 3 : les variables"
+  },
+  {
+    "objectID": "L1_CM.html#rôle-des-variables",
+    "href": "L1_CM.html#rôle-des-variables",
+    "title": "CM L1",
+    "section": "4.1 Rôle des variables",
+    "text": "4.1 Rôle des variables\nLes variables servent à opérationnaliser les hypothèses générales.\nOn les utilise pour construire le dispositif expérimental.\nGrâce aux variables, on va pouvoir tester les hypothèses opérationnelles et apporter des éléments qui vont dans le sens de la validation (ou non) des hypothèses générales."
+  },
+  {
+    "objectID": "L1_CM.html#rôle-des-variables-exemple",
+    "href": "L1_CM.html#rôle-des-variables-exemple",
+    "title": "CM L1",
+    "section": "4.1.1 Rôle des variables : exemple",
+    "text": "4.1.1 Rôle des variables : exemple\nDans l’exemple fait en classe (activation automatique de la lecture), on veut voir si l’activation de la lecture est automatique ou non.\n\nPour cela, on utilise un test qui provoque de l’interférence\non met en correspondance le temps de résolution des participants avec une situation, qui a plusieurs condition\n\non évalue la relation entre temps de résolution et condition\nTemps de résolution et condition sont des variables\n\n\nconditions : avec interférence forte, une sitation avec interférence faible et une situation sans interférence."
+  },
+  {
+    "objectID": "L1_CM.html#section-1",
+    "href": "L1_CM.html#section-1",
+    "title": "CM L1",
+    "section": "4.2",
+    "text": "4.2"
+  },
+  {
+    "objectID": "L1_CM.html#rôle-des-variables-exemple-1",
+    "href": "L1_CM.html#rôle-des-variables-exemple-1",
+    "title": "CM L1",
+    "section": "4.1.1 Rôle des variables : exemple",
+    "text": "4.1.1 Rôle des variables : exemple\nEn d’autres termes :\n\non s’attend à ce que le temps de résolution varie en fonction de la condition\non veut déterminer à quel point le temps de résolution moyen sera plus long dans la condition interférence par rapport aux autres conditions dans notre échantillon\net si cette différence serait retrouvée si on faisait passer le test à toute la population"
+  },
+  {
+    "objectID": "L1_CM.html#rôle-des-variables-attention",
+    "href": "L1_CM.html#rôle-des-variables-attention",
+    "title": "CM L1",
+    "section": "4.1.2 Rôle des variables : attention",
+    "text": "4.1.2 Rôle des variables : attention\nPar définition, une variable varie.\nExemple : Si le temps de résolution ne variait pas, on ne pourrait rien montrer.\nDans ce cas, il faudrait repenser le dispositif parce que c’est la variabilité des temps de réponse que l’on cherche à expliquer par la condition.\n\nC’est le cas pour le nombre d’erreurs, qui varie très peu et qui donc a peu de variabilité à expliquer."
+  },
+  {
+    "objectID": "L1_CM.html#variable-définition",
+    "href": "L1_CM.html#variable-définition",
+    "title": "CM L1",
+    "section": "4.2 Variable : définition",
+    "text": "4.2 Variable : définition\nUne variable est une dimension caractéristique de notre environnement dont les manifestations peuvent être classées en catégories, peuvent être mesurées, ou peuvent prendre plusieurs valeurs ou états différents."
+  },
+  {
+    "objectID": "L1_CM.html#types-de-variables",
+    "href": "L1_CM.html#types-de-variables",
+    "title": "CM L1",
+    "section": "4.3 Types de variables",
+    "text": "4.3 Types de variables\n\nVariable dépendante\nVariable indépendante\nVariable parasite\nVariable contrôle\n\nIl peut y en avoir plusieurs de chaque type dans les dispositifs expérimentaux."
+  },
+  {
+    "objectID": "L1_CM.html#variable-dépendante-variable-indépendante",
+    "href": "L1_CM.html#variable-dépendante-variable-indépendante",
+    "title": "CM L1",
+    "section": "4.4 Variable dépendante/ variable indépendante",
+    "text": "4.4 Variable dépendante/ variable indépendante\nVariable dépendante : VD (DV en anglais)\n\nC’est un indicateur objectif, correspondant à une mesure, une observation\nDépendante : parce que dans notre hypothèse, cette variable varie en fonction des facteurs (VI) de l’expérimentation\nVarie en fonction de la situation créée ou contrôlée par l’expérimentateur"
+  },
+  {
+    "objectID": "L1_CM.html#variable-dépendante-variable-indépendante-1",
+    "href": "L1_CM.html#variable-dépendante-variable-indépendante-1",
+    "title": "CM L1",
+    "section": "4.4 Variable dépendante/ variable indépendante",
+    "text": "4.4 Variable dépendante/ variable indépendante\nVariable indépendante : VI (IV en anglais)\n\nLa VI est prise en compte ou manipulée par le chercheur qui analyse son impact sur le comportement étudié (mesuré lui par la VD)\nDans notre hypothèse, la VI a un pouvoir explicatif sur la variabilité de la VD"
+  },
+  {
+    "objectID": "L1_CM.html#variable-dépendante-variable-indépendante-exemples",
+    "href": "L1_CM.html#variable-dépendante-variable-indépendante-exemples",
+    "title": "CM L1",
+    "section": "4.4.1 Variable dépendante/ variable indépendante : exemples",
+    "text": "4.4.1 Variable dépendante/ variable indépendante : exemples\nDans l’étude sur l’activation automatique de la lecture :\nVD ?\nVI ?\n\non a deux VD : temps et nombre d’erreurs VI : condition, 3 modalités Si on ne sait pas on utilise les phrases : la VD dépend de la VI ou la VI explique la VD. Repréciser qu’on parle de la variabilité (la variabilité dans la VD dépend de la VI et la VI explique la variabilité de la VD."
+  },
+  {
+    "objectID": "L1_CM.html#variable-dépendante-variable-indépendante-exemples-1",
+    "href": "L1_CM.html#variable-dépendante-variable-indépendante-exemples-1",
+    "title": "CM L1",
+    "section": "4.4.1 Variable dépendante/ variable indépendante : exemples",
+    "text": "4.4.1 Variable dépendante/ variable indépendante : exemples\npour les études sur :\n\nl’effet de la consommation d’alcool sur la conduite\nla prise de note manuelle vs. sur ordinateur\nla reconnaissance des émotions et l’anxiété mathématique\n\nVI ? VD ?"
+  },
+  {
+    "objectID": "L1_CM.html#variable-dépendante-variable-indépendante-exercices",
+    "href": "L1_CM.html#variable-dépendante-variable-indépendante-exercices",
+    "title": "CM L1",
+    "section": "4.4.2 Variable dépendante/ variable indépendante : exercices",
+    "text": "4.4.2 Variable dépendante/ variable indépendante : exercices\nRetrouver VI et VD à partir de ces titres d’articles scientifiques :\n\n\nVI : Anxiety VD1 : (piano) practice behaviors VD2 : (piano) performance"
+  },
+  {
+    "objectID": "L1_CM.html#variables-parasites-contrôles",
+    "href": "L1_CM.html#variables-parasites-contrôles",
+    "title": "CM L1",
+    "section": "4.5 Variables parasites/ contrôles",
+    "text": "4.5 Variables parasites/ contrôles\n\nles variables parasites sont des variables qui ont un effet sur la VD mais qui ne sont pas les variables d’intérêt de l’étude\nex : effet potentiel de l’âge sur la réponse au Stroop alors qu’on n’étudie pas l’effet de l’âge sur la réponse au Stroop\nSi on ne s’en occupe pas, que se passe-t-il ?\n\n\non aura des difficultés à distinguer l’effet de notre VI d’intérêt de celui de la variable parasite ou de la conjonction des deux"
+  },
+  {
+    "objectID": "L1_CM.html#variables-parasitescontrôles",
+    "href": "L1_CM.html#variables-parasitescontrôles",
+    "title": "CM L1",
+    "section": "4.5 Variables parasites/contrôles",
+    "text": "4.5 Variables parasites/contrôles\nOn va donc contrôler les variables parasites =&gt; variables contrôles ou contrôlées\nComment ?\n\nOn les maintient constantes : tout le monde a la même modalité de facteur\n\nex : si on pense que l’âge a un impact sur le stroop mais que l’âge n’est pas notre facteur d’intérêt, on va le faire passer à des participants du même âge\n\nContrebalancement et rotation : neutraliser les effets d’un facteur en combinant par rotation toutes ses modalités\n\nex : si on craint un apprentissage (ou de la fatigue) lors de la tâche, on peut faire passer une modalité en 1 puis en 2 pour la moitié des participants et l’ordre inverse pour l’autre moitié des participants\nNombre de combinaisons (d’ordres possibles) : k!, où k est le nombre de modalités de la VI\n\nRandomisation quand le contrebalancement est trop coûteux\n\nex : un contrebalancement pour une VI à 5 modalités implique 120 combinaisons (5!=5x4x3x2x1) pour proposer tous les ordres possibles …\nil faudrait avoir 120 groupes de participants\ntirage au sort pour chaque participant d’une des combinaisons pour l’ordre des épreuves"
+  },
+  {
+    "objectID": "L1_CM.html#types-de-variables-1",
+    "href": "L1_CM.html#types-de-variables-1",
+    "title": "CM L1",
+    "section": "4.6 Types de variables",
+    "text": "4.6 Types de variables"
+  },
+  {
+    "objectID": "L1_CM.html#types-de-variables-quantitatives",
+    "href": "L1_CM.html#types-de-variables-quantitatives",
+    "title": "CM L1",
+    "section": "4.6.2 Types de variables quantitatives",
+    "text": "4.6.2 Types de variables quantitatives\nÉchelles numériques dans lesquelles les nombres ont bien des propriétés de nombres (à ne pas confondre avec certaines échelles ordinales)\nElles peuvent être discrètes ou continues.\nRappel :\n\nUne variable discrète est une variable qui prend des valeurs distinctes et dénombrables.\nUne variable continue est une variable qui prend n’importe quelle valeur dans un intervalle donné, et le nombre de valeurs possibles dans cet intervalle est infini.\n\nParmi les échelles numériques on trouve :\n\nÉchelles d’intervalles : ajoutent à l’ordre la propriété de la distance (l’intervalle entre deux catégories est toujours identique. Le zéro ne correspond pas à l’absence d’éléments\n\nex : année, température\n\nÉchelles de rapport : échelles d’intervalle avec une origine.\n\nex : temps de réponse, nombre d’erreurs\n\n\n\npropriétés de nombres : écart entre 1 et 2 est le même qu’entre 2 et 3 par exemple. Ce qui n’est pas le cas pour l’écart entre pas du tout et un peu, qui n’est pas forcément le même qu’entre un peu et plutôt)"
+  },
+  {
+    "objectID": "L1_CM.html#types-de-variables-qualitatives",
+    "href": "L1_CM.html#types-de-variables-qualitatives",
+    "title": "CM L1",
+    "section": "4.6.1 Types de variables qualitatives",
+    "text": "4.6.1 Types de variables qualitatives\nQualitatives :\n\nÉchelles nominales : classes sans ordre\n\nex : genre, CSP\n\nÉchelles ordinales : classes ordonnées\n\nex : échelles de likert, «un peu» «beaucoup» «passionnément»"
+  },
+  {
+    "objectID": "L1_CM.html#notation-des-variables",
+    "href": "L1_CM.html#notation-des-variables",
+    "title": "CM L1",
+    "section": "4.7 Notation des variables",
+    "text": "4.7 Notation des variables\nNotations conventionnelles différentes pour les VD et les VI"
+  },
+  {
+    "objectID": "L1_CM.html#notation-des-variables-dépendantes",
+    "href": "L1_CM.html#notation-des-variables-dépendantes",
+    "title": "CM L1",
+    "section": "4.7.1 Notation des variables dépendantes",
+    "text": "4.7.1 Notation des variables dépendantes\nU (un ensemble) + le nom (ou un mot du nom) de la VD en majuscules et en indice\nExemples :\n\nRéussite à un item : UITEM = {oui, non}\nGravité d’une dépression : UDEPRESSION= {légère, moyenne, sévère}\nNombre d’enfant : UENFANTS= {0,1,2,3,…}\nTempérature : UTEMPERATURE= [-50; + 50]\nTemps de réponse : URT= ]0;+∞["
+  },
+  {
+    "objectID": "L1_CM.html#notation-des-variables-indépendantes",
+    "href": "L1_CM.html#notation-des-variables-indépendantes",
+    "title": "CM L1",
+    "section": "4.7.2 Notation des variables indépendantes",
+    "text": "4.7.2 Notation des variables indépendantes\n\nUne VI a plusieurs niveaux que l’on appelle modalités\nLa variable prend plusieurs valeurs, une pour chaque modalité –&gt; conditions différentes pour l’expérimentation\nN valeurs, N conditions pour une même VI\nNotation : Lettre majuscule (première lettre de la VI) et nombre de modalités en indice\nModalités exprimées entre accolades {}\n\nEx : VI Température à 3 modalités. T3= {0°C, 15°C, 30°C}"
+  },
+  {
+    "objectID": "L1_CM.html#est-ce-quil-y-a-une-notation-pour-les-variables-contrôlées",
+    "href": "L1_CM.html#est-ce-quil-y-a-une-notation-pour-les-variables-contrôlées",
+    "title": "CM L1",
+    "section": "4.7.3 Est-ce qu’il y a une notation pour les variables contrôlées ?",
+    "text": "4.7.3 Est-ce qu’il y a une notation pour les variables contrôlées ?\n\nLe phénomène ou le mécanisme doit s’expliquer en dehors de ces variables, qui ne sont pas des variables d’intérêt\nOn les contrôle et on explique dans la partie méthodologie comment on les a contrôlées\nLe travail fait pour les contrôler fait qu’elles ne doivent pas impacter la relation entre VD et VI\n=&gt; NON"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-opérationnelle-exemples-2",
+    "href": "L1_CM.html#hypothèse-opérationnelle-exemples-2",
+    "title": "CM L1",
+    "section": "3.4.1 Hypothèse opérationnelle : exemples",
+    "text": "3.4.1 Hypothèse opérationnelle : exemples\nQuelles pourraient être les hypothèses opérationnelles des études sur :\n\nl’effet de la consommation d’alcool sur la conduite\nla prise de note manuelle vs. sur ordinateur\nla reconnaissance des émotions et l’anxiété mathématique\n\nRappel : Hypothèse opérationnelle -&gt; prédiction des résultats attendus dans le réél/concret.\nOn doit écrire les mesures prises auprès des participants et les conditions dans les hypothèses opérationnelles.\n\nPour chaque exemple, redonner l’hypohtèse générale puis discuter d’un dispositif expérimental possible avant d’écrire les hypothèses opérationnelles\nRéfléchir collectivement aux hyp opérationnelles proposées pour les compléter/modifier Fichier TXT ou word sur l’ordi de l’amphi ?"
+  },
+  {
+    "objectID": "L1_CM.html#exercices",
+    "href": "L1_CM.html#exercices",
+    "title": "CM L1",
+    "section": "4.10 Exercices",
+    "text": "4.10 Exercices\nPour chaque idée d’étude,\n1/ Déterminer les VD/VI qui permettent d’opérationnaliser l’étude, leur donner une notation conventionnelle, et préciser pour les VI si elles sont invoquées ou provoquées.\n2/ Réfléchir aux potentielles variables à contrôler et à la façon de les contrôler.\n3/ Faire une représentation graphique des résultats attendus.\nQue remarquez-vous sur les graphes concernant VD et VI ?\nLes études :\n\nl’effet de la consommation d’alcool sur la conduite\nla prise de note manuelle vs. sur ordinateur\nla reconnaissance des émotions et l’anxiété mathématique"
+  },
+  {
+    "objectID": "L1_CM.html#vi-invoquée-ou-provoquée",
+    "href": "L1_CM.html#vi-invoquée-ou-provoquée",
+    "title": "CM L1",
+    "section": "4.8 VI invoquée ou provoquée",
+    "text": "4.8 VI invoquée ou provoquée\n\nLorsque l’expérimentateur peut agir sur la VI, la manipuler, on dit qu’elle est provoquée\nSituation idéale pour l’expérimentation\nLorsque l’examinateur ne peut pas manipuler la VI, on dit qu’elle est invoquée\nLes VI invoquées vont par exemple être utilisées par l’expérimentateur pour créer des groupes parce qu’il ne peut pas les manipuler\nEx : âge, genre, milieu social …"
+  },
+  {
+    "objectID": "L1_CM.html#vi-inter-ou-intra-sujet",
+    "href": "L1_CM.html#vi-inter-ou-intra-sujet",
+    "title": "CM L1",
+    "section": "4.9 VI inter ou intra-sujet",
+    "text": "4.9 VI inter ou intra-sujet\n\nVI inter-sujet : le sujet est dans un groupe et il passe 1 seule modalité de la VI\nAu moins deux groupes LA VD sera mesurée une fois pour chaque participant\nVI intra-sujet : le sujet passe toutes les modalités de la VI\nLa VD sera mesurée autant de fois que de conditions/modalités pour chaque participant"
   }
 ]
