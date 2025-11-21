@@ -686,7 +686,7 @@ Sa validation apporte des éléments qui vont dans le sens de la validation de l
 
 On peut sans problème être affirmatif sur l'hypothèse opérationnelle (validée ou non) alors que l'on reste nuancé sur la validation de l'hypothèse générale.
 
-## 3.4.1 Hypothèse opérationnelle : exemples
+## 3.4.1 Hypothèse opérationnelle : exemples {.scrollable}
 
 Quelle(s) hypothèse(s) opérationnelle(s) possibles sur le test de Stroop que l'on a fait en classe ?
 
@@ -702,7 +702,7 @@ d)  Il y aura moins d'interférence dans la condition couleur que dans la condit
 
 *Les exemples d'études sur lesquelles nous allons travailler en exercices seront repris tout au long du cours et chaque nouvel exercice s'appuiera sur ce que nous aurons travaillé précédemment alors pensez à garder vos écrits sur les exercices tout le temps du cours*
 
-## 3.4.1 Hypothèse opérationnelle : exemples
+## 3.4.1 Hypothèse opérationnelle : exemples {.scrollable}
 
 Quelles pourraient être les hypothèses opérationnelles des études sur :
 
@@ -730,7 +730,7 @@ On doit pouvoir se représenter le résultat attendu
 Quels statistiques connaissez-vous ? Moyenne, comparaison de proportions, étendue des données ...
 :::
 
-## 3.5.1 Hypothèses statistiques : exemples
+## 3.5.1 Hypothèses statistiques : exemples {.scrollable}
 
 Quelle(s) hypothèse(s) statistique(s) possibles sur le test de Stroop que l'on a fait en classe ?
 
