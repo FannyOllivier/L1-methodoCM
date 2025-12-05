@@ -382,7 +382,7 @@
     "href": "L1_CM.html#rôle-des-variables-exemple",
     "title": "CM L1",
     "section": "4.1.1 Rôle des variables : exemple",
-    "text": "4.1.1 Rôle des variables : exemple\nDans l’exemple fait en classe (activation automatique de la lecture), on veut voir si l’activation de la lecture est automatique ou non.\n\nPour cela, on utilise un test qui provoque de l’interférence\non met en correspondance le temps de résolution des participants avec une situation, qui a plusieurs condition\n\non évalue la relation entre temps de résolution et condition\nTemps de résolution et condition sont des variables\n\n\nconditions : avec interférence forte, une sitation avec interférence faible et une situation sans interférence."
+    "text": "4.1.1 Rôle des variables : exemple\nDans l’exemple fait en classe (activation automatique de la lecture), on veut voir si l’activation de la lecture est automatique ou non.\n\nPour cela, on utilise un test qui provoque de l’interférence\non met en correspondance le temps de résolution des participants avec une situation, qui a plusieurs conditions\n\non évalue la relation entre temps de résolution et condition\nTemps de résolution et condition sont des variables\n\n\nconditions : avec interférence forte, une sitation avec interférence faible et une situation sans interférence."
   },
   {
     "objectID": "L1_CM.html#section-1",
