@@ -771,7 +771,7 @@ Grâce aux variables, on va pouvoir tester les hypothèses opérationnelles et a
 Dans l'exemple fait en classe (activation automatique de la lecture), on veut voir si l'activation de la lecture est automatique ou non.
 
 -   Pour cela, on utilise un test qui provoque de l'interférence
--   on met en correspondance le **temps de résolution** des participants avec une situation, qui a plusieurs **condition**\
+-   on met en correspondance le **temps de résolution** des participants avec une situation, qui a plusieurs **conditions**\
 -   on évalue la **relation** entre temps de résolution et condition
 -   Temps de résolution et condition sont des **variables**
 
