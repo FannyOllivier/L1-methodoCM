@@ -544,5 +544,124 @@
     "title": "CM L1",
     "section": "4.9 VI inter ou intra-sujet",
     "text": "4.9 VI inter ou intra-sujet\n\nVI inter-sujet : le sujet est dans un groupe et il passe 1 seule modalité de la VI\nAu moins deux groupes LA VD sera mesurée une fois pour chaque participant\nVI intra-sujet : le sujet passe toutes les modalités de la VI\nLa VD sera mesurée autant de fois que de conditions/modalités pour chaque participant"
+  },
+  {
+    "objectID": "L1_CM.html#méthodologie-4-les-plans-expérimentaux",
+    "href": "L1_CM.html#méthodologie-4-les-plans-expérimentaux",
+    "title": "CM L1",
+    "section": "5. Méthodologie 4 : les plans expérimentaux",
+    "text": "5. Méthodologie 4 : les plans expérimentaux"
+  },
+  {
+    "objectID": "L1_CM.html#plan-expérimental---définitions",
+    "href": "L1_CM.html#plan-expérimental---définitions",
+    "title": "CM L1",
+    "section": "5.1 Plan expérimental - définitions",
+    "text": "5.1 Plan expérimental - définitions\n=&gt; Dispositif dont découlera une réponse valable à la question explorée\n\nConstruire un plan d’expérience = stratégie qui permet de maximiser la probabilité de détecter les effets des VI sur la ou les VD\n2 types de plans d’expérience\n\nPlans à 1 VI : plans simples\nPlans à plusieurs VI : plans factoriels"
+  },
+  {
+    "objectID": "L1_CM.html#relation-entre-les-variables-facteur-sujet",
+    "href": "L1_CM.html#relation-entre-les-variables-facteur-sujet",
+    "title": "CM L1",
+    "section": "5.2 Relation entre les variables : facteur sujet",
+    "text": "5.2 Relation entre les variables : facteur sujet\n\nLes facteurs sont des variables qui expliquent la VD :\n\nVI : provoquées (manipulées) et invoquées\nfacteur sujet\n\nLe facteur sujet est composé de sujets, ou participants\nIl est noté Sn, où n représente le nombre de sujets par condition expérimentale\nIl est important parce qu’il va pouvoir être croisé ou emboîté avec les autres facteurs"
+  },
+  {
+    "objectID": "L1_CM.html#facteur-sujet---échantillonnage",
+    "href": "L1_CM.html#facteur-sujet---échantillonnage",
+    "title": "CM L1",
+    "section": "5.3 Facteur sujet - échantillonnage",
+    "text": "5.3 Facteur sujet - échantillonnage\n\nConstruire un échantillon de participants représentatif d’une population définie\n\nQui possèdera les mêmes caractéristiques\nPopulation «miniature»\n\n2 méthodes\n\nTirage aléatoire : méthode la plus utilisée en psychologie, la plus simple\n\nTirer au hasard parmi la population les sujets qui participeront à l’étude\n\nMéthode des quotas\n\nA partir des informations sur la population parente (e.g. proportion de femmes et d’hommes, CSP …), extraire un échantillon en respectant les proportions des différentes caractéristiques que l’on soupçonne d’avoir un effet sur le phénomène étudié"
+  },
+  {
+    "objectID": "L1_CM.html#types-de-relations-entre-facteur-sujet-et-vi",
+    "href": "L1_CM.html#types-de-relations-entre-facteur-sujet-et-vi",
+    "title": "CM L1",
+    "section": "5.4 Types de relations entre facteur sujet et VI",
+    "text": "5.4 Types de relations entre facteur sujet et VI\n\nRelation de croisement : VI intra-sujet ou intra-groupe\n\nTous les participants seront placés dans TOUTES les modalités de la VI\n\nRelation d’emboîtement : VI inter-sujet ou inter-groupe\n\nChaque participant sera placé dans UNE modalité de la VI"
+  },
+  {
+    "objectID": "L1_CM.html#relation-de-croisement",
+    "href": "L1_CM.html#relation-de-croisement",
+    "title": "CM L1",
+    "section": "5.4.1 Relation de croisement",
+    "text": "5.4.1 Relation de croisement\n\nNotée *\nLe plan expérimental sera noté Sn * VIk, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI"
+  },
+  {
+    "objectID": "L1_CM.html#relation-de-croisement-dans-notre-exemple",
+    "href": "L1_CM.html#relation-de-croisement-dans-notre-exemple",
+    "title": "CM L1",
+    "section": "5.4.1 Relation de croisement dans notre exemple",
+    "text": "5.4.1 Relation de croisement dans notre exemple\n\nDans notre exemple de l’étude sur l’activation automatique de la lecture : S300 * C3\nConcrètement ?\n\n300 participants ont été placés dans les 3 modalités de la variable Condition, C3 = {couleur, mots, interférence}\non obtient donc 3 scores d’erreurs et 3 scores de temps de réponse par participant\nsoit 3 mesures pour chaque VD"
+  },
+  {
+    "objectID": "L1_CM.html#autres-exemples-1",
+    "href": "L1_CM.html#autres-exemples-1",
+    "title": "CM L1",
+    "section": "5.4.1 Autres exemples",
+    "text": "5.4.1 Autres exemples\nLes études :\n\nl’effet de la consommation d’alcool sur la conduite\nla prise de note manuelle vs. sur ordinateur\nla reconnaissance des émotions et l’anxiété mathématique\n\nImaginons que l’échantillon soit constitué de 60 participants. Pour chaque étude :\n\nComment écrira-t-on le plan expérimental dans le cas d’un plan croisé* ?\nCombien y-a-t-il de conditions expérimentales ? de sujets par condition ? d’observations ?\n\n\nSi 3 conditions : S60 * C3 -&gt; UERREURS / idem pour UTEMPS, ne pas oublier de multiplier le nombre d’observations par le nombre de VD ex : 3 conditions expé (=k, nombre de modalités de la VI), 60 sujets par condition (60 en tout) et 3x60 observations pour chaque VD, 360 si 2 VD"
+  },
+  {
+    "objectID": "L1_CM.html#relation-demboîtement",
+    "href": "L1_CM.html#relation-demboîtement",
+    "title": "CM L1",
+    "section": "5.4.2 Relation d’emboîtement",
+    "text": "5.4.2 Relation d’emboîtement\n\nS est emboîté, la VI est emboîtante\nNotée &lt; &gt;\nLe plan expérimental sera noté Sn/k &lt;VIk&gt;, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI"
+  },
+  {
+    "objectID": "L1_CM.html#sil-y-avait-eu-une-relation-demboîtement-dans-notre-exemple",
+    "href": "L1_CM.html#sil-y-avait-eu-une-relation-demboîtement-dans-notre-exemple",
+    "title": "CM L1",
+    "section": "5.4.2 s’il y avait eu une relation d’emboîtement dans notre exemple",
+    "text": "5.4.2 s’il y avait eu une relation d’emboîtement dans notre exemple\n\nDans notre exemple de l’étude sur l’activation automatique de la lecture : S100 &lt; C3 &gt;\nConcrètement ?\n\n300 participants ont été répartis dans les 3 modalité de la variable Condition, C3 = {couleur, mots, interférence} =&gt; 100 participants dans la condition couleur, 100 dans la condition mots et 100 dans la condition interférence\non obtient donc 1 score d’erreurs et 1 score de temps de réponse par participant\nsoit 1 mesure pour chaque VD\n\nIl y a le même nombre de participants dans chaque condition, le plan est équilibré"
+  },
+  {
+    "objectID": "L1_CM.html#autres-exemples-avec-une-relation-de-croisement",
+    "href": "L1_CM.html#autres-exemples-avec-une-relation-de-croisement",
+    "title": "CM L1",
+    "section": "5.4.1 Autres exemples avec une relation de croisement",
+    "text": "5.4.1 Autres exemples avec une relation de croisement\nLes études :\n\nl’effet de la consommation d’alcool sur la conduite\nla prise de note manuelle vs. sur ordinateur\nla reconnaissance des émotions et l’anxiété mathématique\n\nImaginons que l’échantillon soit constitué de 60 participants. Pour chaque étude :\n\nComment écrira-t-on le plan expérimental dans le cas d’un plan croisé ?\nCombien y-a-t-il de conditions expérimentales ? de sujets par condition ? d’observations ?\n\n\nSi 3 conditions : S60 * C3 -&gt; UERREURS / idem pour UTEMPS, ne pas oublier de multiplier le nombre d’observations par le nombre de VD ex : 3 conditions expé (=k, nombre de modalités de la VI), 60 sujets par condition (60 en tout) et 3x60 observations pour chaque VD, 360 si 2 VD"
+  },
+  {
+    "objectID": "L1_CM.html#autres-exemples-avec-une-relation-demboîtement",
+    "href": "L1_CM.html#autres-exemples-avec-une-relation-demboîtement",
+    "title": "CM L1",
+    "section": "5.4.1 Autres exemples avec une relation d’emboîtement",
+    "text": "5.4.1 Autres exemples avec une relation d’emboîtement\nLes études :\n\nl’effet de la consommation d’alcool sur la conduite\nla prise de note manuelle vs. sur ordinateur\nla reconnaissance des émotions et l’anxiété mathématique\n\nImaginons que l’échantillon soit constitué de 60 participants. Pour chaque étude :\n\nComment écrira-t-on le plan expérimental dans le cas d’un plan emboîté ?\nCombien y-a-t-il de conditions expérimentales ? de sujets par condition ? d’observations ?\n\n\nSi 3 conditions : S20 &lt; C3 &gt; -&gt; UERREURS / idem pour UTEMPS, ne pas oublier de multiplier le nombre d’observations par le nombre de VD ex : 3 conditions expé (=k, nombre de modalités de la VI), 20 sujets par condition (60/3) et 60 observations pour chaque VD, 120 si 2 VD\nDemander si les plans sont équilibrés ou pas"
+  },
+  {
+    "objectID": "L1_CM.html#avantages-et-contraintes-pour-chaque-type-de-relation",
+    "href": "L1_CM.html#avantages-et-contraintes-pour-chaque-type-de-relation",
+    "title": "CM L1",
+    "section": "5.4.3 Avantages et contraintes pour chaque type de relation",
+    "text": "5.4.3 Avantages et contraintes pour chaque type de relation\n\nContrôle du facteur sujet dans les plans croisés\n\nLes caractéristiques personnelles des participants influent moins sur les résultats car elles sont les mêmes dans chaque condition expérimentale\n\nMais risque d’apprentissage\n\nLe participant fait la même tâche dans plusieurs conditions, il répète la tâche\n\nParfois on n’a pas le choix\n\nVI invoquées -&gt; relation d’emboîtement"
+  },
+  {
+    "objectID": "L1_CM.html#question-type-de-relation",
+    "href": "L1_CM.html#question-type-de-relation",
+    "title": "CM L1",
+    "section": "5.4.4 Question type de relation",
+    "text": "5.4.4 Question type de relation\nImaginons un dispositif dans lequel on cherche à déterminer l’impact du type de prise de notes (manuelle vs. ordinateur).\nDans ce dispositif, 60 étudiants seraient répartis en 2 groupes. L’un des groupes aurait à sa disposition un bloc de papier et un stylo, écouterait un cours puis on mesurerait le nombre d’éléments rappelés par un QCM. L’autre groupe aurait à sa disposition un ordinateur, écouterait un cours puis on mesurerait le nombre d’éléments rappelés par un QCM.\nEnsuite chaque participant du groupe papier/crayon aurait un ordinateur et inversement pour les participants du groupe ordinateur. On redonnerait un cours et un QCM à chaque groupe.\nPlan croisé ou emboîté ?\n\nCe n’est pas parce que le participant ne fait pas les tâches dans le même ordre que ce n’est pas un plan croisé. C’est juste un contrebalancement pour contrôler l’apprentissage par exemple"
+  },
+  {
+    "objectID": "L1_CM.html#plan-expérimental-quasi-expérimental",
+    "href": "L1_CM.html#plan-expérimental-quasi-expérimental",
+    "title": "CM L1",
+    "section": "5.5 Plan expérimental/ quasi-expérimental",
+    "text": "5.5 Plan expérimental/ quasi-expérimental\n\nQuand toutes les VI sont provoquées on parle de plan expérimental\nQuand il y a des VI invoquées on parle de plan quasi-expérimental"
+  },
+  {
+    "objectID": "L1_CM.html#vocabulaire-et-notations-à-connaître",
+    "href": "L1_CM.html#vocabulaire-et-notations-à-connaître",
+    "title": "CM L1",
+    "section": "5.6 Vocabulaire et notations à connaître",
+    "text": "5.6 Vocabulaire et notations à connaître\n\nSn * VIk\nSn * VIk -&gt; UVD1 x UVD2\nSn/k &lt; VIk &gt;\nSn/k &lt; VIk &gt; -&gt; UVD1 x UVD2\nplan expérimental, quasi-expérimental, équilibré, croisé, emboîté, mixte\ncontrebalancement"
+  },
+  {
+    "objectID": "L1_CM.html#méthodologie-5-retour-sur-lexpérience-multidigit",
+    "href": "L1_CM.html#méthodologie-5-retour-sur-lexpérience-multidigit",
+    "title": "CM L1",
+    "section": "6. Méthodologie 5 : retour sur l’expérience Multidigit",
+    "text": "6. Méthodologie 5 : retour sur l’expérience Multidigit"
   }
 ]

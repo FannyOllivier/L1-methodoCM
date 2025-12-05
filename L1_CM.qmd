@@ -1024,7 +1024,7 @@ Exemples :
 
 Pour chaque idée d'étude,
 
-1/ Déterminer les VD/VI qui permettent d'opérationnaliser l'étude, leur donner une notation conventionnelle, et préciser pour les VI si elles sont invoquées ou provoquées.
+1/ Déterminer les VD/VI qui permettent d'**opérationnaliser** l'étude, leur donner une notation conventionnelle, et préciser pour les VI si elles sont invoquées ou provoquées.
 
 2/ Réfléchir aux potentielles variables à contrôler et à la façon de les contrôler.
 
@@ -1037,3 +1037,170 @@ Les études :
 -   l'effet de la consommation d'alcool sur la conduite
 -   la prise de note manuelle vs. sur ordinateur
 -   la reconnaissance des émotions et l'anxiété mathématique
+
+## 5. Méthodologie 4 : les plans expérimentaux
+
+## 5.1 Plan expérimental - définitions
+
+=> Dispositif dont découlera une réponse valable à la question explorée
+
+- Construire un plan d’expérience = stratégie qui permet de maximiser la probabilité de détecter les effets des VI sur la ou les VD
+
+
+- 2 types de plans d’expérience
+  
+    - Plans à 1 VI : plans simples
+    - Plans à plusieurs VI : plans factoriels
+
+## 5.2 Relation entre les variables : facteur sujet
+
+- Les facteurs sont des variables qui expliquent la VD : 
+  
+    - VI : provoquées (manipulées) et invoquées
+    - facteur sujet
+    
+- Le facteur sujet est composé de sujets, ou participants
+
+- Il est noté S~n~, où n représente le nombre de sujets par condition expérimentale 
+
+- Il est important parce qu'il va pouvoir être **croisé** ou **emboîté** avec les autres facteurs 
+
+## 5.3 Facteur sujet - échantillonnage {.scrollable}
+
+- Construire un échantillon de participants représentatif d’une population définie
+    
+    - Qui possèdera les mêmes caractéristiques 
+    - Population «miniature»
+    
+- 2 méthodes
+
+    - Tirage aléatoire : méthode la plus utilisée en psychologie, la plus simple
+    
+    Tirer au hasard parmi la population les sujets qui participeront à l’étude
+
+    - Méthode des quotas
+    
+    A partir des informations sur la population parente (e.g. proportion de femmes et d’hommes, CSP …), extraire un échantillon en respectant les proportions des différentes caractéristiques que l’on soupçonne d’avoir un effet sur le phénomène étudié 
+
+## 5.4 Types de relations entre facteur sujet et VI
+
+- Relation de croisement : VI intra-sujet ou intra-groupe
+
+    - Tous les participants seront placés dans TOUTES les modalités de la VI
+    
+- Relation d'emboîtement : VI inter-sujet ou inter-groupe
+
+    - Chaque participant sera placé dans UNE modalité de la VI
+
+## 5.4.1 Relation de croisement
+
+- Notée *
+- Le plan expérimental sera noté S~n~ * VI~k~, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
+
+## 5.4.1 Relation de croisement dans notre exemple
+- Dans notre exemple de l'étude sur l'activation automatique de la lecture : S~300~ * C~3~ 
+- Concrètement ? 
+  
+    - 300 participants ont été placés dans les 3 modalités de la variable Condition, C~3~ = {couleur, mots, interférence}
+    - on obtient donc 3 scores d'erreurs et 3 scores de temps de réponse par participant
+    - soit 3 mesures pour chaque VD
+    
+## 5.4.1 Autres exemples avec une relation de croisement
+
+Les études :
+
+-   l'effet de la consommation d'alcool sur la conduite
+-   la prise de note manuelle vs. sur ordinateur
+-   la reconnaissance des émotions et l'anxiété mathématique
+
+Imaginons que l'échantillon soit constitué de 60 participants. Pour chaque étude : 
+
+a) Comment écrira-t-on le plan expérimental dans le cas d'un plan **croisé** ?
+b) Combien y-a-t-il de conditions expérimentales ? de sujets par condition ? d'observations ?  
+
+::: notes
+Si 3 conditions : S~60~ * C~3~ -> U~ERREURS~ / idem pour U~TEMPS~, ne pas oublier de multiplier le nombre d'observations par le nombre de VD
+ex : 3 conditions expé (=k, nombre de modalités de la VI), 60 sujets par condition (60 en tout) et 3x60 observations pour chaque VD, 360 si 2 VD
+:::
+
+## 5.4.2 Relation d'emboîtement 
+
+- S est emboîté, la VI est emboîtante
+- Notée < >
+- Le plan expérimental sera noté S~n/k~ <VI~k~>, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
+
+## 5.4.2 s'il y avait eu une relation d'emboîtement dans notre exemple {.scrollable}
+- Dans notre exemple de l'étude sur l'activation automatique de la lecture : S~100~ < C~3~ >
+- Concrètement ? 
+  
+    - 300 participants ont été répartis dans les 3 modalité de la variable Condition, C~3~ = {couleur, mots, interférence} 
+    => 100 participants dans la condition couleur, 100 dans la condition mots et 100 dans la condition interférence
+    - on obtient donc 1 score d'erreurs et 1 score de temps de réponse par participant
+    - soit 1 mesure pour chaque VD
+    
+- Il y a le même nombre de participants dans chaque condition, le plan est **équilibré**
+
+## 5.4.1 Autres exemples avec une relation d'emboîtement {.scrollable}
+
+Les études :
+
+-   l'effet de la consommation d'alcool sur la conduite
+-   la prise de note manuelle vs. sur ordinateur
+-   la reconnaissance des émotions et l'anxiété mathématique
+
+Imaginons que l'échantillon soit constitué de 60 participants. Pour chaque étude : 
+
+a) Comment écrira-t-on le plan expérimental dans le cas d'un plan **emboîté** ?
+b) Combien y-a-t-il de conditions expérimentales ? de sujets par condition ? d'observations ?  
+
+::: notes
+Si 3 conditions : S~20~ < C~3~ > -> U~ERREURS~ / idem pour U~TEMPS~, ne pas oublier de multiplier le nombre d'observations par le nombre de VD
+ex : 3 conditions expé (=k, nombre de modalités de la VI), 20 sujets par condition (60/3) et 60 observations pour chaque VD, 120 si 2 VD
+
+Demander si les plans sont équilibrés ou pas
+:::
+
+## 5.4.3 Avantages et contraintes pour chaque type de relation {.scrollable}
+
+- Contrôle du facteur sujet dans les plans croisés
+
+    - Les caractéristiques personnelles des participants influent moins sur les résultats car elles sont les mêmes dans chaque condition expérimentale
+    
+- Mais risque d'apprentissage 
+
+    - Le participant fait la même tâche dans plusieurs conditions, il répète la tâche
+    
+- Parfois on n'a pas le choix 
+
+    - VI invoquées -> relation d'emboîtement 
+
+## 5.4.4 Question type de relation {.scrollable}
+
+Imaginons un dispositif dans lequel on cherche à déterminer l'impact du type de prise de notes (manuelle vs. ordinateur). 
+
+Dans ce dispositif, 60 étudiants seraient répartis en 2 groupes. L'un des groupes aurait à sa disposition un bloc de papier et un stylo, écouterait un cours puis on mesurerait le nombre d'éléments rappelés par un QCM. L'autre groupe aurait à sa disposition un ordinateur, écouterait un cours puis on mesurerait le nombre d'éléments rappelés par un QCM.
+
+Ensuite chaque participant du groupe papier/crayon aurait un ordinateur et inversement pour les participants du groupe ordinateur. On redonnerait un cours et un QCM à chaque groupe. 
+
+Plan croisé ou emboîté ? 
+
+::: notes 
+Ce n'est pas parce que le participant ne fait pas les tâches dans le même ordre que ce n'est pas un plan croisé. C'est juste un **contrebalancement** pour contrôler l'apprentissage par exemple
+:::
+ 
+## 5.5 Plan expérimental/ quasi-expérimental
+
+- Quand toutes les VI sont provoquées on parle de plan **expérimental**
+
+- Quand il y a des VI invoquées on parle de plan **quasi-expérimental** 
+
+## 5.6 Vocabulaire et notations à connaître 
+
+- S~n~ * VI~k~ 
+- S~n~ * VI~k~ -> U~VD1~ x U~VD2~
+- S~n/k~ < VI~k~ > 
+- S~n/k~ < VI~k~ > -> U~VD1~ x U~VD2~
+- plan expérimental, quasi-expérimental, équilibré, croisé, emboîté, mixte
+- contrebalancement 
+
+## 6. Méthodologie 5 : retour sur l'expérience Multidigit
