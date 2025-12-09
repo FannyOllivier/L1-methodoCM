@@ -663,5 +663,61 @@
     "title": "CM L1",
     "section": "6. Méthodologie 5 : retour sur l’expérience Multidigit",
     "text": "6. Méthodologie 5 : retour sur l’expérience Multidigit"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèse-théoriquegénérale",
+    "href": "L1_CM.html#hypothèse-théoriquegénérale",
+    "title": "CM L1",
+    "section": "6.1 Hypothèse théorique/générale",
+    "text": "6.1 Hypothèse théorique/générale\nHypothèse théorique/générale ?\n\nLe temps d’identification d’un nombre ou d’un pseudo-nombre sera plus rapide lorsque les participants auront eu un amorçage masqué en rapport avec la cible.\nLa magnitude du nombre à deux chiffres s’active automatiquement chez l’adulte, comme la lecture lorsqu’on présente un mot.\n\n\nLe temps moyen d’identification des nombres sera significativement plus long dans la condition “amorce différente” que dans la condition “amorce identique”."
+  },
+  {
+    "objectID": "L1_CM.html#dispositif-expérimental",
+    "href": "L1_CM.html#dispositif-expérimental",
+    "title": "CM L1",
+    "section": "6.2 Dispositif expérimental",
+    "text": "6.2 Dispositif expérimental\nPsychopy :\n\nTemps de réponse précis\nPossibilité de déployer l’expérimentation en ligne via Pavlovia\n\nDispositif construit pour apporter des éléments qui valident ou non l’hypothèse générale."
+  },
+  {
+    "objectID": "L1_CM.html#dispositif-prévu",
+    "href": "L1_CM.html#dispositif-prévu",
+    "title": "CM L1",
+    "section": "6.2.1 Dispositif prévu",
+    "text": "6.2.1 Dispositif prévu\nConcrètement (et un peu simplifié pour plus de clarté) :\nParticipants : Jeunes adultes étudiant en LLSH ou en mathématiques\nMatériel expérimental :\n\namorces/cibles :\n\namorces : nombres à deux chiffres\ncibles : moitié nombres (ex : 28)/ moitié pseudo-nombres (ex : 2B)\nplusieurs relations entre amorces et cibles : identiques/différentes (magnitude et chiffres différents)/magnitude proche\n\ntemps d’amorce :\n\namorce masquée : 2 rafraîchissements d’écran (33 ms)\namorce non masquée : 10 rafraîchissements d’écran (167 ms)\n\n\nTâche : Appuyer sur N si la cible présentée à l’écran est un nombre, sur P si ce n’est pas un nombre"
+  },
+  {
+    "objectID": "L1_CM.html#variables",
+    "href": "L1_CM.html#variables",
+    "title": "CM L1",
+    "section": "6.2.2 Variables",
+    "text": "6.2.2 Variables\nVD ? VI ? (inter ? au choix inter ou intra ? invoquée ? provoquée ?)\nLes noter avec l’écriture conventionnelle.\nQuelles variables parasites devraient être contrôlées ?\n\nVD1 : RT jugement nombre/pseudo-nombre VD2 : taux de bonnes réponses VI1 : inter, invoquée, cursus des participants VI2 : intra ou inter au choix, provoquée, temps d’amorce VI3 : intra ou inter au choix, provoquée, lien entre les amorces et les cibles"
+  },
+  {
+    "objectID": "L1_CM.html#hypothèses-opérationnelles",
+    "href": "L1_CM.html#hypothèses-opérationnelles",
+    "title": "CM L1",
+    "section": "6.2.3 Hypothèses opérationnelles",
+    "text": "6.2.3 Hypothèses opérationnelles\nRappel : on écrit la VD et toutes les modalités des VI dans les hypothèses (possibilité de faire plusieurs phrases pour plus de clarté)\nEst-ce que ces hypothèses opérationnelles conviennent ?\n\nLes temps de réponse des participants ne varieront pas en fonction du cursus ni en fonction du temps d’amorce.\nLes temps de réponse seront plus courts lorsque l’amorce sera identique à la cible ou lorsque l’amorce sera de même magnitude. Les temps de réponses les plus longs correspondront à la condition dans laquelle l’amorce est différente de la cible.\n\n\nhyp op OK"
+  },
+  {
+    "objectID": "L1_CM.html#plan-expérimental-ou-quasi-expérimental",
+    "href": "L1_CM.html#plan-expérimental-ou-quasi-expérimental",
+    "title": "CM L1",
+    "section": "6.2.4 Plan expérimental (ou quasi-expérimental ?)",
+    "text": "6.2.4 Plan expérimental (ou quasi-expérimental ?)\nSi on a 200 participants en tout et que le plan est équilibré :\n\nS200 &lt; C2 &gt; * A2 * R3\nS200 &lt; C2 * A2 * R3 &gt;\nS100 &lt; C2 &gt; * A2 * R3\n\n\nPlan quasi expérimental parce que VI cursus invoquée plan équilibré :même nombre de participants dans chaque groupe"
+  },
+  {
+    "objectID": "L1_CM.html#concrètement",
+    "href": "L1_CM.html#concrètement",
+    "title": "CM L1",
+    "section": "7.1 Concrètement",
+    "text": "7.1 Concrètement\nReprésenter graphiquement des résultats possibles\nAprès analyses statistiques,\n\nSi les hypothèses opérationnelles sont validées, alors l’étude apporte des éléments en faveur d’une activation automatique de la magnitude des nombres à deux chiffres, indépendamment d’un contexte mathématique et d’une expertise dans ce domaine.\nSi les hypothèses opérationnelles ne sont pas validées :\n\napport d’éléments qui ne sont pas en faveur d’une activation automatique de la magnitude des nombres à deux chiffres,\net/ou effet de l’expertise,\net/ou activation de la magnitude mais non automatique (en fonction des résultats)"
+  },
+  {
+    "objectID": "L1_CM.html#éléments-à-présenter-dans-la-partie-discussion",
+    "href": "L1_CM.html#éléments-à-présenter-dans-la-partie-discussion",
+    "title": "CM L1",
+    "section": "8.1 Éléments à présenter dans la partie discussion",
+    "text": "8.1 Éléments à présenter dans la partie discussion\nOn reprend les résultats et on explique en quoi ils valident ou non, ou partiellement, les hypothèses\nLes résultats sont discutés au regard de la théorie =&gt; cf introduction\nOn discute également les limites de l’étude, les prolongements possibles, et le lien recherche - société"
   }
 ]

@@ -756,7 +756,7 @@ Quels résultats pourrions-nous attendre ?
 garder ces graphes pour les reprendre quand on parlera des variables
 :::
 
-## 4. Méthodologie 3 : les variables
+# 4. Méthodologie 3 : les variables
 
 ## 4.1 Rôle des variables
 
@@ -1038,7 +1038,7 @@ Les études :
 -   la prise de note manuelle vs. sur ordinateur
 -   la reconnaissance des émotions et l'anxiété mathématique
 
-## 5. Méthodologie 4 : les plans expérimentaux
+# 5. Méthodologie 4 : les plans expérimentaux
 
 ## 5.1 Plan expérimental - définitions
 
@@ -1105,7 +1105,7 @@ Les études :
     - on obtient donc 3 scores d'erreurs et 3 scores de temps de réponse par participant
     - soit 3 mesures pour chaque VD
     
-## 5.4.1 Autres exemples avec une relation de croisement
+## 5.4.1 Autres exemples avec une relation de croisement {.scrollable}
 
 Les études :
 
@@ -1203,4 +1203,137 @@ Ce n'est pas parce que le participant ne fait pas les tâches dans le même ordr
 - plan expérimental, quasi-expérimental, équilibré, croisé, emboîté, mixte
 - contrebalancement 
 
-## 6. Méthodologie 5 : retour sur l'expérience Multidigit
+# 6. Méthodologie 5 : retour sur l'expérience Multidigit {.scrollable}
+
+## 6.1 Hypothèse théorique/générale {.scrollable}
+
+Hypothèse théorique/générale ? 
+
+a) Le temps d'identification d'un nombre ou d'un pseudo-nombre sera plus rapide lorsque les participants auront eu un amorçage masqué en rapport avec la cible.
+
+b) La magnitude du nombre à deux chiffres s'active automatiquement chez l'adulte, comme la lecture lorsqu'on présente un mot.
+
+C) Le temps moyen d'identification des nombres sera significativement plus long dans la condition "amorce différente" que dans la condition "amorce identique".
+
+## 6.2 Dispositif expérimental 
+
+Psychopy : 
+
+- Temps de réponse précis
+- Possibilité de déployer l'expérimentation en ligne via Pavlovia
+
+Dispositif construit pour apporter des éléments qui valident ou non l'hypothèse générale. 
+
+## 6.2.1 Dispositif prévu {.scrollable}
+
+Concrètement (et un peu simplifié pour plus de clarté) : 
+
+**Participants :**
+Jeunes adultes étudiant en LLSH ou en mathématiques
+
+**Matériel expérimental :** 
+
+- amorces/cibles : 
+    
+    - amorces : nombres à deux chiffres
+    - cibles : moitié nombres (ex : 28)/ moitié pseudo-nombres (ex : 2B)
+    - plusieurs relations entre amorces et cibles : identiques/différentes (magnitude et chiffres différents)/magnitude proche
+
+- temps d'amorce : 
+
+    - amorce masquée : 2 rafraîchissements d'écran (33 ms)
+    - amorce non masquée : 10 rafraîchissements d'écran (167 ms)
+
+**Tâche :**
+Appuyer sur N si la cible présentée à l'écran est un nombre, sur P si ce n'est pas un nombre
+
+## 6.2.2 Variables
+
+VD ? 
+VI ? (inter ? au choix inter ou intra ? invoquée ? provoquée ?)
+
+
+Les noter avec l'écriture conventionnelle.
+
+
+Quelles variables parasites devraient être contrôlées ? 
+
+::: notes
+VD1 : RT jugement nombre/pseudo-nombre
+VD2 : taux de bonnes réponses
+VI1 : inter, invoquée, cursus des participants
+VI2 : intra ou inter au choix, provoquée, temps d'amorce
+VI3 : intra ou inter au choix, provoquée, lien entre les amorces et les cibles
+::: 
+
+## 6.2.3 Hypothèses opérationnelles 
+
+Rappel : on écrit la VD et toutes les modalités des VI dans les hypothèses (possibilité de faire plusieurs phrases pour plus de clarté)
+
+Est-ce que ces hypothèses opérationnelles conviennent ? 
+
+- Les temps de réponse des participants ne varieront pas en fonction du cursus ni en fonction du temps d'amorce. 
+
+- Les temps de réponse seront plus courts lorsque l'amorce sera identique à la cible ou lorsque l'amorce sera de même magnitude. Les temps de réponses les plus longs correspondront à la condition dans laquelle l'amorce est différente de la cible.
+
+::: notes 
+hyp op OK
+:::
+
+## 6.2.4 Plan expérimental (ou quasi-expérimental ?)
+
+Si on a 200 participants en tout et que le plan est équilibré :
+
+
+a) S~200~ < C~2~ > * A~2~ * R~3~
+
+b) S~200~ < C~2~ * A~2~ * R~3~ >
+
+c) S~100~ < C~2~ > * A~2~ * R~3~
+
+
+
+::: notes
+Plan quasi expérimental parce que VI cursus invoquée
+plan équilibré :même nombre de participants dans chaque groupe
+:::
+
+# 7. Résultats {.scrollable}
+
+À venir ! 
+
+Rappel des hypothèses générales et opérationnelles (simplifiées) 
+
+- La magnitude des nombres à deux chiffres s'active automatiquement (comme la lecture du mot si on fait un parallèle avec la lecture) chez l'adulte, quel que soit son niveau de maîtrise des mathématiques
+
+
+- Les temps de réponse des participants ne varieront pas en fonction du cursus ni en fonction du temps d'amorce. 
+
+- Les temps de réponse seront plus courts lorsque l'amorce sera identique à la cible ou lorsque l'amorce sera de même magnitude. Les temps de réponses les plus longs correspondront à la condition dans laquelle l'amorce est différente de la cible.
+
+## 7.1 Concrètement {.scrollable}
+
+*Représenter graphiquement des résultats possibles* 
+
+Après analyses statistiques, 
+
+- Si les hypothèses opérationnelles sont validées, alors l'étude apporte des éléments en faveur d'une activation automatique de la magnitude des nombres à deux chiffres, indépendamment d'un contexte mathématique et d'une expertise dans ce domaine. 
+
+- Si les hypothèses opérationnelles ne sont pas validées :
+  
+    - apport d'éléments qui ne sont pas en faveur d'une activation automatique de la magnitude des nombres à deux chiffres, 
+    - et/ou effet de l'expertise, 
+    - et/ou activation de la magnitude mais non automatique (en fonction des résultats)
+
+# 8. Discussion
+
+## 8.1 Éléments à présenter dans la partie discussion
+
+On reprend les résultats et on explique en quoi ils valident ou non, ou partiellement, les hypothèses
+
+Les résultats sont discutés au regard de la théorie => cf introduction
+
+On discute également les limites de l'étude, les prolongements possibles, et le lien recherche - société
+
+# Merci pour votre attention 
+
