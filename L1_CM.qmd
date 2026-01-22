@@ -1042,69 +1042,70 @@ Les études :
 
 ## 5.1 Plan expérimental - définitions
 
-=> Dispositif dont découlera une réponse valable à la question explorée
+=\> Dispositif dont découlera une réponse valable à la question explorée
 
-- Construire un plan d’expérience = stratégie qui permet de maximiser la probabilité de détecter les effets des VI sur la ou les VD
+-   Construire un plan d’expérience = stratégie qui permet de maximiser la probabilité de détecter les effets des VI sur la ou les VD
 
+-   2 types de plans d’expérience
 
-- 2 types de plans d’expérience
-  
-    - Plans à 1 VI : plans simples
-    - Plans à plusieurs VI : plans factoriels
+    -   Plans à 1 VI : plans simples
+    -   Plans à plusieurs VI : plans factoriels
 
 ## 5.2 Relation entre les variables : facteur sujet
 
-- Les facteurs sont des variables qui expliquent la VD : 
-  
-    - VI : provoquées (manipulées) et invoquées
-    - facteur sujet
-    
-- Le facteur sujet est composé de sujets, ou participants
+-   Les facteurs sont des variables qui expliquent la VD :
 
-- Il est noté S~n~, où n représente le nombre de sujets par condition expérimentale 
+    -   VI : provoquées (manipulées) et invoquées
+    -   facteur sujet
 
-- Il est important parce qu'il va pouvoir être **croisé** ou **emboîté** avec les autres facteurs 
+-   Le facteur sujet est composé de sujets, ou participants
+
+-   Il est noté S~n~, où n représente le nombre de sujets par condition expérimentale
+
+-   Il est important parce qu'il va pouvoir être **croisé** ou **emboîté** avec les autres facteurs
 
 ## 5.3 Facteur sujet - échantillonnage {.scrollable}
 
-- Construire un échantillon de participants représentatif d’une population définie
-    
-    - Qui possèdera les mêmes caractéristiques 
-    - Population «miniature»
-    
-- 2 méthodes
+-   Construire un échantillon de participants représentatif d’une population définie
 
-    - Tirage aléatoire : méthode la plus utilisée en psychologie, la plus simple
-    
+    -   Qui possèdera les mêmes caractéristiques
+    -   Population «miniature»
+
+-   2 méthodes
+
+    -   Tirage aléatoire : méthode la plus utilisée en psychologie, la plus simple
+
     Tirer au hasard parmi la population les sujets qui participeront à l’étude
 
-    - Méthode des quotas
-    
-    A partir des informations sur la population parente (e.g. proportion de femmes et d’hommes, CSP …), extraire un échantillon en respectant les proportions des différentes caractéristiques que l’on soupçonne d’avoir un effet sur le phénomène étudié 
+    -   Méthode des quotas
+
+    A partir des informations sur la population parente (e.g. proportion de femmes et d’hommes, CSP …), extraire un échantillon en respectant les proportions des différentes caractéristiques que l’on soupçonne d’avoir un effet sur le phénomène étudié
 
 ## 5.4 Types de relations entre facteur sujet et VI
 
-- Relation de croisement : VI intra-sujet ou intra-groupe
+-   Relation de croisement : VI intra-sujet ou intra-groupe
 
-    - Tous les participants seront placés dans TOUTES les modalités de la VI
-    
-- Relation d'emboîtement : VI inter-sujet ou inter-groupe
+    -   Tous les participants seront placés dans TOUTES les modalités de la VI
 
-    - Chaque participant sera placé dans UNE modalité de la VI
+-   Relation d'emboîtement : VI inter-sujet ou inter-groupe
+
+    -   Chaque participant sera placé dans UNE modalité de la VI
 
 ## 5.4.1 Relation de croisement
 
-- Notée *
-- Le plan expérimental sera noté S~n~ * VI~k~, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
+-   Notée \*
+-   Le plan expérimental sera noté S~n~ \* VI~k~, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
 
 ## 5.4.1 Relation de croisement dans notre exemple
-- Dans notre exemple de l'étude sur l'activation automatique de la lecture : S~300~ * C~3~ 
-- Concrètement ? 
-  
-    - 300 participants ont été placés dans les 3 modalités de la variable Condition, C~3~ = {couleur, mots, interférence}
-    - on obtient donc 3 scores d'erreurs et 3 scores de temps de réponse par participant
-    - soit 3 mesures pour chaque VD
-    
+
+-   Dans notre exemple de l'étude sur l'activation automatique de la lecture : S~300~ \* C~3~
+
+-   Concrètement ?
+
+    -   300 participants ont été placés dans les 3 modalités de la variable Condition, C~3~ = {couleur, mots, interférence}
+    -   on obtient donc 3 scores d'erreurs et 3 scores de temps de réponse par participant
+    -   soit 3 mesures pour chaque VD
+
 ## 5.4.1 Autres exemples avec une relation de croisement {.scrollable}
 
 Les études :
@@ -1113,32 +1114,32 @@ Les études :
 -   la prise de note manuelle vs. sur ordinateur
 -   la reconnaissance des émotions et l'anxiété mathématique
 
-Imaginons que l'échantillon soit constitué de 60 participants. Pour chaque étude : 
+Imaginons que l'échantillon soit constitué de 60 participants. Pour chaque étude :
 
-a) Comment écrira-t-on le plan expérimental dans le cas d'un plan **croisé** ?
-b) Combien y-a-t-il de conditions expérimentales ? de sujets par condition ? d'observations ?  
+a)  Comment écrira-t-on le plan expérimental dans le cas d'un plan **croisé** ?
+b)  Combien y-a-t-il de conditions expérimentales ? de sujets par condition ? d'observations ?
 
 ::: notes
-Si 3 conditions : S~60~ * C~3~ -> U~ERREURS~ / idem pour U~TEMPS~, ne pas oublier de multiplier le nombre d'observations par le nombre de VD
-ex : 3 conditions expé (=k, nombre de modalités de la VI), 60 sujets par condition (60 en tout) et 3x60 observations pour chaque VD, 360 si 2 VD
+Si 3 conditions : S~60~ \* C~3~ -\> U~ERREURS~ / idem pour U~TEMPS~, ne pas oublier de multiplier le nombre d'observations par le nombre de VD ex : 3 conditions expé (=k, nombre de modalités de la VI), 60 sujets par condition (60 en tout) et 3x60 observations pour chaque VD, 360 si 2 VD
 :::
 
-## 5.4.2 Relation d'emboîtement 
+## 5.4.2 Relation d'emboîtement
 
-- S est emboîté, la VI est emboîtante
-- Notée < >
-- Le plan expérimental sera noté S~n/k~ <VI~k~>, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
+-   S est emboîté, la VI est emboîtante
+-   Notée \< \>
+-   Le plan expérimental sera noté S~n/k~ \<VI~k~\>, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
 
 ## 5.4.2 s'il y avait eu une relation d'emboîtement dans notre exemple {.scrollable}
-- Dans notre exemple de l'étude sur l'activation automatique de la lecture : S~100~ < C~3~ >
-- Concrètement ? 
-  
-    - 300 participants ont été répartis dans les 3 modalité de la variable Condition, C~3~ = {couleur, mots, interférence} 
-    => 100 participants dans la condition couleur, 100 dans la condition mots et 100 dans la condition interférence
-    - on obtient donc 1 score d'erreurs et 1 score de temps de réponse par participant
-    - soit 1 mesure pour chaque VD
-    
-- Il y a le même nombre de participants dans chaque condition, le plan est **équilibré**
+
+-   Dans notre exemple de l'étude sur l'activation automatique de la lecture : S~100~ \< C~3~ \>
+
+-   Concrètement ?
+
+    -   300 participants ont été répartis dans les 3 modalité de la variable Condition, C~3~ = {couleur, mots, interférence} =\> 100 participants dans la condition couleur, 100 dans la condition mots et 100 dans la condition interférence
+    -   on obtient donc 1 score d'erreurs et 1 score de temps de réponse par participant
+    -   soit 1 mesure pour chaque VD
+
+-   Il y a le même nombre de participants dans chaque condition, le plan est **équilibré**
 
 ## 5.4.1 Autres exemples avec une relation d'emboîtement {.scrollable}
 
@@ -1148,135 +1149,127 @@ Les études :
 -   la prise de note manuelle vs. sur ordinateur
 -   la reconnaissance des émotions et l'anxiété mathématique
 
-Imaginons que l'échantillon soit constitué de 60 participants. Pour chaque étude : 
+Imaginons que l'échantillon soit constitué de 60 participants. Pour chaque étude :
 
-a) Comment écrira-t-on le plan expérimental dans le cas d'un plan **emboîté** ?
-b) Combien y-a-t-il de conditions expérimentales ? de sujets par condition ? d'observations ?  
+a)  Comment écrira-t-on le plan expérimental dans le cas d'un plan **emboîté** ?
+b)  Combien y-a-t-il de conditions expérimentales ? de sujets par condition ? d'observations ?
 
 ::: notes
-Si 3 conditions : S~20~ < C~3~ > -> U~ERREURS~ / idem pour U~TEMPS~, ne pas oublier de multiplier le nombre d'observations par le nombre de VD
-ex : 3 conditions expé (=k, nombre de modalités de la VI), 20 sujets par condition (60/3) et 60 observations pour chaque VD, 120 si 2 VD
+Si 3 conditions : S~20~ \< C~3~ \> -\> U~ERREURS~ / idem pour U~TEMPS~, ne pas oublier de multiplier le nombre d'observations par le nombre de VD ex : 3 conditions expé (=k, nombre de modalités de la VI), 20 sujets par condition (60/3) et 60 observations pour chaque VD, 120 si 2 VD
 
 Demander si les plans sont équilibrés ou pas
 :::
 
 ## 5.4.3 Avantages et contraintes pour chaque type de relation {.scrollable}
 
-- Contrôle du facteur sujet dans les plans croisés
+-   Contrôle du facteur sujet dans les plans croisés
 
-    - Les caractéristiques personnelles des participants influent moins sur les résultats car elles sont les mêmes dans chaque condition expérimentale
-    
-- Mais risque d'apprentissage 
+    -   Les caractéristiques personnelles des participants influent moins sur les résultats car elles sont les mêmes dans chaque condition expérimentale
 
-    - Le participant fait la même tâche dans plusieurs conditions, il répète la tâche
-    
-- Parfois on n'a pas le choix 
+-   Mais risque d'apprentissage
 
-    - VI invoquées -> relation d'emboîtement 
+    -   Le participant fait la même tâche dans plusieurs conditions, il répète la tâche
+
+-   Parfois on n'a pas le choix
+
+    -   VI invoquées -\> relation d'emboîtement
 
 ## 5.4.4 Question type de relation {.scrollable}
 
-Imaginons un dispositif dans lequel on cherche à déterminer l'impact du type de prise de notes (manuelle vs. ordinateur). 
+Imaginons un dispositif dans lequel on cherche à déterminer l'impact du type de prise de notes (manuelle vs. ordinateur).
 
 Dans ce dispositif, 60 étudiants seraient répartis en 2 groupes. L'un des groupes aurait à sa disposition un bloc de papier et un stylo, écouterait un cours puis on mesurerait le nombre d'éléments rappelés par un QCM. L'autre groupe aurait à sa disposition un ordinateur, écouterait un cours puis on mesurerait le nombre d'éléments rappelés par un QCM.
 
-Ensuite chaque participant du groupe papier/crayon aurait un ordinateur et inversement pour les participants du groupe ordinateur. On redonnerait un cours et un QCM à chaque groupe. 
+Ensuite chaque participant du groupe papier/crayon aurait un ordinateur et inversement pour les participants du groupe ordinateur. On redonnerait un cours et un QCM à chaque groupe.
 
-Plan croisé ou emboîté ? 
+Plan croisé ou emboîté ?
 
-::: notes 
+::: notes
 Ce n'est pas parce que le participant ne fait pas les tâches dans le même ordre que ce n'est pas un plan croisé. C'est juste un **contrebalancement** pour contrôler l'apprentissage par exemple
 :::
- 
+
 ## 5.5 Plan expérimental/ quasi-expérimental
 
-- Quand toutes les VI sont provoquées on parle de plan **expérimental**
+-   Quand toutes les VI sont provoquées on parle de plan **expérimental**
 
-- Quand il y a des VI invoquées on parle de plan **quasi-expérimental** 
+-   Quand il y a des VI invoquées on parle de plan **quasi-expérimental**
 
-## 5.6 Vocabulaire et notations à connaître 
+## 5.6 Vocabulaire et notations à connaître
 
-- S~n~ * VI~k~ 
-- S~n~ * VI~k~ -> U~VD1~ x U~VD2~
-- S~n/k~ < VI~k~ > 
-- S~n/k~ < VI~k~ > -> U~VD1~ x U~VD2~
-- plan expérimental, quasi-expérimental, équilibré, croisé, emboîté, mixte
-- contrebalancement 
+-   S~n~ \* VI~k~
+-   S~n~ \* VI~k~ -\> U~VD1~ x U~VD2~
+-   S~n/k~ \< VI~k~ \>
+-   S~n/k~ \< VI~k~ \> -\> U~VD1~ x U~VD2~
+-   plan expérimental, quasi-expérimental, équilibré, croisé, emboîté, mixte
+-   contrebalancement
 
 # 6. Méthodologie 5 : retour sur l'expérience Multidigit {.scrollable}
 
 ## 6.1 Hypothèse théorique/générale {.scrollable}
 
-Hypothèse théorique/générale ? 
+Hypothèse théorique/générale ?
 
-a) Le temps d'identification d'un nombre ou d'un pseudo-nombre sera plus rapide lorsque les participants auront eu un amorçage masqué en rapport avec la cible.
+a)  Le temps d'identification d'un nombre ou d'un pseudo-nombre sera plus rapide lorsque les participants auront eu un amorçage masqué en rapport avec la cible.
 
-b) La magnitude du nombre à deux chiffres s'active automatiquement chez l'adulte, comme la lecture lorsqu'on présente un mot.
+b)  La magnitude du nombre à deux chiffres s'active automatiquement chez l'adulte, comme la lecture lorsqu'on présente un mot.
 
-C) Le temps moyen d'identification des nombres sera significativement plus long dans la condition "amorce différente" que dans la condition "amorce identique".
+<!-- -->
 
-## 6.2 Dispositif expérimental 
+C)  Le temps moyen d'identification des nombres sera significativement plus long dans la condition "amorce différente" que dans la condition "amorce identique".
 
-Psychopy : 
+## 6.2 Dispositif expérimental
 
-- Temps de réponse précis
-- Possibilité de déployer l'expérimentation en ligne via Pavlovia
+Psychopy :
 
-Dispositif construit pour apporter des éléments qui valident ou non l'hypothèse générale. 
+-   Temps de réponse précis
+-   Possibilité de déployer l'expérimentation en ligne via Pavlovia
+
+Dispositif construit pour apporter des éléments qui valident ou non l'hypothèse générale.
 
 ## 6.2.1 Dispositif prévu {.scrollable}
 
-Concrètement (et un peu simplifié pour plus de clarté) : 
+Concrètement (et un peu simplifié pour plus de clarté) :
 
-**Participants :**
-Jeunes adultes étudiant en LLSH ou en mathématiques
+**Participants :** Jeunes adultes étudiant en LLSH ou en mathématiques
 
-**Matériel expérimental :** 
+**Matériel expérimental :**
 
-- amorces/cibles : 
-    
-    - amorces : nombres à deux chiffres
-    - cibles : moitié nombres (ex : 28)/ moitié pseudo-nombres (ex : 2B)
-    - plusieurs relations entre amorces et cibles : identiques/différentes (magnitude et chiffres différents)/magnitude proche
+-   amorces/cibles :
 
-- temps d'amorce : 
+    -   amorces : nombres à deux chiffres
+    -   cibles : moitié nombres (ex : 28)/ moitié pseudo-nombres (ex : 2B)
+    -   plusieurs relations entre amorces et cibles : identiques/différentes (magnitude et chiffres différents)/magnitude proche
 
-    - amorce masquée : 2 rafraîchissements d'écran (33 ms)
-    - amorce non masquée : 10 rafraîchissements d'écran (167 ms)
+-   temps d'amorce :
 
-**Tâche :**
-Appuyer sur N si la cible présentée à l'écran est un nombre, sur P si ce n'est pas un nombre
+    -   amorce masquée : 2 rafraîchissements d'écran (33 ms)
+    -   amorce non masquée : 10 rafraîchissements d'écran (167 ms)
+
+**Tâche :** Appuyer sur O si la cible présentée à l'écran est un nombre, sur X si ce n'est pas un nombre
 
 ## 6.2.2 Variables
 
-VD ? 
-VI ? (inter ? au choix inter ou intra ? invoquée ? provoquée ?)
-
+VD ? VI ? (inter ? au choix inter ou intra ? invoquée ? provoquée ?)
 
 Les noter avec l'écriture conventionnelle.
 
-
-Quelles variables parasites devraient être contrôlées ? 
+Quelles variables parasites devraient être contrôlées ?
 
 ::: notes
-VD1 : RT jugement nombre/pseudo-nombre
-VD2 : taux de bonnes réponses
-VI1 : inter, invoquée, cursus des participants
-VI2 : intra ou inter au choix, provoquée, temps d'amorce
-VI3 : intra ou inter au choix, provoquée, lien entre les amorces et les cibles
-::: 
+VD1 : RT jugement nombre/pseudo-nombre VD2 : taux de bonnes réponses VI1 : inter, invoquée, cursus des participants VI2 : intra ou inter au choix, provoquée, temps d'amorce VI3 : intra ou inter au choix, provoquée, lien entre les amorces et les cibles
+:::
 
-## 6.2.3 Hypothèses opérationnelles 
+## 6.2.3 Hypothèses opérationnelles
 
 Rappel : on écrit la VD et toutes les modalités des VI dans les hypothèses (possibilité de faire plusieurs phrases pour plus de clarté)
 
-Est-ce que ces hypothèses opérationnelles conviennent ? 
+Est-ce que ces hypothèses opérationnelles conviennent ?
 
-- Les temps de réponse des participants ne varieront pas en fonction du cursus ni en fonction du temps d'amorce. 
+-   Les temps de réponse des participants ne varieront pas en fonction du cursus ni en fonction du temps d'amorce.
 
-- Les temps de réponse seront plus courts lorsque l'amorce sera identique à la cible ou lorsque l'amorce sera de même magnitude. Les temps de réponses les plus longs correspondront à la condition dans laquelle l'amorce est différente de la cible.
+-   Les temps de réponse seront plus courts lorsque l'amorce sera identique à la cible ou lorsque l'amorce sera de même magnitude. Les temps de réponses les plus longs correspondront à la condition dans laquelle l'amorce est différente de la cible.
 
-::: notes 
+::: notes
 hyp op OK
 :::
 
@@ -1284,46 +1277,41 @@ hyp op OK
 
 Si on a 200 participants en tout et que le plan est équilibré :
 
+a)  S~200~ \< C~2~ \> \* A~2~ \* R~3~
 
-a) S~200~ < C~2~ > * A~2~ * R~3~
+b)  S~200~ \< C~2~ \* A~2~ \* R~3~ \>
 
-b) S~200~ < C~2~ * A~2~ * R~3~ >
-
-c) S~100~ < C~2~ > * A~2~ * R~3~
-
-
+c)  S~100~ \< C~2~ \> \* A~2~ \* R~3~
 
 ::: notes
-Plan quasi expérimental parce que VI cursus invoquée
-plan équilibré :même nombre de participants dans chaque groupe
+Plan quasi expérimental parce que VI cursus invoquée plan équilibré :même nombre de participants dans chaque groupe
 :::
 
 # 7. Résultats {.scrollable}
 
-À venir ! 
+À venir !
 
-Rappel des hypothèses générales et opérationnelles (simplifiées) 
+Rappel des hypothèses générales et opérationnelles (simplifiées)
 
-- La magnitude des nombres à deux chiffres s'active automatiquement (comme la lecture du mot si on fait un parallèle avec la lecture) chez l'adulte, quel que soit son niveau de maîtrise des mathématiques
+-   La magnitude des nombres à deux chiffres s'active automatiquement (comme la lecture du mot si on fait un parallèle avec la lecture) chez l'adulte, quel que soit son niveau de maîtrise des mathématiques
 
+-   Les temps de réponse des participants ne varieront pas en fonction du cursus ni en fonction du temps d'amorce.
 
-- Les temps de réponse des participants ne varieront pas en fonction du cursus ni en fonction du temps d'amorce. 
-
-- Les temps de réponse seront plus courts lorsque l'amorce sera identique à la cible ou lorsque l'amorce sera de même magnitude. Les temps de réponses les plus longs correspondront à la condition dans laquelle l'amorce est différente de la cible.
+-   Les temps de réponse seront plus courts lorsque l'amorce sera identique à la cible ou lorsque l'amorce sera de même magnitude. Les temps de réponses les plus longs correspondront à la condition dans laquelle l'amorce est différente de la cible.
 
 ## 7.1 Concrètement {.scrollable}
 
-*Représenter graphiquement des résultats possibles* 
+*Représenter graphiquement des résultats possibles*
 
-Après analyses statistiques, 
+Après analyses statistiques,
 
-- Si les hypothèses opérationnelles sont validées, alors l'étude apporte des éléments en faveur d'une activation automatique de la magnitude des nombres à deux chiffres, indépendamment d'un contexte mathématique et d'une expertise dans ce domaine. 
+-   Si les hypothèses opérationnelles sont validées, alors l'étude apporte des éléments en faveur d'une activation automatique de la magnitude des nombres à deux chiffres, indépendamment d'un contexte mathématique et d'une expertise dans ce domaine.
 
-- Si les hypothèses opérationnelles ne sont pas validées :
-  
-    - apport d'éléments qui ne sont pas en faveur d'une activation automatique de la magnitude des nombres à deux chiffres, 
-    - et/ou effet de l'expertise, 
-    - et/ou activation de la magnitude mais non automatique (en fonction des résultats)
+-   Si les hypothèses opérationnelles ne sont pas validées :
+
+    -   apport d'éléments qui ne sont pas en faveur d'une activation automatique de la magnitude des nombres à deux chiffres,
+    -   et/ou effet de l'expertise,
+    -   et/ou activation de la magnitude mais non automatique (en fonction des résultats)
 
 # 8. Discussion
 
@@ -1331,9 +1319,8 @@ Après analyses statistiques,
 
 On reprend les résultats et on explique en quoi ils valident ou non, ou partiellement, les hypothèses
 
-Les résultats sont discutés au regard de la théorie => cf introduction
+Les résultats sont discutés au regard de la théorie =\> cf introduction
 
 On discute également les limites de l'étude, les prolongements possibles, et le lien recherche - société
 
-# Merci pour votre attention 
-
+# Merci pour votre attention
