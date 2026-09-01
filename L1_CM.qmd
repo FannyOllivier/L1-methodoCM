@@ -8,7 +8,8 @@ format:
     slide-number: 'c'  
     number-sections: false
     incremental: true
-    css: custom.css
+    theme: ["custom.scss"]
+    
     
 editor: visual
 ---
