@@ -1,0 +1,92 @@
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+/*-- scss:defaults --*/
+$c-violet: #440154;
+$c-bleu:   #31688E;
+$c-vert:   #35B779;
+$c-jaune:  #FDE725;
+
+/*$body-bg:    #ffffff;*/
+$body-color: #1a1a1a;
+$link-color: $c-bleu;
+
+/* couleur de fond */
+$backgroundColor: #fcfbf9;
+
+// Primary/body text
+$mainFont: 'Jost', sans-serif;
+$mainFontSize: 30px;
+$mainColor: #1a1a1a;
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: 'Outfit', Impact, sans-serif;
+$headingColor: $c-bleu;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: -0.01em;
+$headingTextTransform: none;
+$headingTextShadow: none;
+$headingFontWeight: normal;
+$heading1TextShadow: $headingTextShadow;
+
+$heading1Size: 3.00em;
+$heading2Size: 2.11em;
+$heading3Size: 1.55em;
+$heading4Size: 1.00em;
+
+$codeFont: monospace;
+
+// Text selection
+$selectionBackgroundColor: $c-jaune;
+$selectionColor: $c-violet;
+
+/*-- scss:rules --*/
+
+/* titres de slides */
+.reveal h1, .reveal h2 {
+  color: $c-bleu;
+}
+
+/* élément mis en valeur (comme .relevant) */
+span.highlight {
+  background: $c-vert;
+  color: $body-bg;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+/* accent chaud (CTA, numéros importants) */
+span.accent {
+  color: $c-jaune;
+  font-weight: 600;
+}
+
+
+/* footer */
+.footer a {
+  color: $c-violet !important;
+}
+
+.encadre {
+  border: 2px solid $c-bleu;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.bas-droite {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.reveal .title {
+  font-size: 2em;
+}
+
