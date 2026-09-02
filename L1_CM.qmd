@@ -122,8 +122,9 @@ Méthode scientifique
 
 ::: notes
 processus récursif, donner des exemples
+ex : prise de notes et apprentissages académiques / Consommation d'alcool et habiletés spatiales en conduite / déterminants du bien-être des étudiants en situation de handicap à l'université
 ex : faits arithmétiques, récupération en mémoire ou procédures automatisées ? Litt : 2 thèses ; méthodo : mesurer les effets de taille des opérandes sur les temps de réponses ; résultats : palier au-dessus de 7 (8-9) non compatible avec récup en mémoire, mais compatible avec procédure automatisée pour les opérandes dans le rang du subitizing (1 à 4)
-ex : Est-ce que lorsqu'on est en présence de mots on les lit automatiquement ?
+ex : Est-ce que lorsqu'on est en présence de mots on les lit automatiquement ? Stroop (1935)
 :::
 
 ## 0.2 Construire une recherche dans une démarche expérimentale
@@ -378,9 +379,9 @@ Le nombre est-il traité de façon holistique ou par décomposition ?
 
 [Décours temporel]{style="color:blue;"}
 
-# 2. Méthodologie 1 : exemple de l'activation automatique de la lecture
+# 2.A. Méthodologie partie 1 : exemple de l'activation automatique de la lecture
 
-## 2.1 Retour sur l'activation automatique du sens du mot
+## 2.A.1 Retour sur l'activation automatique du sens du mot
 
 On veut savoir dans notre expérience sur les nombres si on peut faire un parallèle entre :
 
@@ -395,7 +396,7 @@ Mais comment peut-on montrer **expérimentalement** que le sens du mot s'active 
 Demander aux étudiants de réfléchir à des dispositifs qui pourraient montrer que le sens du mot s'active
 :::
 
-## 2.2 Chercher à montrer des interférences
+## 2.A.2 Chercher à montrer des interférences
 
 -   Si le sens du mot s'active, alors la lecture du mot s'est activée
 -   Si la lecture du mot s'est activée, on ne le sait pas forcément, on peut ne pas en avoir conscience
@@ -407,9 +408,9 @@ Demander aux étudiants de réfléchir à des dispositifs qui pourraient montrer
 -   Si on donne une tâche dans laquelle la lecture du mot peut avantager ou désavantager le participant, alors on doit pouvoir montrer qu'elle s'est activée
 -   *Construire une tâche expérimentale ou en trouver une qui pourrait fonctionner*
 
-## 2.3 Tâche de stroop
+## 2.A.3 Tâche de Stroop
 
--   La tâche de stroop permet de mettre en évidence des interférences.
+-   La tâche de Stroop permet de mettre en évidence des interférences.
 
 -   Si on est dans une situation de recherche, on écrit les hypothèses avant de recueillir les données.
 
@@ -417,7 +418,7 @@ Demander aux étudiants de réfléchir à des dispositifs qui pourraient montrer
 
 -   Puis vous allez vous mettre dans le rôle de chercheurs qui connaissent et ont choisi ce test pour répondre à la question de la mise en évidence d'une activation automatique du sens du mot.
 
-## 2.1.1 Jeu de rôle : expérimentation
+## 2.A.1.1 Jeu de rôle : expérimentation
 
 Par deux :
 
@@ -454,7 +455,7 @@ Consigne : donner le nom de la couleur de l'encre utilisée le plus rapidement e
 
 ![](images/stroop3b.png)
 
-## 2.4 Que s'attend-on à voir ? Hypothèses
+## 2.A.4 Que s'attend-on à voir ? Hypothèses
 
 Si la lecture s'active automatiquement, alors ...
 
@@ -466,7 +467,7 @@ Si la lecture s'active automatiquement, alors ...
 hyp générale : on s'attend à une interférence du sens du mot dans une tâche pour laquelle le sens du mot n'est pas utile. reconnaissance de la couleur de l'encre hyp opérationnelle : - la tâche 1 est plus rapide et précise que la tâche 2, elle même plus rapide et précise que la tâche 3
 :::
 
-## 2.5 Quels résultats devrait-on voir ?
+## 2.A.5 Quels résultats devrait-on voir ?
 
 Donner une expression mathématique
 
@@ -476,7 +477,7 @@ Dessiner un graphique
 moyenne du temps condition 1Couleurs \< moyenne du temps condition 2mots \< moyenne du temps condition 3Interférence Idem pour précision ... si on a suffisamment de variabilité !
 :::
 
-## 2.6 Entrer les résultats dans le tableau
+## 2.A.6 Entrer les résultats dans le tableau
 
 Écrivez vos résultats ou ceux de votre binôme dans le tableau commun :
 
@@ -487,7 +488,7 @@ moyenne du temps condition 1Couleurs \< moyenne du temps condition 2mots \< moye
 Pour le numéro de ligne, faire compter chacun son tour
 :::
 
-## 2.7 Analyse des résultats concernant le temps
+## 2.A.7 Analyse des résultats concernant le temps
 
 ```{r}
 #| echo: false
@@ -573,7 +574,7 @@ bxp +
 
 ------------------------------------------------------------------------
 
-## 2.8 Aurait-on des résultats semblables avec le nombre d'erreurs ?
+## 2.A.8 Aurait-on des résultats semblables avec le nombre d'erreurs ?
 
 Pensez-vous que les résultats seraient les mêmes ?
 
@@ -646,9 +647,9 @@ bxp2 +
 
 ------------------------------------------------------------------------
 
-# 3. Méthodologie 2 : les hypothèses
+# 2.B Méthodologie partie 2 : les hypothèses
 
-## 3.1 Définition
+## 2.B.1 Définition
 
 L'hypothèse est la réponse anticipée et provisoire à la question de recherche.
 
@@ -662,7 +663,7 @@ Elle s'élabore en 3 étapes :
 
 Il peut y avoir plusieurs hypothèses.
 
-## 3.2 Sens des hypothèses
+## 2.B.2 Sens des hypothèses
 
 Il ne s'agit pas de notre avis.
 
@@ -672,7 +673,7 @@ Si on n'a pas suffisamment de matière pour construire un raisonnement ?
 
 -   Utilisation de termes de l'ordre du changement, de la différence, sans indiquer de sens
 
-## 3.3 Hypothèse générale
+## 2.B.3 Hypothèse générale
 
 Elle se situe au niveau des **mécanismes**.
 
@@ -684,7 +685,7 @@ Elle définit les effets de conditions d'expérimentation sur les comportements 
 c'est la vérification des hypothèses opérationnelles qui donnera des éléments en faveur de l'hypothèse générale. À valider avec prudence.
 :::
 
-## 3.3.1 Hypothèse générale : exemple
+## 2.B.3.1 Hypothèse générale : exemple
 
 *Dans l'exemple du test fait ensemble (Stroop), quelle pourrait être l'hypothèse générale ?*
 
@@ -698,7 +699,7 @@ c)  Les participants vont choisir la bonne couleur pour au moins 80% d'entre eux
 Réponse a
 :::
 
-## 3.3.2 Autres exemples
+## 2.B.3.2 Autres exemples
 
 Quelle pourrait être l'hypothèse générale d'une étude sur :
 
@@ -706,19 +707,19 @@ Quelle pourrait être l'hypothèse générale d'une étude sur :
 -   la prise de note manuelle vs. sur ordinateur
 -   la reconnaissance des émotions et l'anxiété mathématique
 
-## 3.4 Hypothèse opérationnelle
+## 2.B.4 Hypothèse opérationnelle
 
 -   Permet l’**opérationnalisation** de l’hypothèse générale
 -   Traduction de l’hypothèse générale dans un cadre concret
 -   Prédit concrètement l’effet du facteur manipulé dans l’expérience sur les indicateurs de comportements que l’on prend en compte
 
-## 3.4. Hypothèse opérationnelle
+## 2.B.4. Hypothèse opérationnelle
 
 Sa validation apporte des éléments qui vont dans le sens de la validation de l'hypothèse générale.
 
 On peut sans problème être affirmatif sur l'hypothèse opérationnelle (validée ou non) alors que l'on reste nuancé sur la validation de l'hypothèse générale.
 
-## 3.4.1 Hypothèse opérationnelle : exemples {.scrollable}
+## 2.B.4.1 Hypothèse opérationnelle : exemples {.scrollable}
 
 Quelle(s) hypothèse(s) opérationnelle(s) possibles sur le test de Stroop que l'on a fait en classe ?
 
@@ -730,11 +731,11 @@ c)  Le nombre d'erreurs dans la condition interférence sera plus élevé que le
 
 d)  Il y aura moins d'interférence dans la condition couleur que dans la condition mots et moins d'interférence dans la condition mots que dans la condition noms de couleurs
 
-## 3.4.1 Hypothèse opérationnelle : exemples
+## 2.B.4.1 Hypothèse opérationnelle : exemples
 
 *Les exemples d'études sur lesquelles nous allons travailler en exercices seront repris tout au long du cours et chaque nouvel exercice s'appuiera sur ce que nous aurons travaillé précédemment alors pensez à garder vos écrits sur les exercices tout le temps du cours*
 
-## 3.4.1 Hypothèse opérationnelle : exemples {.scrollable}
+## 2.B.4.1 Hypothèse opérationnelle : exemples {.scrollable}
 
 Quelles pourraient être les hypothèses opérationnelles des études sur :
 
@@ -752,7 +753,7 @@ Pour chaque exemple, redonner l'hypohtèse générale puis discuter d'un disposi
 Réfléchir collectivement aux hyp opérationnelles proposées pour les compléter/modifier Fichier TXT ou word sur l'ordi de l'amphi ?
 :::
 
-## 3.5 Hypothèse statistique
+## 2.B.5 Hypothèse statistique
 
 Décrit le modèle mathématique permettant de généraliser à une certaine population le résultat obtenu sur un échantillon représentatif
 
@@ -762,7 +763,7 @@ On doit pouvoir se représenter le résultat attendu
 Quels statistiques connaissez-vous ? Moyenne, comparaison de proportions, étendue des données ...
 :::
 
-## 3.5.1 Hypothèses statistiques : exemples {.scrollable}
+## 2.B.5.1 Hypothèses statistiques : exemples {.scrollable}
 
 Quelle(s) hypothèse(s) statistique(s) possibles sur le test de Stroop que l'on a fait en classe ?
 
@@ -774,7 +775,7 @@ c)  Le pourcentage de bonnes réponses sera significativement moins élevé dans
 
 d)  Le nombre d'erreurs moyen sera significativement plus élevé dans la condition interférence que dans les autres conditions
 
-## 3.5.2 Hypothèses statistiques : exemples et représentations graphiques
+## 2.B.5.2 Hypothèses statistiques : exemples et représentations graphiques
 
 Traduisez l'hypothèse statistique en graphique pour les études sur :
 
@@ -788,9 +789,13 @@ Quels résultats pourrions-nous attendre ?
 garder ces graphes pour les reprendre quand on parlera des variables
 :::
 
-# 4. Méthodologie 3 : les variables
+## Lien vers l'article original de Stroop (1935)
 
-## 4.1 Rôle des variables
+[lien pdf](https://psych.hanover.edu/classes/Cognition/Archive/2009/Papers/stroop%201933.pdf)
+
+# 2.C. Méthodologie partie 3 : les variables
+
+## 2.C.1 Rôle des variables
 
 Les variables servent à **opérationnaliser** les hypothèses générales.
 
@@ -798,7 +803,7 @@ On les utilise pour construire le dispositif expérimental.
 
 Grâce aux variables, on va pouvoir tester les hypothèses opérationnelles et apporter des éléments qui vont dans le sens de la validation (ou non) des hypothèses générales.
 
-## 4.1.1 Rôle des variables : exemple
+## 2.C.1.1 Rôle des variables : exemple
 
 Dans l'exemple fait en classe (activation automatique de la lecture), on veut voir si l'activation de la lecture est automatique ou non.
 
@@ -811,7 +816,7 @@ Dans l'exemple fait en classe (activation automatique de la lecture), on veut vo
 conditions : avec interférence forte, une sitation avec interférence faible et une situation sans interférence.
 :::
 
-## 4.1.1 Rôle des variables : exemple
+## 2.C.1.1 Rôle des variables : exemple
 
 En d'autres termes :
 
@@ -819,7 +824,7 @@ En d'autres termes :
 -   on veut déterminer à quel point le temps de résolution moyen sera plus long dans la condition interférence par rapport aux autres conditions dans notre échantillon
 -   et si cette différence serait retrouvée si on faisait passer le test à toute la population
 
-## 4.1.2 Rôle des variables : attention
+## 2.C.1.2 Rôle des variables : attention
 
 Par définition, une variable varie.
 
@@ -831,11 +836,11 @@ Dans ce cas, il faudrait repenser le dispositif parce que c'est la variabilité 
 C'est le cas pour le nombre d'erreurs, qui varie très peu et qui donc a peu de variabilité à expliquer.
 :::
 
-## 4.2 Variable : définition
+## 2.C.2 Variable : définition
 
 Une variable est une dimension caractéristique de notre environnement dont les manifestations peuvent être classées en catégories, peuvent être mesurées, ou peuvent prendre plusieurs valeurs ou états différents.
 
-## 4.3 Types de variables
+## 2.C.3 Types de variables
 
 -   Variable dépendante
 -   Variable indépendante
@@ -844,7 +849,7 @@ Une variable est une dimension caractéristique de notre environnement dont les 
 
 Il peut y en avoir plusieurs de chaque type dans les dispositifs expérimentaux.
 
-## 4.4 Variable dépendante/ variable indépendante
+## 2.C.4 Variable dépendante/ variable indépendante
 
 **Variable dépendante** : VD (DV en anglais)
 
@@ -852,14 +857,14 @@ Il peut y en avoir plusieurs de chaque type dans les dispositifs expérimentaux.
 -   Dépendante : parce que dans notre hypothèse, cette variable varie en fonction des facteurs (VI) de l’expérimentation
 -   Varie en fonction de la situation créée ou contrôlée par l’expérimentateur
 
-## 4.4 Variable dépendante/ variable indépendante
+## 2.C.4 Variable dépendante/ variable indépendante
 
 **Variable indépendante** : VI (IV en anglais)
 
 -   La VI est prise en compte ou manipulée par le chercheur qui analyse son impact sur le comportement étudié (mesuré lui par la VD)
 -   Dans notre hypothèse, la VI a un pouvoir explicatif sur la variabilité de la VD
 
-## 4.4.1 Variable dépendante/ variable indépendante : exemples
+## 2.C.4.1 Variable dépendante/ variable indépendante : exemples
 
 Dans l'étude sur l'activation automatique de la lecture :
 
@@ -871,7 +876,7 @@ VI ?
 on a deux VD : temps et nombre d'erreurs VI : condition, 3 modalités Si on ne sait pas on utilise les phrases : la VD dépend de la VI ou la VI explique la VD. Repréciser qu'on parle de la variabilité (la variabilité dans la VD dépend de la VI et la VI explique la variabilité de la VD.
 :::
 
-## 4.4.1 Variable dépendante/ variable indépendante : exemples
+## 2.C.4.1 Variable dépendante/ variable indépendante : exemples
 
 pour les études sur :
 
@@ -881,7 +886,7 @@ pour les études sur :
 
 VI ? VD ?
 
-## 4.4.2 Variable dépendante/ variable indépendante : exercices
+## 2.C.4.2 Variable dépendante/ variable indépendante : exercices
 
 Retrouver VI et VD à partir de ces titres d'articles scientifiques :
 
@@ -915,7 +920,7 @@ VI : Physical exercise VD1 : depression VD2 : anxiety
 VI1 : âge VI2 : WM VI3 : complexité d'instructions VD1 : exécution d'instructions
 :::
 
-## 4.5 Variables parasites/ contrôles
+## 2.C.5 Variables parasites/ contrôles
 
 -   les variables parasites sont des variables qui ont un effet sur la VD mais qui ne sont pas les variables d'intérêt de l'étude
 
@@ -927,7 +932,7 @@ VI1 : âge VI2 : WM VI3 : complexité d'instructions VD1 : exécution d'instruct
 on aura des difficultés à distinguer l'effet de notre VI d'intérêt de celui de la variable parasite ou de la conjonction des deux
 :::
 
-## 4.5 Variables parasites/contrôles {.scrollable}
+## 2.C.5 Variables parasites/contrôles {.scrollable}
 
 On va donc contrôler les variables parasites =\> variables contrôles ou contrôlées
 
@@ -948,11 +953,11 @@ Comment ?
     -   il faudrait avoir 120 groupes de participants
     -   tirage au sort pour chaque participant d'une des combinaisons pour l'ordre des épreuves
 
-## 4.6 Types de variables
+## 2.C.6 Types de variables
 
 ![](images/typeVar.png)
 
-## 4.6.1 Types de variables qualitatives
+## 2.C.6.1 Types de variables qualitatives
 
 **Qualitatives** :
 
@@ -964,7 +969,7 @@ Comment ?
 
     -   ex : échelles de likert, «un peu» «beaucoup» «passionnément»
 
-## 4.6.2 Types de variables quantitatives {.scrollable}
+## 2.C.6.2 Types de variables quantitatives {.scrollable}
 
 Échelles numériques dans lesquelles les nombres ont bien des propriétés de nombres (à ne pas confondre avec certaines échelles ordinales)
 
@@ -990,11 +995,11 @@ Parmi les échelles numériques on trouve :
 propriétés de nombres : écart entre 1 et 2 est le même qu'entre 2 et 3 par exemple. Ce qui n'est pas le cas pour l'écart entre pas du tout et un peu, qui n'est pas forcément le même qu'entre un peu et plutôt)
 :::
 
-## 4.7 Notation des variables
+## 2.C.7 Notation des variables
 
 Notations conventionnelles différentes pour les VD et les VI
 
-## 4.7.1 Notation des variables dépendantes {.scrollable}
+## 2.C.7.1 Notation des variables dépendantes {.scrollable}
 
 U (un ensemble) + le nom (ou un mot du nom) de la VD en majuscules et en indice
 
@@ -1006,7 +1011,7 @@ Exemples :
 -   Température : U~TEMPERATURE~= \[-50; + 50\]
 -   Temps de réponse : U~RT~= \]0;+∞\[
 
-## 4.7.2 Notation des variables indépendantes
+## 2.C.7.2 Notation des variables indépendantes
 
 -   Une VI a plusieurs niveaux que l’on appelle **modalités**
 
@@ -1020,7 +1025,7 @@ Exemples :
 
     -   Ex : VI Température à 3 modalités. T~3~= {0°C, 15°C, 30°C}
 
-## 4.7.3 Est-ce qu'il y a une notation pour les variables contrôlées ?
+## 2.C.7.3 Est-ce qu'il y a une notation pour les variables contrôlées ?
 
 -   Le phénomène ou le mécanisme doit s'expliquer en dehors de ces variables, qui ne sont pas des variables d'intérêt
 
@@ -1030,7 +1035,7 @@ Exemples :
 
 -   =\> NON
 
-## 4.8 VI invoquée ou provoquée
+## 2.C.8 VI invoquée ou provoquée
 
 -   Lorsque l’expérimentateur peut agir sur la VI, la manipuler, on dit qu’elle est **provoquée**
 
@@ -1042,7 +1047,7 @@ Exemples :
 
     Ex : âge, genre, milieu social …
 
-## 4.9 VI inter ou intra-sujet
+## 2.C.9 VI inter ou intra-sujet
 
 -   **VI inter-sujet** : le sujet est dans un groupe et il passe 1 seule modalité de la VI
 
@@ -1052,7 +1057,7 @@ Exemples :
 
     La VD sera mesurée autant de fois que de conditions/modalités pour chaque participant
 
-## 4.10 Exercices {.scrollable}
+## 2.C.10 Exercices {.scrollable}
 
 Pour chaque idée d'étude,
 
@@ -1070,9 +1075,9 @@ Les études :
 -   la prise de note manuelle vs. sur ordinateur
 -   la reconnaissance des émotions et l'anxiété mathématique
 
-# 5. Méthodologie 4 : les plans expérimentaux
+# 2.D. Méthodologie partie 4 : les plans expérimentaux
 
-## 5.1 Plan expérimental - définitions
+## 2.D.1 Plan expérimental - définitions
 
 =\> Dispositif dont découlera une réponse valable à la question explorée
 
@@ -1083,7 +1088,7 @@ Les études :
     -   Plans à 1 VI : plans simples
     -   Plans à plusieurs VI : plans factoriels
 
-## 5.2 Relation entre les variables : facteur sujet
+## 2.D.2 Relation entre les variables : facteur sujet
 
 -   Les facteurs sont des variables qui expliquent la VD :
 
@@ -1096,7 +1101,7 @@ Les études :
 
 -   Il est important parce qu'il va pouvoir être **croisé** ou **emboîté** avec les autres facteurs
 
-## 5.3 Facteur sujet - échantillonnage {.scrollable}
+## 2.D.3 Facteur sujet - échantillonnage {.scrollable}
 
 -   Construire un échantillon de participants représentatif d’une population définie
 
@@ -1113,7 +1118,7 @@ Les études :
 
     A partir des informations sur la population parente (e.g. proportion de femmes et d’hommes, CSP …), extraire un échantillon en respectant les proportions des différentes caractéristiques que l’on soupçonne d’avoir un effet sur le phénomène étudié
 
-## 5.4 Types de relations entre facteur sujet et VI
+## 2.D.4 Types de relations entre facteur sujet et VI
 
 -   Relation de croisement : VI intra-sujet ou intra-groupe
 
@@ -1123,12 +1128,12 @@ Les études :
 
     -   Chaque participant sera placé dans UNE modalité de la VI
 
-## 5.4.1 Relation de croisement
+## 2.D.4.1 Relation de croisement
 
 -   Notée \*
 -   Le plan expérimental sera noté S~n~ \* VI~k~, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
 
-## 5.4.1 Relation de croisement dans notre exemple
+## 2.D.4.1 Relation de croisement dans notre exemple
 
 -   Dans notre exemple de l'étude sur l'activation automatique de la lecture : S~300~ \* C~3~
 
@@ -1138,7 +1143,7 @@ Les études :
     -   on obtient donc 3 scores d'erreurs et 3 scores de temps de réponse par participant
     -   soit 3 mesures pour chaque VD
 
-## 5.4.1 Autres exemples avec une relation de croisement {.scrollable}
+## 2.D.4.1 Autres exemples avec une relation de croisement {.scrollable}
 
 Les études :
 
@@ -1155,13 +1160,13 @@ b)  Combien y-a-t-il de conditions expérimentales ? de sujets par condition ? d
 Si 3 conditions : S~60~ \* C~3~ -\> U~ERREURS~ / idem pour U~TEMPS~, ne pas oublier de multiplier le nombre d'observations par le nombre de VD ex : 3 conditions expé (=k, nombre de modalités de la VI), 60 sujets par condition (60 en tout) et 3x60 observations pour chaque VD, 360 si 2 VD
 :::
 
-## 5.4.2 Relation d'emboîtement
+## 2.D.4.2 Relation d'emboîtement
 
 -   S est emboîté, la VI est emboîtante
 -   Notée \< \>
 -   Le plan expérimental sera noté S~n/k~ \<VI~k~\>, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
 
-## 5.4.2 s'il y avait eu une relation d'emboîtement dans notre exemple {.scrollable}
+## 2.D.4.2 s'il y avait eu une relation d'emboîtement dans notre exemple {.scrollable}
 
 -   Dans notre exemple de l'étude sur l'activation automatique de la lecture : S~100~ \< C~3~ \>
 
@@ -1173,7 +1178,7 @@ Si 3 conditions : S~60~ \* C~3~ -\> U~ERREURS~ / idem pour U~TEMPS~, ne pas oubl
 
 -   Il y a le même nombre de participants dans chaque condition, le plan est **équilibré**
 
-## 5.4.1 Autres exemples avec une relation d'emboîtement {.scrollable}
+## 2.D.4.2 Autres exemples avec une relation d'emboîtement {.scrollable}
 
 Les études :
 
@@ -1192,7 +1197,7 @@ Si 3 conditions : S~20~ \< C~3~ \> -\> U~ERREURS~ / idem pour U~TEMPS~, ne pas o
 Demander si les plans sont équilibrés ou pas
 :::
 
-## 5.4.3 Avantages et contraintes pour chaque type de relation {.scrollable}
+## 2.D.4.3 Avantages et contraintes pour chaque type de relation {.scrollable}
 
 -   Contrôle du facteur sujet dans les plans croisés
 
@@ -1206,7 +1211,7 @@ Demander si les plans sont équilibrés ou pas
 
     -   VI invoquées -\> relation d'emboîtement
 
-## 5.4.4 Question type de relation {.scrollable}
+## 2.D.4.4 Question type de relation {.scrollable}
 
 Imaginons un dispositif dans lequel on cherche à déterminer l'impact du type de prise de notes (manuelle vs. ordinateur).
 
@@ -1220,13 +1225,13 @@ Plan croisé ou emboîté ?
 Ce n'est pas parce que le participant ne fait pas les tâches dans le même ordre que ce n'est pas un plan croisé. C'est juste un **contrebalancement** pour contrôler l'apprentissage par exemple
 :::
 
-## 5.5 Plan expérimental/ quasi-expérimental
+## 2.D.5 Plan expérimental/ quasi-expérimental
 
 -   Quand toutes les VI sont provoquées on parle de plan **expérimental**
 
 -   Quand il y a des VI invoquées on parle de plan **quasi-expérimental**
 
-## 5.6 Vocabulaire et notations à connaître
+## 2.D.6 Vocabulaire et notations à connaître
 
 -   S~n~ \* VI~k~
 -   S~n~ \* VI~k~ -\> U~VD1~ x U~VD2~
@@ -1235,9 +1240,9 @@ Ce n'est pas parce que le participant ne fait pas les tâches dans le même ordr
 -   plan expérimental, quasi-expérimental, équilibré, croisé, emboîté, mixte
 -   contrebalancement
 
-# 6. Méthodologie 5 : retour sur l'expérience Multidigit {.scrollable}
+# 2.E. Méthodologie partie 5 : retour sur l'expérience Multidigit {.scrollable}
 
-## 6.1 Hypothèse théorique/générale {.scrollable}
+## 2.E.1 Hypothèse théorique/générale {.scrollable}
 
 Hypothèse théorique/générale ?
 
@@ -1249,7 +1254,7 @@ b)  La magnitude du nombre à deux chiffres s'active automatiquement chez l'adul
 
 C)  Le temps moyen d'identification des nombres sera significativement plus long dans la condition "amorce différente" que dans la condition "amorce identique".
 
-## 6.2 Dispositif expérimental
+## 2.E.2 Dispositif expérimental
 
 Psychopy :
 
@@ -1258,7 +1263,7 @@ Psychopy :
 
 Dispositif construit pour apporter des éléments qui valident ou non l'hypothèse générale.
 
-## 6.2.1 Dispositif prévu {.scrollable}
+## 2.E.2.1 Dispositif prévu {.scrollable}
 
 Concrètement (et un peu simplifié pour plus de clarté) :
 
@@ -1279,7 +1284,7 @@ Concrètement (et un peu simplifié pour plus de clarté) :
 
 **Tâche :** Appuyer sur O si la cible présentée à l'écran est un nombre, sur X si ce n'est pas un nombre
 
-## 6.2.2 Variables
+## 2.E.2.2 Variables
 
 VD ? VI ? (inter ? au choix inter ou intra ? invoquée ? provoquée ?)
 
@@ -1291,7 +1296,7 @@ Quelles variables parasites devraient être contrôlées ?
 VD1 : RT jugement nombre/pseudo-nombre VD2 : taux de bonnes réponses VI1 : inter, invoquée, cursus des participants VI2 : intra ou inter au choix, provoquée, temps d'amorce VI3 : intra ou inter au choix, provoquée, lien entre les amorces et les cibles
 :::
 
-## 6.2.3 Hypothèses opérationnelles
+## 2.E.2.3 Hypothèses opérationnelles
 
 Rappel : on écrit la VD et toutes les modalités des VI dans les hypothèses (possibilité de faire plusieurs phrases pour plus de clarté)
 
@@ -1305,7 +1310,7 @@ Est-ce que ces hypothèses opérationnelles conviennent ?
 hyp op OK
 :::
 
-## 6.2.4 Plan expérimental (ou quasi-expérimental ?)
+## 2.E.2.4 Plan expérimental (ou quasi-expérimental ?)
 
 Si on a 200 participants en tout et que le plan est équilibré :
 
@@ -1319,7 +1324,7 @@ c)  S~100~ \< C~2~ \> \* A~2~ \* R~3~
 Plan quasi expérimental parce que VI cursus invoquée plan équilibré :même nombre de participants dans chaque groupe
 :::
 
-# 7. Résultats {.scrollable}
+# 3. Résultats {.scrollable}
 
 À venir !
 
@@ -1331,7 +1336,7 @@ Rappel des hypothèses générales et opérationnelles (simplifiées)
 
 -   Les temps de réponse seront plus courts lorsque l'amorce sera identique à la cible ou lorsque l'amorce sera de même magnitude. Les temps de réponses les plus longs correspondront à la condition dans laquelle l'amorce est différente de la cible.
 
-## 7.1 Concrètement {.scrollable}
+## 3.1 Concrètement {.scrollable}
 
 *Représenter graphiquement des résultats possibles*
 
@@ -1345,9 +1350,9 @@ Après analyses statistiques,
     -   et/ou effet de l'expertise,
     -   et/ou activation de la magnitude mais non automatique (en fonction des résultats)
 
-# 8. Discussion
+# 4. Discussion
 
-## 8.1 Éléments à présenter dans la partie discussion
+## 4.1 Éléments à présenter dans la partie discussion
 
 On reprend les résultats et on explique en quoi ils valident ou non, ou partiellement, les hypothèses
 
