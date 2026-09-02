@@ -11,14 +11,14 @@
     "href": "L1_CM.html#comment-les-atteindre",
     "title": "CM L1",
     "section": "Comment les atteindre ?",
-    "text": "Comment les atteindre ?\nSuivre une étude expérimentale en cours : journal d’une étude en psychologie cognitive\n\nMULTIDIGIT \nSéquentialité du traitement des nombres à deux chiffres : effet d’amorçage sur l’identification de la position des chiffres et l’activation de la magnitude"
+    "text": "Comment les atteindre ?\nPartager le travail d’une enseignante-chercheuse\nSuivre une étude expérimentale en cours : une étude en psychologie cognitive\n\nMULTIDIGIT \nSéquentialité du traitement des nombres à deux chiffres : effet d’amorçage sur l’identification de la position des chiffres et l’activation de la magnitude"
   },
   {
     "objectID": "L1_CM.html#à-la-fin-de-ce-cours-je-dois-être-capable",
     "href": "L1_CM.html#à-la-fin-de-ce-cours-je-dois-être-capable",
     "title": "CM L1",
     "section": "À la fin de ce cours, je dois être capable",
-    "text": "À la fin de ce cours, je dois être capable\nde maîtriser la démarche expérimentale pour mener une expérimentation éthique\nC’est-à-dire :\n\nde comprendre comment on construit une question de recherche\n\nrevue de littérature\ninsertion de la question de recherche dans la littérature existante\nprésenter un raisonnement\n\n\n=&gt; Introduction\n\nde comprendre comment on opérationalise la question de recherche\n\nidentifier VD et VI\ncomment on construit un plan expérimental\nfaire des choix méthodologiques en fonction de l’objectif de recherche poursuivi\n\n\n=&gt; Méthodologie\n\nde présenter des résultats\n\n=&gt; Résultats\n\nde discuter des résultats\n\nles confronter à la littérature existante\nles envisager de façon critique\n\n\n=&gt; Discussion\n\nde comprendre les aspects éthiques de la recherche scientifique et les respecter\n\n\nDonner des exemples, pour chaque catégorie"
+    "text": "À la fin de ce cours, je dois être capable\nde maîtriser la démarche expérimentale pour mener une expérimentation éthique\nC’est-à-dire :\n\nde comprendre comment on construit une question de recherche\n\nrevue de littérature\ninsertion de la question de recherche dans la littérature existante\nprésenter un raisonnement\n\n\n=&gt; Introduction\n\nde comprendre comment on opérationalise la question de recherche\n\nidentifier VD et VI, variables parasites/contrôlées\ncomment on construit un plan expérimental\nfaire des choix méthodologiques en fonction de l’objectif de recherche poursuivi\n\n\n=&gt; Méthodologie\n\nde présenter des résultats\n\n=&gt; Résultats\n\nde discuter des résultats\n\nles confronter à la littérature existante\nles envisager de façon critique\n\n\n=&gt; Discussion\n\nde comprendre les aspects éthiques de la recherche scientifique et les respecter\n\n\nDonner des exemples, pour chaque catégorie. Dire aussi que cela se fera en lien avec le TD."
   },
   {
     "objectID": "L1_CM.html#plan",
@@ -32,7 +32,7 @@
     "href": "L1_CM.html#cycle-de-la-recherche",
     "title": "CM L1",
     "section": "0.1 Cycle de la recherche",
-    "text": "0.1 Cycle de la recherche\n\n\nprocessus récursif, donner des exemples"
+    "text": "0.1 Cycle de la recherche\n\n\nprocessus récursif, donner des exemples ex : faits arithmétiques, récupération en mémoire ou procédures automatisées ? Litt : 2 thèses ; méthodo : mesurer les effets de taille des opérandes sur les temps de réponses ; résultats : palier au-dessus de 7 (8-9) non compatible avec récup en mémoire, mais compatible avec procédure automatisée pour les opérandes dans le rang du subitizing (1 à 4) ex : Est-ce que lorsqu’on est en présence de mots on les lit automatiquement ?"
   },
   {
     "objectID": "L1_CM.html#construire-une-recherche-dans-une-démarche-expérimentale",
@@ -719,5 +719,33 @@
     "title": "CM L1",
     "section": "8.1 Éléments à présenter dans la partie discussion",
     "text": "8.1 Éléments à présenter dans la partie discussion\nOn reprend les résultats et on explique en quoi ils valident ou non, ou partiellement, les hypothèses\nLes résultats sont discutés au regard de la théorie =&gt; cf introduction\nOn discute également les limites de l’étude, les prolongements possibles, et le lien recherche - société"
+  },
+  {
+    "objectID": "L1_CM.html#synthèse",
+    "href": "L1_CM.html#synthèse",
+    "title": "CM L1",
+    "section": "Synthèse",
+    "text": "Synthèse\n\nIntroduction\nMéthodologie\nRésultats\nDiscussion\n\nAvez-vous déjà vu ce plan quelque part ?"
+  },
+  {
+    "objectID": "L1_CM.html#section",
+    "href": "L1_CM.html#section",
+    "title": "CM L1",
+    "section": "",
+    "text": "On voit cette structure ici par exemple"
+  },
+  {
+    "objectID": "L1_CM.html#plan-du-cours",
+    "href": "L1_CM.html#plan-du-cours",
+    "title": "CM L1",
+    "section": "Plan du cours",
+    "text": "Plan du cours\n0/ Démarche expérimentale : méthode scientifique\n1/ Introduction\n2/ Méthodologie\n3/ Résultats\n4/ Discussion"
+  },
+  {
+    "objectID": "L1_CM.html#évaluation-du-cours",
+    "href": "L1_CM.html#évaluation-du-cours",
+    "title": "CM L1",
+    "section": "Évaluation du cours",
+    "text": "Évaluation du cours\nCM 1/2 : QCM\nTD : Travail sur fichier individuel à rendre à son enseignant.e de TD et devoir sur table lors de la dernière séance de TD\n\nPréciser que je coordonne le cours"
   }
 ]

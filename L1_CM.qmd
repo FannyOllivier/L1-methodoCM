@@ -1,6 +1,6 @@
 ---
 title: "CM L1"
-subtitle: "L1 CM 2/2 - Mener une étude expérimentale, enjeux méthodologiques et éthiques"
+subtitle: "L1 CM 1/2 - Mener une étude expérimentale, enjeux méthodologiques et éthiques"
 format: 
   revealjs: 
     chalkboard: true
@@ -16,7 +16,9 @@ editor: visual
 
 # Mener une étude expérimentale
 
-L1 - CM 2/2
+L1 - CM 1/2
+
+# Présentation du cours
 
 ## Objectifs du cours
 
@@ -26,7 +28,9 @@ L1 - CM 2/2
 
 ## Comment les atteindre ?
 
-Suivre une étude expérimentale en cours : journal d'une étude en psychologie cognitive
+Partager le travail d'une enseignante-chercheuse
+
+Suivre une étude expérimentale en cours : une étude en psychologie cognitive
 
 <center>
 
@@ -50,7 +54,7 @@ C'est-à-dire :
 **=\> Introduction**
 
 -   de comprendre comment on opérationalise la question de recherche
-    -   identifier VD et VI
+    -   identifier VD et VI, variables parasites/contrôlées
     -   comment on construit un plan expérimental
     -   faire des choix méthodologiques en fonction de l'objectif de recherche poursuivi
 
@@ -69,10 +73,24 @@ C'est-à-dire :
 -   de comprendre les aspects éthiques de la recherche scientifique et les respecter
 
 ::: notes
-Donner des exemples, pour chaque catégorie
+Donner des exemples, pour chaque catégorie. Dire aussi que cela se fera en lien avec le TD. 
 :::
 
-## Plan
+## Synthèse 
+
+- Introduction
+- Méthodologie
+- Résultats
+- Discussion 
+
+Avez-vous déjà vu ce plan quelque part ? 
+
+## 
+
+On voit cette structure [ici par exemple](https://doi.org/10.1371/journal.pone.0352174)
+
+
+## Plan du cours
 
 0/ Démarche expérimentale : méthode scientifique
 
@@ -84,6 +102,16 @@ Donner des exemples, pour chaque catégorie
 
 4/ Discussion
 
+## Évaluation du cours
+
+CM 1/2 : QCM 
+
+TD : Travail sur fichier individuel à rendre à son enseignant.e de TD et devoir sur table lors de la dernière séance de TD
+
+::: notes
+Préciser que je coordonne le cours 
+:::
+
 # 0. Démarche expérimentale
 
 Méthode scientifique
@@ -94,6 +122,8 @@ Méthode scientifique
 
 ::: notes
 processus récursif, donner des exemples
+ex : faits arithmétiques, récupération en mémoire ou procédures automatisées ? Litt : 2 thèses ; méthodo : mesurer les effets de taille des opérandes sur les temps de réponses ; résultats : palier au-dessus de 7 (8-9) non compatible avec récup en mémoire, mais compatible avec procédure automatisée pour les opérandes dans le rang du subitizing (1 à 4)
+ex : Est-ce que lorsqu'on est en présence de mots on les lit automatiquement ?
 :::
 
 ## 0.2 Construire une recherche dans une démarche expérimentale
@@ -135,7 +165,7 @@ exemple on peut penser à plusieurs études, sur le rythme des vacanciers, leur 
 En regardant ce graphique, est-ce qu'on peut prédire le nombre de noyades en fonction du nombre de glaces vendues ? Et l'inverse ? il y aura forcément toujours des corrélations qui apparaîtront sur un gros jeu de données, surtout si l'échantillon est grand
 :::
 
-![](L1_CM_files/images/glaces_mois_noyades.jpg)
+![](images/glaces_mois_noyades.jpg)
 
 ## 
 
