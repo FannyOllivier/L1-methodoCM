@@ -20,13 +20,33 @@ L1 - CM 1/2
 
 # Présentation du cours
 
+## En pratique
+
+- Moodle CM sur lequel vous êtes automatiquement inscrit.e
+- Moodles TD : **s'inscrire** dans le Moodle de son groupe de TD lors du TD
+
+- Attitude et habitudes à prendre pour les cours
+
+::: notes
+Préciser que je coordonne le cours et les TD. 
+Attitudes et habitudes : silence, sérieux, révisions, participations et questions très bienvenues et pas de question par mail, questions en cours
+Présenter le support et ses fonctionnalités
+:::
+
+## Évaluation du cours
+
+CM 1/2 et 2/2 : QCM et/ou réponses courtes
+
+TD : Travail sur fichier individuel à rendre à son enseignant.e de TD et devoir sur table lors de la dernière séance de TD
+
+
 ## Objectifs du cours
 
 -   Comprendre comment se mène une étude expérimentale en psychologie
 -   En identifier les enjeux méthodologiques et éthiques
 -   Comprendre et produire une méthodologie expérimentale
 
-## Comment les atteindre ?
+## Comment atteindre ces objectifs ?
 
 Partager le travail d'une enseignante-chercheuse
 
@@ -51,30 +71,48 @@ C'est-à-dire :
     -   insertion de la question de recherche dans la littérature existante
     -   présenter un raisonnement
 
+::: {.fragment .fade-left}
 **=\> Introduction**
+:::
 
 -   de comprendre comment on opérationalise la question de recherche
     -   identifier VD et VI, variables parasites/contrôlées
     -   comment on construit un plan expérimental
     -   faire des choix méthodologiques en fonction de l'objectif de recherche poursuivi
 
+::: {.fragment .fade-left}
 **=\> Méthodologie**
+:::
 
 -   de présenter des résultats
 
+::: {.fragment .fade-left}
 **=\> Résultats**
+:::
 
 -   de discuter des résultats
     -   les confronter à la littérature existante
     -   les envisager de façon critique
 
+::: {.fragment .fade-left}
 **=\> Discussion**
+:::
 
 -   de comprendre les aspects éthiques de la recherche scientifique et les respecter
 
 ::: notes
 Donner des exemples, pour chaque catégorie. Dire aussi que cela se fera en lien avec le TD. 
+Exemples sur l'apprentissage des étudiants : effet d'espacement - apprentissage massé/distribué (Ebbinghaus, 1885)/ courbe de l'oubli (Ebbinghaus, livre de 1885 aussi) : on peut ralentir l'oubli en rafraichissant l'information à intervalles réguliers ; Loi de Jost (1897) : si deux souvenirs ont la même force, un rafraichissement profitera au souvenir le plus ancien (preuve en faveur de l'app distribué) 
+Intro Ebbinghaus : comment apprend-on ? Est-ce qu'on a conscience de tout ce qui est en mémoire ? 
+Méthodo : syllabes inconnues pour éviter les associations/ s'il y a des choses qu'on a mémorisées sans le savoir, alors on devrait les retrouver plus rapidement après réactivation que celles que l'on n'a jamais apprises
+Résultats : premières statistiques
+Discussion : certaines syllabes étaient connues parce que sens en français/anglais et Ebbinghaus avait été précepteur en France et Angleterre / un seul sujet
 :::
+
+## Une réference sur les études d'Ebbinghaus
+
+Nicolas, S. (1992). *Hermann Ebbinghaus et l’étude expérimentale de la mémoire humaine*. https://doi.org/10.3406/psy.1992.29538
+
 
 ## Synthèse 
 
@@ -83,7 +121,9 @@ Donner des exemples, pour chaque catégorie. Dire aussi que cela se fera en lien
 - Résultats
 - Discussion 
 
-Avez-vous déjà vu ce plan quelque part ? 
+::: {.fragment}
+**Avez-vous déjà vu ce plan quelque part ?** 
+:::
 
 ## 
 
@@ -102,15 +142,8 @@ On voit cette structure [ici par exemple](https://doi.org/10.1371/journal.pone.0
 
 4/ Discussion
 
-## Évaluation du cours
 
-CM 1/2 : QCM 
 
-TD : Travail sur fichier individuel à rendre à son enseignant.e de TD et devoir sur table lors de la dernière séance de TD
-
-::: notes
-Préciser que je coordonne le cours 
-:::
 
 # 0. Démarche expérimentale
 
@@ -122,7 +155,7 @@ Méthode scientifique
 
 ::: notes
 processus récursif, donner des exemples
-ex : prise de notes et apprentissages académiques / Consommation d'alcool et habiletés spatiales en conduite / déterminants du bien-être des étudiants en situation de handicap à l'université
+ex : prise de notes et apprentissages académiques / Consommation d'alcool et habiletés spatiales en conduite / déterminants du bien-être des étudiants en situation de handicap à l'université/ multitasking
 ex : faits arithmétiques, récupération en mémoire ou procédures automatisées ? Litt : 2 thèses ; méthodo : mesurer les effets de taille des opérandes sur les temps de réponses ; résultats : palier au-dessus de 7 (8-9) non compatible avec récup en mémoire, mais compatible avec procédure automatisée pour les opérandes dans le rang du subitizing (1 à 4)
 ex : Est-ce que lorsqu'on est en présence de mots on les lit automatiquement ? Stroop (1935)
 :::
@@ -156,8 +189,17 @@ Un jeu de données est récupéré et aggloméré.
 
 Si on n'a pas d'hypothèses a priori et que l'on rentre toutes les données pour voir ce qui en sort ...
 
+::: {.absolute top="70%" left="50%" style="transform: translate(-50%, -50%);"}
+{{<video images/shaker.mp4 
+width="200" height="200"
+title="Analyse de données non éthique">}}
+:::
+
+
 ::: notes
 exemple on peut penser à plusieurs études, sur le rythme des vacanciers, leur attitude face aux risques de la canicule, les attitudes parentales sur la prise d'autonomie des enfants ... Un grand jeu de données est collecté. Il servira à toute l'équipe du projet
+
+mp4 à changer pour Lottie, voirJE 5/06/2026
 :::
 
 ## 0.5 Des données qui suivent le même motif ...
@@ -168,9 +210,19 @@ En regardant ce graphique, est-ce qu'on peut prédire le nombre de noyades en fo
 
 ![](images/glaces_mois_noyades.jpg)
 
+::: notes
+Expliquer que l'on voit une corrélation : quand l'une des valeurs est basse, l'autre aussi et pareil quand c'est haut. Les deux variables étudiées suivent le même motif. 
+:::
+
 ## 
 
 ![](images/homme-glace-mer.png)
+
+::: notes
+Qu'en pensez-vous ? Est-ce que cette personne a plus de risque de se noyer que la personne qui se baigne à côté de lui ? 
+Comment expliquer la corrélation ? Quelle était l'hypothèse de départ sur la relation entre consommation de glace et noyade ? Il n'y en avait pas ! 
+
+:::
 
 ------------------------------------------------------------------------
 
@@ -186,6 +238,10 @@ En regardant ce graphique, est-ce qu'on peut prédire le nombre de noyades en fo
 
 ::: footer
 Source : site <https://www.tylervigen.com/spurious-correlations>
+:::
+
+::: notes
+Qu'en pensez-vous ? Le site en question répertorie des corrélations "spurious" = fausses, fallacieuses
 :::
 
 ## Qu'en dit-l'IA ?
@@ -212,6 +268,8 @@ Est-ce qu'on ne dit rien ? On l'oublie ? Nooon Transparence dans la recherche
 
 -   manipulation de données (invention, modification, vol)
 -   p-hacking
+
+- exemple, Wakefield et al. (1998) RETRACTED, expliqué [ici](https://www.science.org/content/article/british-medical-journal-charges-fraud-autism-vaccine-paper) 
 
 ::: notes
 P-hacking : changement de l'analyse stat en fonction de ce qu'elle produit comme résultats : changement de méthode, transformation des variables, choix de variables, ajout de participants
@@ -260,7 +318,9 @@ On a besoin de trouver :
 -   Modèles théoriques
 -   Recherches antérieures : quelles méthodologies ? Quels résultats ? Réplications ? Consensus ou débats ?
 
-On utilise ce matériel pour construire notre raisonnement --\> écriture de l'introduction
+::: {.fragment}
+**On utilise ce matériel pour construire notre raisonnement --\> écriture de l'introduction**
+:::
 
 -   Organiser les idées d'une accroche assez générale à la question précise que notre étude porte (entonnoir)
 -   Mettre en lien les idées $\neq$ catalogue <!--# pour ajouter du LateX en ligne $ $, en dessous $$ $$. Attention, ce n'est pas le / mais le \ -->
