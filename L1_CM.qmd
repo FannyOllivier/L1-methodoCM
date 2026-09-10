@@ -1,6 +1,7 @@
 ---
 title: "CM L1"
 subtitle: "L1 CM 1/2 - Mener une étude expérimentale, enjeux méthodologiques et éthiques"
+author: "Fanny Ollivier"
 format: 
   revealjs: 
     chalkboard: true
