@@ -1225,7 +1225,7 @@ Si 3 conditions : S~60~ \* C~3~ -\> U~ERREURS~ / idem pour U~TEMPS~, ne pas oubl
 
 -   S est emboîté, la VI est emboîtante
 -   Notée \< \>
--   Le plan expérimental sera noté S~n/k~ \<VI~k~\>, où n est le nombre de sujets placés dans chaque modalité de la VI et k le nombre de modalités de la VI
+-   Le plan expérimental sera noté S~n/k~ \<VI~k~\>, où n est le nombre de sujets et k le nombre de modalités de la VI
 
 ## 2.D.4.2 s'il y avait eu une relation d'emboîtement dans notre exemple {.scrollable}
 
